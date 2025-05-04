@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Farmer_idle_0: 3268470051332887831
+      Farmer_idle_1: -6826832364856625882
+      Farmer_idle_10: -720834359423858937
+      Farmer_idle_11: -3986650715182323720
+      Farmer_idle_12: -1583462284124312189
+      Farmer_idle_13: -545729591663434249
+      Farmer_idle_14: 1173644777347684599
+      Farmer_idle_15: 7743636085296134904
+      Farmer_idle_2: -5990166430365732646
+      Farmer_idle_3: -4042264678337651180
+      Farmer_idle_4: -3372857457604916721
+      Farmer_idle_5: 5406953091664724818
+      Farmer_idle_6: 8826505691147008524
+      Farmer_idle_7: -5863613475923870600
+      Farmer_idle_8: 3760638678735602299
+      Farmer_idle_9: 7072343260235336708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

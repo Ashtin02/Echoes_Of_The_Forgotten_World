@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Fisherman_walk_0: -7410632096833407433
+      Fisherman_walk_1: 2728202691605425101
+      Fisherman_walk_10: -8550432644442812641
+      Fisherman_walk_11: -4853495546336914964
+      Fisherman_walk_12: 3037187652227470598
+      Fisherman_walk_13: -7366269673958955273
+      Fisherman_walk_14: 2570430983532964596
+      Fisherman_walk_15: 1706988944017819844
+      Fisherman_walk_2: -6695905847603491286
+      Fisherman_walk_3: 109494345155161309
+      Fisherman_walk_4: -2534038357791199580
+      Fisherman_walk_5: -6249624673903620860
+      Fisherman_walk_6: -7191641317077105826
+      Fisherman_walk_7: -8422710167240400920
+      Fisherman_walk_8: 5479903112680555219
+      Fisherman_walk_9: -6151949772324754089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

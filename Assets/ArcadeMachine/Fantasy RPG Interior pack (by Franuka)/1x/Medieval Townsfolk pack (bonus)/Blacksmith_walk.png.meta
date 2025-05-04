@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blacksmith_walk_0: 795862931045267377
+      Blacksmith_walk_1: -3394638568714363067
+      Blacksmith_walk_10: 2769375322957151382
+      Blacksmith_walk_11: 3060474772043612586
+      Blacksmith_walk_12: -5400010243389677324
+      Blacksmith_walk_13: -2037956739876217716
+      Blacksmith_walk_14: 6647345966224454406
+      Blacksmith_walk_15: -6987914007552275790
+      Blacksmith_walk_2: -2598869591406406921
+      Blacksmith_walk_3: -7057087205501796869
+      Blacksmith_walk_4: -3788038487357410569
+      Blacksmith_walk_5: -773854258607311842
+      Blacksmith_walk_6: -4896742585792851883
+      Blacksmith_walk_7: 5941730802282187596
+      Blacksmith_walk_8: 2901453730515344105
+      Blacksmith_walk_9: 4958736822524862697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

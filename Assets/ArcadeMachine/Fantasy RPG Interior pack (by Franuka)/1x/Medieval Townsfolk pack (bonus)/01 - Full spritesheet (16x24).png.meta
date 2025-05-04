@@ -856,7 +856,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -870,7 +870,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -894,7 +894,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -6959,7 +6959,281 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      01 - Full spritesheet (16x24)_0: 5146248337490097641
+      01 - Full spritesheet (16x24)_1: -8921599029164625093
+      01 - Full spritesheet (16x24)_10: 803077517673840622
+      01 - Full spritesheet (16x24)_100: -3091084710403062431
+      01 - Full spritesheet (16x24)_101: -41226999124238234
+      01 - Full spritesheet (16x24)_102: -666270031766874772
+      01 - Full spritesheet (16x24)_103: -9080276922675002087
+      01 - Full spritesheet (16x24)_104: -6004802563806782448
+      01 - Full spritesheet (16x24)_105: -7101098494047840387
+      01 - Full spritesheet (16x24)_106: -2931757488116991987
+      01 - Full spritesheet (16x24)_107: -7005833564416199107
+      01 - Full spritesheet (16x24)_108: -6662750697584382354
+      01 - Full spritesheet (16x24)_109: -2303738646799332573
+      01 - Full spritesheet (16x24)_11: -4711415379453980184
+      01 - Full spritesheet (16x24)_110: 213188602983345917
+      01 - Full spritesheet (16x24)_111: 7622007317167301350
+      01 - Full spritesheet (16x24)_112: -455918075938732251
+      01 - Full spritesheet (16x24)_113: 2113323475075555822
+      01 - Full spritesheet (16x24)_114: 7179807919898437859
+      01 - Full spritesheet (16x24)_115: -8579706628385362988
+      01 - Full spritesheet (16x24)_116: 1228961368530483755
+      01 - Full spritesheet (16x24)_117: 2666313767959452978
+      01 - Full spritesheet (16x24)_118: -7761733951001906929
+      01 - Full spritesheet (16x24)_119: -504284515173170661
+      01 - Full spritesheet (16x24)_12: -6805449451068699954
+      01 - Full spritesheet (16x24)_120: -8404420418665510176
+      01 - Full spritesheet (16x24)_121: 2821069752593980174
+      01 - Full spritesheet (16x24)_122: 2313537173027478425
+      01 - Full spritesheet (16x24)_123: 2851335052878738555
+      01 - Full spritesheet (16x24)_124: 5063163237954565396
+      01 - Full spritesheet (16x24)_125: 6967475213819058516
+      01 - Full spritesheet (16x24)_126: -3399567661338301162
+      01 - Full spritesheet (16x24)_127: 4634541502101249947
+      01 - Full spritesheet (16x24)_128: 4210525364807895976
+      01 - Full spritesheet (16x24)_129: -1861962181741888481
+      01 - Full spritesheet (16x24)_13: -8928773731262067385
+      01 - Full spritesheet (16x24)_130: 4331643875246362084
+      01 - Full spritesheet (16x24)_131: 6242686000990428866
+      01 - Full spritesheet (16x24)_132: -1358011534664727736
+      01 - Full spritesheet (16x24)_133: -5015745522210031507
+      01 - Full spritesheet (16x24)_134: 6018264880816911309
+      01 - Full spritesheet (16x24)_135: -2064176179604887325
+      01 - Full spritesheet (16x24)_136: -5159195617469072156
+      01 - Full spritesheet (16x24)_137: 3019707253647717604
+      01 - Full spritesheet (16x24)_138: 7791214496817724755
+      01 - Full spritesheet (16x24)_139: 7955068074064560791
+      01 - Full spritesheet (16x24)_14: -1571220304094043744
+      01 - Full spritesheet (16x24)_140: -936766922484822984
+      01 - Full spritesheet (16x24)_141: -759983187968299046
+      01 - Full spritesheet (16x24)_142: -8800487425571651979
+      01 - Full spritesheet (16x24)_143: 753760937119968358
+      01 - Full spritesheet (16x24)_144: 7695471585354009861
+      01 - Full spritesheet (16x24)_145: -6978231089867475261
+      01 - Full spritesheet (16x24)_146: -7355896630390573030
+      01 - Full spritesheet (16x24)_147: -6833817840722849040
+      01 - Full spritesheet (16x24)_148: 6619334571957588607
+      01 - Full spritesheet (16x24)_149: -6661410782966056409
+      01 - Full spritesheet (16x24)_15: -7074619000796581923
+      01 - Full spritesheet (16x24)_150: -2935674625604183916
+      01 - Full spritesheet (16x24)_151: 6070643148343796001
+      01 - Full spritesheet (16x24)_152: -3947303384803321993
+      01 - Full spritesheet (16x24)_153: -6563350385552883646
+      01 - Full spritesheet (16x24)_154: 2453268281782828041
+      01 - Full spritesheet (16x24)_155: 785990044377119514
+      01 - Full spritesheet (16x24)_156: -8073140908831717571
+      01 - Full spritesheet (16x24)_157: -7083049002034719647
+      01 - Full spritesheet (16x24)_158: -7307649732555041809
+      01 - Full spritesheet (16x24)_159: 2123353929793199944
+      01 - Full spritesheet (16x24)_16: 6638528606507159271
+      01 - Full spritesheet (16x24)_160: 5739577233772388325
+      01 - Full spritesheet (16x24)_161: 7400482142423510235
+      01 - Full spritesheet (16x24)_162: -3813303369174278347
+      01 - Full spritesheet (16x24)_163: -8315140326415580493
+      01 - Full spritesheet (16x24)_164: 1590935600443577398
+      01 - Full spritesheet (16x24)_165: 3225492002693621318
+      01 - Full spritesheet (16x24)_166: -8331482978085578295
+      01 - Full spritesheet (16x24)_167: -4652404412106047689
+      01 - Full spritesheet (16x24)_168: -2765695363204231173
+      01 - Full spritesheet (16x24)_169: 2955025483061424418
+      01 - Full spritesheet (16x24)_17: 1589145384809721178
+      01 - Full spritesheet (16x24)_170: -7006257888589512628
+      01 - Full spritesheet (16x24)_171: -5246394232761656317
+      01 - Full spritesheet (16x24)_172: -2292468716009095011
+      01 - Full spritesheet (16x24)_173: -6118454181561590673
+      01 - Full spritesheet (16x24)_174: -7046745451600746449
+      01 - Full spritesheet (16x24)_175: 1987456074989591284
+      01 - Full spritesheet (16x24)_176: -7351454373456562470
+      01 - Full spritesheet (16x24)_177: -2962222884277579539
+      01 - Full spritesheet (16x24)_178: 5458162671751725387
+      01 - Full spritesheet (16x24)_179: -2604879165164660229
+      01 - Full spritesheet (16x24)_18: -380805341966705814
+      01 - Full spritesheet (16x24)_180: -6445160422284635736
+      01 - Full spritesheet (16x24)_181: 2352851595770723642
+      01 - Full spritesheet (16x24)_182: -4136259622734399438
+      01 - Full spritesheet (16x24)_183: -2915491737443127158
+      01 - Full spritesheet (16x24)_184: 3774784333801499940
+      01 - Full spritesheet (16x24)_185: -3999968323440286029
+      01 - Full spritesheet (16x24)_186: -5993733266840586050
+      01 - Full spritesheet (16x24)_187: 8376377254509382758
+      01 - Full spritesheet (16x24)_188: -4278222784135999637
+      01 - Full spritesheet (16x24)_189: 2908605890154364177
+      01 - Full spritesheet (16x24)_19: 3898169760464111057
+      01 - Full spritesheet (16x24)_190: 5220628762753143288
+      01 - Full spritesheet (16x24)_191: 760912736929808573
+      01 - Full spritesheet (16x24)_192: -2461414954809376058
+      01 - Full spritesheet (16x24)_193: -7665918272650465398
+      01 - Full spritesheet (16x24)_194: -2942748925389142028
+      01 - Full spritesheet (16x24)_195: -2438767353416998849
+      01 - Full spritesheet (16x24)_196: -8368948363068338976
+      01 - Full spritesheet (16x24)_197: 4945625537561310589
+      01 - Full spritesheet (16x24)_198: 3910556781067588659
+      01 - Full spritesheet (16x24)_199: -3439953958496628238
+      01 - Full spritesheet (16x24)_2: 2128931451257938059
+      01 - Full spritesheet (16x24)_20: -5476476545348750176
+      01 - Full spritesheet (16x24)_200: -2959145383147124385
+      01 - Full spritesheet (16x24)_201: 5007751452104475847
+      01 - Full spritesheet (16x24)_202: 8121736272438436766
+      01 - Full spritesheet (16x24)_203: 6801807885021316479
+      01 - Full spritesheet (16x24)_204: 8232962609952020376
+      01 - Full spritesheet (16x24)_205: 4468002021378514952
+      01 - Full spritesheet (16x24)_206: -5300905725954110570
+      01 - Full spritesheet (16x24)_207: -1599132625167003846
+      01 - Full spritesheet (16x24)_208: -3392545329313949947
+      01 - Full spritesheet (16x24)_209: 5834991555862090571
+      01 - Full spritesheet (16x24)_21: 6487962662052752735
+      01 - Full spritesheet (16x24)_210: -5923574333558085682
+      01 - Full spritesheet (16x24)_211: 5954043871442859866
+      01 - Full spritesheet (16x24)_212: 9111363605452999004
+      01 - Full spritesheet (16x24)_213: -9161949511416256973
+      01 - Full spritesheet (16x24)_214: 9180373116244923193
+      01 - Full spritesheet (16x24)_215: -4354493786970615960
+      01 - Full spritesheet (16x24)_216: -2158857689828891744
+      01 - Full spritesheet (16x24)_217: -7465743449002023476
+      01 - Full spritesheet (16x24)_218: -6934246193949244842
+      01 - Full spritesheet (16x24)_219: -5763749909003733996
+      01 - Full spritesheet (16x24)_22: -1548889263534308854
+      01 - Full spritesheet (16x24)_220: 4223760088835858362
+      01 - Full spritesheet (16x24)_221: -3877253771203017760
+      01 - Full spritesheet (16x24)_222: -2447187369200972661
+      01 - Full spritesheet (16x24)_223: -7462755785688885596
+      01 - Full spritesheet (16x24)_224: -3096214186381610872
+      01 - Full spritesheet (16x24)_225: 2735238593617482201
+      01 - Full spritesheet (16x24)_226: 320381989008299794
+      01 - Full spritesheet (16x24)_227: 2953178557329321877
+      01 - Full spritesheet (16x24)_228: 3450703246307639744
+      01 - Full spritesheet (16x24)_229: 67281173987392025
+      01 - Full spritesheet (16x24)_23: 4287507211315366319
+      01 - Full spritesheet (16x24)_230: 8780987498729124536
+      01 - Full spritesheet (16x24)_231: -3915691127880279725
+      01 - Full spritesheet (16x24)_232: 4718799102832756290
+      01 - Full spritesheet (16x24)_233: -7612399759492015519
+      01 - Full spritesheet (16x24)_234: -548188085092507218
+      01 - Full spritesheet (16x24)_235: 4041580495976930091
+      01 - Full spritesheet (16x24)_236: -2216538398778928033
+      01 - Full spritesheet (16x24)_237: 8453701518739417976
+      01 - Full spritesheet (16x24)_238: 2363533128264060708
+      01 - Full spritesheet (16x24)_239: -5103046665016127028
+      01 - Full spritesheet (16x24)_24: -7435854684682775267
+      01 - Full spritesheet (16x24)_240: -8803276604753884657
+      01 - Full spritesheet (16x24)_241: 2179768226045895402
+      01 - Full spritesheet (16x24)_242: -1185842299805711636
+      01 - Full spritesheet (16x24)_243: -8108817234321910210
+      01 - Full spritesheet (16x24)_244: 8823983452215365242
+      01 - Full spritesheet (16x24)_245: -1590977768470583806
+      01 - Full spritesheet (16x24)_246: 532885873068286907
+      01 - Full spritesheet (16x24)_247: 2324941861010569699
+      01 - Full spritesheet (16x24)_248: 7852821163870068181
+      01 - Full spritesheet (16x24)_249: 6420679328733077144
+      01 - Full spritesheet (16x24)_25: -3126248430578201709
+      01 - Full spritesheet (16x24)_250: 1025825326032632363
+      01 - Full spritesheet (16x24)_251: -8332280176313387764
+      01 - Full spritesheet (16x24)_252: 4198799094437515878
+      01 - Full spritesheet (16x24)_253: -2230708396276087000
+      01 - Full spritesheet (16x24)_254: 5953163968592905791
+      01 - Full spritesheet (16x24)_255: 6576080713265126130
+      01 - Full spritesheet (16x24)_256: -6135204630333126868
+      01 - Full spritesheet (16x24)_257: 8229099472479584583
+      01 - Full spritesheet (16x24)_258: 1293085423323329652
+      01 - Full spritesheet (16x24)_259: 7869691232826302545
+      01 - Full spritesheet (16x24)_26: 7117733591959307496
+      01 - Full spritesheet (16x24)_260: -7850567712418801574
+      01 - Full spritesheet (16x24)_261: 3328156428844267918
+      01 - Full spritesheet (16x24)_262: 2819301184483294166
+      01 - Full spritesheet (16x24)_263: -5399499685488366460
+      01 - Full spritesheet (16x24)_264: -378752664632756304
+      01 - Full spritesheet (16x24)_265: -1333428847279087079
+      01 - Full spritesheet (16x24)_266: -9131782994027918497
+      01 - Full spritesheet (16x24)_267: -9164070467864519210
+      01 - Full spritesheet (16x24)_268: 1518173193851015353
+      01 - Full spritesheet (16x24)_269: -5722521824277574470
+      01 - Full spritesheet (16x24)_27: 1925784005876854405
+      01 - Full spritesheet (16x24)_270: -9008420079577742018
+      01 - Full spritesheet (16x24)_271: -6002729935574210292
+      01 - Full spritesheet (16x24)_272: 8051888626380844775
+      01 - Full spritesheet (16x24)_273: -3849838388961489368
+      01 - Full spritesheet (16x24)_28: 8322369781262002247
+      01 - Full spritesheet (16x24)_29: -2029706522129740235
+      01 - Full spritesheet (16x24)_3: -2434438630676639403
+      01 - Full spritesheet (16x24)_30: -8602628899679194476
+      01 - Full spritesheet (16x24)_31: 7684818338903428625
+      01 - Full spritesheet (16x24)_32: -8016878625548719737
+      01 - Full spritesheet (16x24)_33: -939661738565408558
+      01 - Full spritesheet (16x24)_34: -8603674356880193841
+      01 - Full spritesheet (16x24)_35: 8310532299095665807
+      01 - Full spritesheet (16x24)_36: -7385012464251608510
+      01 - Full spritesheet (16x24)_37: -3086435539734878037
+      01 - Full spritesheet (16x24)_38: -7240958477455978800
+      01 - Full spritesheet (16x24)_39: -564081089828326874
+      01 - Full spritesheet (16x24)_4: -4630540105990126135
+      01 - Full spritesheet (16x24)_40: 2314109472289871193
+      01 - Full spritesheet (16x24)_41: -779577890609851729
+      01 - Full spritesheet (16x24)_42: -8877557250794602894
+      01 - Full spritesheet (16x24)_43: -1553928785502702848
+      01 - Full spritesheet (16x24)_44: -6462540315741479847
+      01 - Full spritesheet (16x24)_45: 4926194507331924613
+      01 - Full spritesheet (16x24)_46: -3952439395900230384
+      01 - Full spritesheet (16x24)_47: -1963259298887404718
+      01 - Full spritesheet (16x24)_48: 757603060024183712
+      01 - Full spritesheet (16x24)_49: -7037079661270114037
+      01 - Full spritesheet (16x24)_5: 1895271150524210469
+      01 - Full spritesheet (16x24)_50: -8480132450466891086
+      01 - Full spritesheet (16x24)_51: -2255071360790146181
+      01 - Full spritesheet (16x24)_52: 560725228339474067
+      01 - Full spritesheet (16x24)_53: 6846087217274377091
+      01 - Full spritesheet (16x24)_54: 4977310299790044166
+      01 - Full spritesheet (16x24)_55: 4385230576194535180
+      01 - Full spritesheet (16x24)_56: 4573528093914185858
+      01 - Full spritesheet (16x24)_57: 7537163688032839031
+      01 - Full spritesheet (16x24)_58: 5515145335963878993
+      01 - Full spritesheet (16x24)_59: -9218397729867773348
+      01 - Full spritesheet (16x24)_6: 916576569551273708
+      01 - Full spritesheet (16x24)_60: -473099090052625032
+      01 - Full spritesheet (16x24)_61: -5932327595390966663
+      01 - Full spritesheet (16x24)_62: -2942987854320628404
+      01 - Full spritesheet (16x24)_63: -4332660007918325295
+      01 - Full spritesheet (16x24)_64: -4531888113862097376
+      01 - Full spritesheet (16x24)_65: -1064294916154952545
+      01 - Full spritesheet (16x24)_66: -9033241191835666169
+      01 - Full spritesheet (16x24)_67: 737635263643710805
+      01 - Full spritesheet (16x24)_68: 1415023009997236886
+      01 - Full spritesheet (16x24)_69: -1343305899445065083
+      01 - Full spritesheet (16x24)_7: 4894825296493046150
+      01 - Full spritesheet (16x24)_70: -7398909962585365132
+      01 - Full spritesheet (16x24)_71: 4063254555818265888
+      01 - Full spritesheet (16x24)_72: 1674694526733337483
+      01 - Full spritesheet (16x24)_73: 8214995076879258274
+      01 - Full spritesheet (16x24)_74: -3106800298420935076
+      01 - Full spritesheet (16x24)_75: -1349011812802266487
+      01 - Full spritesheet (16x24)_76: -185155173343734029
+      01 - Full spritesheet (16x24)_77: 7666452413515408402
+      01 - Full spritesheet (16x24)_78: 6921762308774403319
+      01 - Full spritesheet (16x24)_79: -5422800607459347336
+      01 - Full spritesheet (16x24)_8: 8169555378136391560
+      01 - Full spritesheet (16x24)_80: -6848132412218520976
+      01 - Full spritesheet (16x24)_81: 493232322944766356
+      01 - Full spritesheet (16x24)_82: -3258349162844745748
+      01 - Full spritesheet (16x24)_83: 4172008555331856413
+      01 - Full spritesheet (16x24)_84: 621781179926615091
+      01 - Full spritesheet (16x24)_85: -3665716037739074087
+      01 - Full spritesheet (16x24)_86: -8364422093519451551
+      01 - Full spritesheet (16x24)_87: 5781024875187546524
+      01 - Full spritesheet (16x24)_88: 2831040627522952767
+      01 - Full spritesheet (16x24)_89: 1554003916340135792
+      01 - Full spritesheet (16x24)_9: 962699782398778259
+      01 - Full spritesheet (16x24)_90: -2201441858986191431
+      01 - Full spritesheet (16x24)_91: 6226697033124095697
+      01 - Full spritesheet (16x24)_92: 6701052370493393554
+      01 - Full spritesheet (16x24)_93: 3893378834850997447
+      01 - Full spritesheet (16x24)_94: -7862832881427840043
+      01 - Full spritesheet (16x24)_95: -910285894883641503
+      01 - Full spritesheet (16x24)_96: 4147004697551737585
+      01 - Full spritesheet (16x24)_97: 5985159569228214159
+      01 - Full spritesheet (16x24)_98: -6688023241489158057
+      01 - Full spritesheet (16x24)_99: -2128330733618066841
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

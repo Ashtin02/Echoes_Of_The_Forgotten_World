@@ -4,6 +4,8 @@ public class SpriteMovement : MonoBehaviour
 {
     public float moveSpeed = 5f;
     private Vector3 targetPosition;
+    public Rigidbody2D rb;
+    public Animator animator;
     private bool isMoving = false;
     
     void Start()
@@ -20,7 +22,13 @@ public class SpriteMovement : MonoBehaviour
         
         // Create movement vector
         Vector3 movement = new Vector3(horizontalInput, verticalInput, 0f);
-        
+
+        // Animation control for direction and speed
+        animator.SetFloat("Horizontal", horizontalInput);
+        animator.SetFloat("Vertical", verticalInput);
+        animator.SetFloat("Speed", movement.sqrMagnitude);
+
+
         // Check if we're trying to move
         if (movement.magnitude > 0.1f)
         {

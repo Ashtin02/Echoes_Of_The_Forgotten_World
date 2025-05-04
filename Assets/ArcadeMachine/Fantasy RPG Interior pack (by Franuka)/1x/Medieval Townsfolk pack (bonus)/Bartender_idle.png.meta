@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bartender_idle_0: 638577554652680042
+      Bartender_idle_1: -3148278083350028660
+      Bartender_idle_10: -1415499031904284332
+      Bartender_idle_11: -7218603925546032782
+      Bartender_idle_12: 1277393889484756511
+      Bartender_idle_13: -368013121433905307
+      Bartender_idle_14: 8035877364154230969
+      Bartender_idle_15: 8051429246519548179
+      Bartender_idle_2: 5869714512367613854
+      Bartender_idle_3: 747051108366580493
+      Bartender_idle_4: 7981596880392396442
+      Bartender_idle_5: 3593601056578928885
+      Bartender_idle_6: -2597412701150836476
+      Bartender_idle_7: 3905158010615973210
+      Bartender_idle_8: -7511529133735686113
+      Bartender_idle_9: -4152528203337314929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

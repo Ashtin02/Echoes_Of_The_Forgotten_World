@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Kid01_walk_0: -8714920839056864724
+      Kid01_walk_1: -2152389905226942697
+      Kid01_walk_10: 8629127861783220383
+      Kid01_walk_11: -1640118610068889922
+      Kid01_walk_12: 3417395524208163908
+      Kid01_walk_13: -6393464008642980612
+      Kid01_walk_14: -6251066317124650212
+      Kid01_walk_15: 4820374320407171318
+      Kid01_walk_2: 319497996947561410
+      Kid01_walk_3: -2042300723366030354
+      Kid01_walk_4: -7608833910331347911
+      Kid01_walk_5: 5367984509741968303
+      Kid01_walk_6: 229653892361573201
+      Kid01_walk_7: -6284236725525625431
+      Kid01_walk_8: 8360510239305181627
+      Kid01_walk_9: 1256466589418912739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

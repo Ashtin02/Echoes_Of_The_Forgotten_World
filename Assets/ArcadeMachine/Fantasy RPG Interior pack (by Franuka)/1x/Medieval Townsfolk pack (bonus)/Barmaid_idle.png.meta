@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Barmaid_idle_0: 5165834394559894997
+      Barmaid_idle_1: -2363284825567433455
+      Barmaid_idle_10: 2816943817192002583
+      Barmaid_idle_11: -955558599165017939
+      Barmaid_idle_12: -8318947973353528433
+      Barmaid_idle_13: 8610266859493032763
+      Barmaid_idle_14: 6818934319346989942
+      Barmaid_idle_15: 2035725601452368087
+      Barmaid_idle_2: 5367599661847274870
+      Barmaid_idle_3: 1385218121429757199
+      Barmaid_idle_4: -2991596002154316471
+      Barmaid_idle_5: -5022982412896226094
+      Barmaid_idle_6: -438319155412391833
+      Barmaid_idle_7: 8507130420147828796
+      Barmaid_idle_8: -8291667140774438458
+      Barmaid_idle_9: -2437147474419627769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

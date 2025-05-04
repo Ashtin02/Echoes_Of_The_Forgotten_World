@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Farmer_walk_0: -6389375695305881593
+      Farmer_walk_1: 1030365481818218194
+      Farmer_walk_10: -8644264612686798301
+      Farmer_walk_11: 6417807270628270821
+      Farmer_walk_12: 49057923220623973
+      Farmer_walk_13: -426684181669483920
+      Farmer_walk_14: -5127855955042819089
+      Farmer_walk_15: 7859292947271415348
+      Farmer_walk_2: -6399566232615246443
+      Farmer_walk_3: -8701674565161937945
+      Farmer_walk_4: 6567275715775971466
+      Farmer_walk_5: 1978047359580794342
+      Farmer_walk_6: 7132458760643885533
+      Farmer_walk_7: 7279514298666788440
+      Farmer_walk_8: -2338844968647059237
+      Farmer_walk_9: 4183037646260015415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

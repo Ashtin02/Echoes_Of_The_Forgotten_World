@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Merchant_idle_0: 687226044036645251
+      Merchant_idle_1: -7423969360247530
+      Merchant_idle_10: -3079178998141896837
+      Merchant_idle_11: -410508652956264433
+      Merchant_idle_12: -8188759790815390946
+      Merchant_idle_13: 5297420854062575985
+      Merchant_idle_14: 6636245857148282122
+      Merchant_idle_15: -4092198857910983426
+      Merchant_idle_2: 5043977001957412897
+      Merchant_idle_3: 335707607657928438
+      Merchant_idle_4: 978983089742923731
+      Merchant_idle_5: -4910477921367645368
+      Merchant_idle_6: -3080512441660583193
+      Merchant_idle_7: 1857507302023587409
+      Merchant_idle_8: 5438218829323366139
+      Merchant_idle_9: -5103462306770209244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

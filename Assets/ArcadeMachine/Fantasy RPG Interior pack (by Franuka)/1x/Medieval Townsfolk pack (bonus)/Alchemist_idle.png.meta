@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -359,7 +359,17 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Alchemist_idle_0: -683525234326013033
+      Alchemist_idle_1: -6992869009944281095
+      Alchemist_idle_2: -5061528331137163054
+      Alchemist_idle_3: 2012999822328299896
+      Alchemist_idle_4: 5332720132963474555
+      Alchemist_idle_5: -6796132449381218383
+      Alchemist_idle_6: -6944242392011276182
+      Alchemist_idle_7: -2980556531251252867
+      Alchemist_idle_8: 5395436794773958540
+      Alchemist_idle_9: 8633093145470028643
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

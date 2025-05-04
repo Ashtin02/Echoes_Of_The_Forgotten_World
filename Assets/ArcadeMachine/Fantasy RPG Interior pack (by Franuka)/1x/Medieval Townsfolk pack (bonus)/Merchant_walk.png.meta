@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Merchant_walk_0: -7466072705578688170
+      Merchant_walk_1: 8345097194195845112
+      Merchant_walk_10: 6987883693354059230
+      Merchant_walk_11: -6472090371866627195
+      Merchant_walk_12: -1037404677704543783
+      Merchant_walk_13: -9174160088612530634
+      Merchant_walk_14: -6556421831816885129
+      Merchant_walk_15: 4801048153060091190
+      Merchant_walk_2: 5654886150606356721
+      Merchant_walk_3: -317885699409729569
+      Merchant_walk_4: 8751845260512266403
+      Merchant_walk_5: 4173189143946391649
+      Merchant_walk_6: -6801067791988022073
+      Merchant_walk_7: 8987306081120881167
+      Merchant_walk_8: -8578526363910285229
+      Merchant_walk_9: 356120389262025980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

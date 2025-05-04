@@ -82,7 +82,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -96,7 +96,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 30
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -120,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -509,7 +509,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bartender_walk_0: -4120094010699117618
+      Bartender_walk_1: 1043230075236788878
+      Bartender_walk_10: -7470909665403354041
+      Bartender_walk_11: -1286499389041941851
+      Bartender_walk_12: 5794864252773424322
+      Bartender_walk_13: 8127534591686057281
+      Bartender_walk_14: -1477038713096061521
+      Bartender_walk_15: -220727105321103002
+      Bartender_walk_2: 7419128467354602347
+      Bartender_walk_3: 4560305713340638313
+      Bartender_walk_4: 2719321138630337665
+      Bartender_walk_5: 2707921489247304186
+      Bartender_walk_6: 5727073979029327380
+      Bartender_walk_7: 7867206874059907062
+      Bartender_walk_8: 9131144817927018349
+      Bartender_walk_9: 2777691119193088174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

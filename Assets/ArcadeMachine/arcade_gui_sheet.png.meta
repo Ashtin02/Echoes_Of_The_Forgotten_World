@@ -1,0 +1,897 @@
+fileFormatVersion: 2
+guid: 0ee44eab82e3e463eb2cf11db5d20405
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7747235160239215682
+    second: arcade_gui_sheet_0
+  - first:
+      213: 1342470818498250451
+    second: arcade_gui_sheet_1
+  - first:
+      213: 1954463799655929743
+    second: arcade_gui_sheet_2
+  - first:
+      213: 8742441369793553496
+    second: arcade_gui_sheet_3
+  - first:
+      213: -4243163849880201836
+    second: arcade_gui_sheet_4
+  - first:
+      213: -134756713671279315
+    second: arcade_gui_sheet_5
+  - first:
+      213: 3184988576257414105
+    second: arcade_gui_sheet_6
+  - first:
+      213: 3427706650505063368
+    second: arcade_gui_sheet_7
+  - first:
+      213: 3233999578240749031
+    second: arcade_gui_sheet_8
+  - first:
+      213: 376103564718222568
+    second: arcade_gui_sheet_9
+  - first:
+      213: -7567907009705145171
+    second: arcade_gui_sheet_10
+  - first:
+      213: -7333146403953804368
+    second: arcade_gui_sheet_11
+  - first:
+      213: -7379965811097481326
+    second: arcade_gui_sheet_12
+  - first:
+      213: 4166847871834045248
+    second: arcade_gui_sheet_13
+  - first:
+      213: 9186777414203970874
+    second: arcade_gui_sheet_14
+  - first:
+      213: -7245867562552823552
+    second: arcade_gui_sheet_15
+  - first:
+      213: -1212077848030638927
+    second: arcade_gui_sheet_16
+  - first:
+      213: 2948946799527599179
+    second: arcade_gui_sheet_17
+  - first:
+      213: -4732699001795193640
+    second: arcade_gui_sheet_18
+  - first:
+      213: -4098586826199548469
+    second: arcade_gui_sheet_19
+  - first:
+      213: 5455484551185557456
+    second: arcade_gui_sheet_20
+  - first:
+      213: -6438743170036098093
+    second: arcade_gui_sheet_21
+  - first:
+      213: 855802735360596800
+    second: arcade_gui_sheet_22
+  - first:
+      213: 6551594322682056596
+    second: arcade_gui_sheet_23
+  - first:
+      213: 5155224687721658728
+    second: arcade_gui_sheet_24
+  - first:
+      213: -2496668048196847725
+    second: arcade_gui_sheet_25
+  - first:
+      213: 4012459001161035978
+    second: arcade_gui_sheet_26
+  - first:
+      213: 4923356627276756771
+    second: arcade_gui_sheet_27
+  - first:
+      213: 6792392425376168174
+    second: arcade_gui_sheet_28
+  - first:
+      213: 2358284203614316704
+    second: arcade_gui_sheet_29
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arcade_gui_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 129
+        width: 97
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb668a1baa4c7490800000000000000
+      internalID: -7747235160239215682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 129
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d68ae1c81a61a210800000000000000
+      internalID: 1342470818498250451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 129
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f871ad87876af1b10800000000000000
+      internalID: 1954463799655929743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 129
+        width: 98
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 854693c3b14635970800000000000000
+      internalID: 8742441369793553496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 240
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4959c14b5f04d15c0800000000000000
+      internalID: -4243163849880201836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 232
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d368e9b7f312ef0800000000000000
+      internalID: -134756713671279315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 240
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3108d3c3a533c20800000000000000
+      internalID: 3184988576257414105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 230
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb2991b909a19f20800000000000000
+      internalID: 3427706650505063368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 240
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed8dc06b7971ec20800000000000000
+      internalID: 3233999578240749031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 230
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eca9cd0330383500800000000000000
+      internalID: 376103564718222568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0651dba469f690800000000000000
+      internalID: -7567907009705145171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 230
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bb7662c23e6b3a90800000000000000
+      internalID: -7333146403953804368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 240
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fc10f0238159990800000000000000
+      internalID: -7379965811097481326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 232
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bb2c1001e93d930800000000000000
+      internalID: 4166847871834045248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a359534726dfd7f70800000000000000
+      internalID: 9186777414203970874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 215
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001738497d1817b90800000000000000
+      internalID: -7245867562552823552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_16
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc830c7e95dd2fe0800000000000000
+      internalID: -1212077848030638927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_17
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 215
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c1e5f6d73cce820800000000000000
+      internalID: 2948946799527599179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_18
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d6213553125eb0800000000000000
+      internalID: -4732699001795193640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_19
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 215
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcdb74f2ff4ee17c0800000000000000
+      internalID: -4098586826199548469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_20
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 215
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7eb0f7b46c5bb40800000000000000
+      internalID: 5455484551185557456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_21
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 215
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3db9606633df4a6a0800000000000000
+      internalID: -6438743170036098093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_22
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 179
+        width: 31
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bd9f6bd0c60eb00800000000000000
+      internalID: 855802735360596800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_23
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 180
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49f0eeb1350fbea50800000000000000
+      internalID: 6551594322682056596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_24
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 180
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86939f83a890b8740800000000000000
+      internalID: 5155224687721658728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397b82953ad0a5dd0800000000000000
+      internalID: -2496668048196847725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_26
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac0b500e33e1fa730800000000000000
+      internalID: 4012459001161035978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_27
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 327756774c6435440800000000000000
+      internalID: 4923356627276756771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_28
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 0
+        width: 98
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8b9995cec634e50800000000000000
+      internalID: 6792392425376168174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcade_gui_sheet_29
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 0
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a8a8db0dfe4ab020800000000000000
+      internalID: 2358284203614316704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arcade_gui_sheet_0: -7747235160239215682
+      arcade_gui_sheet_1: 1342470818498250451
+      arcade_gui_sheet_10: -7567907009705145171
+      arcade_gui_sheet_11: -7333146403953804368
+      arcade_gui_sheet_12: -7379965811097481326
+      arcade_gui_sheet_13: 4166847871834045248
+      arcade_gui_sheet_14: 9186777414203970874
+      arcade_gui_sheet_15: -7245867562552823552
+      arcade_gui_sheet_16: -1212077848030638927
+      arcade_gui_sheet_17: 2948946799527599179
+      arcade_gui_sheet_18: -4732699001795193640
+      arcade_gui_sheet_19: -4098586826199548469
+      arcade_gui_sheet_2: 1954463799655929743
+      arcade_gui_sheet_20: 5455484551185557456
+      arcade_gui_sheet_21: -6438743170036098093
+      arcade_gui_sheet_22: 855802735360596800
+      arcade_gui_sheet_23: 6551594322682056596
+      arcade_gui_sheet_24: 5155224687721658728
+      arcade_gui_sheet_25: -2496668048196847725
+      arcade_gui_sheet_26: 4012459001161035978
+      arcade_gui_sheet_27: 4923356627276756771
+      arcade_gui_sheet_28: 6792392425376168174
+      arcade_gui_sheet_29: 2358284203614316704
+      arcade_gui_sheet_3: 8742441369793553496
+      arcade_gui_sheet_4: -4243163849880201836
+      arcade_gui_sheet_5: -134756713671279315
+      arcade_gui_sheet_6: 3184988576257414105
+      arcade_gui_sheet_7: 3427706650505063368
+      arcade_gui_sheet_8: 3233999578240749031
+      arcade_gui_sheet_9: 376103564718222568
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

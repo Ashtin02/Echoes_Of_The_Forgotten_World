@@ -1882,6 +1882,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1042562262 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4046753779092206325, guid: b87888d9a9dee426b848847f3be9f295, type: 3}
+  m_PrefabInstance: {fileID: 7789740327852020880}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1099338645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2050,7 +2055,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interactionPrompt: {fileID: 288202040}
-  transition: {fileID: 0}
+  transition: {fileID: 1042562262}
   TransitionTime: 1
 --- !u!61 &1099399715
 BoxCollider2D:

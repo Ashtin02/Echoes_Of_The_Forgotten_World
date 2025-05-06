@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: 266b694d4298d4083978a958ca4fcd01
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3589150120192337839
+    second: Expansion_Bedroom_0
+  - first:
+      213: -1227721793600434505
+    second: Expansion_Bedroom_1
+  - first:
+      213: 4926563323335144008
+    second: Expansion_Bedroom_2
+  - first:
+      213: 962765149940291859
+    second: Expansion_Bedroom_3
+  - first:
+      213: 2672112599925309397
+    second: Expansion_Bedroom_4
+  - first:
+      213: 6751913272369091512
+    second: Expansion_Bedroom_5
+  - first:
+      213: -6947315701011781787
+    second: Expansion_Bedroom_6
+  - first:
+      213: 266219198392450965
+    second: Expansion_Bedroom_7
+  - first:
+      213: -7400340533863476993
+    second: Expansion_Bedroom_8
+  - first:
+      213: 2160312950616108156
+    second: Expansion_Bedroom_9
+  - first:
+      213: -6692527733549497712
+    second: Expansion_Bedroom_10
+  - first:
+      213: -295014182468395921
+    second: Expansion_Bedroom_11
+  - first:
+      213: -1233275424258991683
+    second: Expansion_Bedroom_12
+  - first:
+      213: -5291815883267745483
+    second: Expansion_Bedroom_13
+  - first:
+      213: 786959858484820162
+    second: Expansion_Bedroom_14
+  - first:
+      213: -6526698042034709943
+    second: Expansion_Bedroom_15
+  - first:
+      213: 4264994760454128756
+    second: Expansion_Bedroom_16
+  - first:
+      213: 1896794679042837397
+    second: Expansion_Bedroom_17
+  - first:
+      213: -6083470922498710947
+    second: Expansion_Bedroom_18
+  - first:
+      213: -8475544397378055153
+    second: Expansion_Bedroom_19
+  - first:
+      213: -5596579055519279061
+    second: Expansion_Bedroom_20
+  - first:
+      213: -3293162993832977923
+    second: Expansion_Bedroom_21
+  - first:
+      213: -5686182015883359375
+    second: Expansion_Bedroom_22
+  - first:
+      213: 3462155855925226856
+    second: Expansion_Bedroom_23
+  - first:
+      213: 2021470418598851810
+    second: Expansion_Bedroom_24
+  - first:
+      213: 567685485524246130
+    second: Expansion_Bedroom_25
+  - first:
+      213: -8359245500079515676
+    second: Expansion_Bedroom_26
+  - first:
+      213: 8370272755508433734
+    second: Expansion_Bedroom_27
+  - first:
+      213: 6727551048810874021
+    second: Expansion_Bedroom_28
+  - first:
+      213: 6699832566190686645
+    second: Expansion_Bedroom_29
+  - first:
+      213: -7373457062556515679
+    second: Expansion_Bedroom_30
+  - first:
+      213: 2778893295894456857
+    second: Expansion_Bedroom_31
+  - first:
+      213: 171263402317790875
+    second: Expansion_Bedroom_32
+  - first:
+      213: 938619248412838836
+    second: Expansion_Bedroom_33
+  - first:
+      213: 2721270362904928919
+    second: Expansion_Bedroom_34
+  - first:
+      213: 8950340748587433473
+    second: Expansion_Bedroom_35
+  - first:
+      213: 4218109280769896747
+    second: Expansion_Bedroom_36
+  - first:
+      213: -49740507622365505
+    second: Expansion_Bedroom_37
+  - first:
+      213: 7934746162619563800
+    second: Expansion_Bedroom_38
+  - first:
+      213: 2295410142373810385
+    second: Expansion_Bedroom_39
+  - first:
+      213: -8655680904382237849
+    second: Expansion_Bedroom_40
+  - first:
+      213: 5710564635821825839
+    second: Expansion_Bedroom_41
+  - first:
+      213: -2049337665569019065
+    second: Expansion_Bedroom_42
+  - first:
+      213: -1136722844808095738
+    second: Expansion_Bedroom_43
+  - first:
+      213: -1635629126336581770
+    second: Expansion_Bedroom_44
+  - first:
+      213: 6698175283498467705
+    second: Expansion_Bedroom_45
+  - first:
+      213: -3405519987979734222
+    second: Expansion_Bedroom_46
+  - first:
+      213: -4776325925203046722
+    second: Expansion_Bedroom_47
+  - first:
+      213: 5377717313502871585
+    second: Expansion_Bedroom_48
+  - first:
+      213: -7546142847185968667
+    second: Expansion_Bedroom_49
+  - first:
+      213: -1912541713251185856
+    second: Expansion_Bedroom_50
+  - first:
+      213: -6329364419109305593
+    second: Expansion_Bedroom_51
+  - first:
+      213: -84774188653335629
+    second: Expansion_Bedroom_52
+  - first:
+      213: -66407946256173065
+    second: Expansion_Bedroom_53
+  - first:
+      213: -6894972946530318908
+    second: Expansion_Bedroom_54
+  - first:
+      213: 4108612889354474629
+    second: Expansion_Bedroom_55
+  - first:
+      213: -1503890521450548841
+    second: Expansion_Bedroom_56
+  - first:
+      213: -5506154979066743834
+    second: Expansion_Bedroom_57
+  - first:
+      213: 790085857155951905
+    second: Expansion_Bedroom_58
+  - first:
+      213: -6824972519021227897
+    second: Expansion_Bedroom_59
+  - first:
+      213: -7271046806461246650
+    second: Expansion_Bedroom_60
+  - first:
+      213: 2908633470896076148
+    second: Expansion_Bedroom_61
+  - first:
+      213: 5309262746952327132
+    second: Expansion_Bedroom_62
+  - first:
+      213: 1907837920065965623
+    second: Expansion_Bedroom_63
+  - first:
+      213: -5399074227769041537
+    second: Expansion_Bedroom_64
+  - first:
+      213: -1235238333931561208
+    second: Expansion_Bedroom_65
+  - first:
+      213: -5855503338913779682
+    second: Expansion_Bedroom_66
+  - first:
+      213: 7731845633371715752
+    second: Expansion_Bedroom_67
+  - first:
+      213: 6705308220491804339
+    second: Expansion_Bedroom_68
+  - first:
+      213: -4902894856459751322
+    second: Expansion_Bedroom_69
+  - first:
+      213: -2688605440565725655
+    second: Expansion_Bedroom_70
+  - first:
+      213: 6558402758317191927
+    second: Expansion_Bedroom_71
+  - first:
+      213: 1879308845068328179
+    second: Expansion_Bedroom_72
+  - first:
+      213: -2054786565607569400
+    second: Expansion_Bedroom_73
+  - first:
+      213: 7532938427196168186
+    second: Expansion_Bedroom_74
+  - first:
+      213: -6273946387630326757
+    second: Expansion_Bedroom_75
+  - first:
+      213: -631087027524527432
+    second: Expansion_Bedroom_76
+  - first:
+      213: 1753843210846310305
+    second: Expansion_Bedroom_77
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Expansion_Bedroom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1439
+        width: 241
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15892685bf6c03ec0800000000000000
+      internalID: -3589150120192337839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bec071988146fee0800000000000000
+      internalID: -1227721793600434505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_2
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 842fbd29d3bae5440800000000000000
+      internalID: 4926563323335144008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_3
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 319115c8dcd6c5d00800000000000000
+      internalID: 962765149940291859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_4
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dfb46e8040451520800000000000000
+      internalID: 2672112599925309397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_5
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b31ec9195d93bd50800000000000000
+      internalID: 6751913272369091512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_6
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 567e2baad2d269f90800000000000000
+      internalID: -6947315701011781787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_7
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59f329053fcc1b300800000000000000
+      internalID: 266219198392450965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_8
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0942e3e75bc4990800000000000000
+      internalID: -7400340533863476993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_9
+      rect:
+        serializedVersion: 2
+        x: 1175
+        y: 1349
+        width: 95
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7c2629ce29fafd10800000000000000
+      internalID: 2160312950616108156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09205502c7d5f13a0800000000000000
+      internalID: -6692527733549497712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cd4420a26e7ebf0800000000000000
+      internalID: -295014182468395921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db9d2da298682eee0800000000000000
+      internalID: -1233275424258991683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_13
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5395e0dcd71bf86b0800000000000000
+      internalID: -5291815883267745483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_14
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8ba7162d7dbea00800000000000000
+      internalID: 786959858484820162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_15
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a9840f5b28c65a0800000000000000
+      internalID: -6526698042034709943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_16
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47445c1432e403b30800000000000000
+      internalID: 4264994760454128756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_17
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59b033006b4c25a10800000000000000
+      internalID: 1896794679042837397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_18
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1271
+        width: 77
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52eb077d6b239ba0800000000000000
+      internalID: -6083470922498710947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_19
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1175
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f049a34a641d06a80800000000000000
+      internalID: -8475544397378055153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_20
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1178
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b28d16e3005f452b0800000000000000
+      internalID: -5596579055519279061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_21
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1175
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df99f1d74b55c42d0800000000000000
+      internalID: -3293162993832977923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_22
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1178
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17bce0f459f9611b0800000000000000
+      internalID: -5686182015883359375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_23
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1175
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d267d586c0c0030800000000000000
+      internalID: 3462155855925226856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_24
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1178
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e47b80b2a4bd0c10800000000000000
+      internalID: 2021470418598851810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_25
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1175
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e51dcf0f2d0e700800000000000000
+      internalID: 567685485524246130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_26
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1178
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e75a71c18efdfb80800000000000000
+      internalID: -8359245500079515676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_27
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1061
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 643d53939be292470800000000000000
+      internalID: 8370272755508433734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_28
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 1079
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a4cda8e8001d5d50800000000000000
+      internalID: 6727551048810874021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_29
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1082
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1c362c8369afc50800000000000000
+      internalID: 6699832566190686645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_30
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 1079
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a249bb2ed73ca990800000000000000
+      internalID: -7373457062556515679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_31
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 1082
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae08ababc909620800000000000000
+      internalID: 2778893295894456857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_32
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1079
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9e3d223823706200800000000000000
+      internalID: 171263402317790875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_33
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 1082
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bbcdf0cb35a60d00800000000000000
+      internalID: 938619248412838836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_34
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 1079
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7922fb62af4e3c520800000000000000
+      internalID: 2721270362904928919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_35
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 1082
+        width: 89
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ef14a6d7ff53c70800000000000000
+      internalID: 8950340748587433473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 911
+        width: 49
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b217118da0cb98a30800000000000000
+      internalID: 4218109280769896747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 929
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6a83895494f4ff0800000000000000
+      internalID: -49740507622365505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_38
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 944
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f35d54891ed1e60800000000000000
+      internalID: 7934746162619563800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_39
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 911
+        width: 50
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d01506ec5feadf10800000000000000
+      internalID: 2295410142373810385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_40
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 929
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7633a25c318d0e780800000000000000
+      internalID: -8655680904382237849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_41
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 944
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f5119c740004f40800000000000000
+      internalID: 5710564635821825839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_42
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 911
+        width: 50
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b2ee2404a4f83e0800000000000000
+      internalID: -2049337665569019065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_43
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 929
+        width: 32
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6085423689c8930f0800000000000000
+      internalID: -1136722844808095738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_44
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 944
+        width: 50
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67fec6cb9f31d49e0800000000000000
+      internalID: -1635629126336581770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_45
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 938
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9714a309ee2b4fc50800000000000000
+      internalID: 6698175283498467705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 938
+        width: 65
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233b9f83d992db0d0800000000000000
+      internalID: -3405519987979734222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_47
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 938
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe88c880e417bdb0800000000000000
+      internalID: -4776325925203046722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_48
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 938
+        width: 56
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1208ecd776d71aa40800000000000000
+      internalID: 5377717313502871585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_49
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 938
+        width: 50
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e12029cf07b64790800000000000000
+      internalID: -7546142847185968667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_50
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 938
+        width: 59
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04bcb83e1794575e0800000000000000
+      internalID: -1912541713251185856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_51
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 938
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7034ef068949928a0800000000000000
+      internalID: -6329364419109305593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_52
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 938
+        width: 50
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bb22371352d2def0800000000000000
+      internalID: -84774188653335629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_53
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 917
+        width: 134
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f733212352141ff0800000000000000
+      internalID: -66407946256173065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_54
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c5c122e2a22050a0800000000000000
+      internalID: -6894972946530318908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_55
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584909d87a9b40930800000000000000
+      internalID: 4108612889354474629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_56
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791fcd7e98b112be0800000000000000
+      internalID: -1503890521450548841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_57
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e37a7a28353693b0800000000000000
+      internalID: -5506154979066743834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_58
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d27d9a6e2f6fa00800000000000000
+      internalID: 790085857155951905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_59
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780dfe977a3d841a0800000000000000
+      internalID: -6824972519021227897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_60
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64393a3047d081b90800000000000000
+      internalID: -7271046806461246650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_61
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 475729e2bba8d5820800000000000000
+      internalID: 2908633470896076148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_62
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdfde43b65a4ea940800000000000000
+      internalID: 5309262746952327132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_63
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e4d8aea700a7a10800000000000000
+      internalID: 1907837920065965623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_64
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 791
+        width: 62
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7d1cd96892a215b0800000000000000
+      internalID: -5399074227769041537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_65
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 824
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f5015a74d8bdee0800000000000000
+      internalID: -1235238333931561208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_66
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 647
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e103eeeacb21dbea0800000000000000
+      internalID: -5855503338913779682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_67
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 683
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8b64373a80d4b60800000000000000
+      internalID: 7731845633371715752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_68
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 647
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3beabefdc4a0e0d50800000000000000
+      internalID: 6705308220491804339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_69
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 683
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66070adca1b65fbb0800000000000000
+      internalID: -4902894856459751322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_70
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 647
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 926b5edb89720bad0800000000000000
+      internalID: -2688605440565725655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_71
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 683
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2307f8f80240b50800000000000000
+      internalID: 6558402758317191927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_72
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 503
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc1c850075a41a10800000000000000
+      internalID: 1879308845068328179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_73
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 539
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80847bb518eeb73e0800000000000000
+      internalID: -2054786565607569400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_74
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 503
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7daeb969f5a8860800000000000000
+      internalID: 7532938427196168186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_75
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 539
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1cf27150077ee8a0800000000000000
+      internalID: -6273946387630326757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_76
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 503
+        width: 98
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba1b0e21bded37f0800000000000000
+      internalID: -631087027524527432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Expansion_Bedroom_77
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 539
+        width: 98
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af8936ab17e65810800000000000000
+      internalID: 1753843210846310305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Expansion_Bedroom_0: -3589150120192337839
+      Expansion_Bedroom_1: -1227721793600434505
+      Expansion_Bedroom_10: -6692527733549497712
+      Expansion_Bedroom_11: -295014182468395921
+      Expansion_Bedroom_12: -1233275424258991683
+      Expansion_Bedroom_13: -5291815883267745483
+      Expansion_Bedroom_14: 786959858484820162
+      Expansion_Bedroom_15: -6526698042034709943
+      Expansion_Bedroom_16: 4264994760454128756
+      Expansion_Bedroom_17: 1896794679042837397
+      Expansion_Bedroom_18: -6083470922498710947
+      Expansion_Bedroom_19: -8475544397378055153
+      Expansion_Bedroom_2: 4926563323335144008
+      Expansion_Bedroom_20: -5596579055519279061
+      Expansion_Bedroom_21: -3293162993832977923
+      Expansion_Bedroom_22: -5686182015883359375
+      Expansion_Bedroom_23: 3462155855925226856
+      Expansion_Bedroom_24: 2021470418598851810
+      Expansion_Bedroom_25: 567685485524246130
+      Expansion_Bedroom_26: -8359245500079515676
+      Expansion_Bedroom_27: 8370272755508433734
+      Expansion_Bedroom_28: 6727551048810874021
+      Expansion_Bedroom_29: 6699832566190686645
+      Expansion_Bedroom_3: 962765149940291859
+      Expansion_Bedroom_30: -7373457062556515679
+      Expansion_Bedroom_31: 2778893295894456857
+      Expansion_Bedroom_32: 171263402317790875
+      Expansion_Bedroom_33: 938619248412838836
+      Expansion_Bedroom_34: 2721270362904928919
+      Expansion_Bedroom_35: 8950340748587433473
+      Expansion_Bedroom_36: 4218109280769896747
+      Expansion_Bedroom_37: -49740507622365505
+      Expansion_Bedroom_38: 7934746162619563800
+      Expansion_Bedroom_39: 2295410142373810385
+      Expansion_Bedroom_4: 2672112599925309397
+      Expansion_Bedroom_40: -8655680904382237849
+      Expansion_Bedroom_41: 5710564635821825839
+      Expansion_Bedroom_42: -2049337665569019065
+      Expansion_Bedroom_43: -1136722844808095738
+      Expansion_Bedroom_44: -1635629126336581770
+      Expansion_Bedroom_45: 6698175283498467705
+      Expansion_Bedroom_46: -3405519987979734222
+      Expansion_Bedroom_47: -4776325925203046722
+      Expansion_Bedroom_48: 5377717313502871585
+      Expansion_Bedroom_49: -7546142847185968667
+      Expansion_Bedroom_5: 6751913272369091512
+      Expansion_Bedroom_50: -1912541713251185856
+      Expansion_Bedroom_51: -6329364419109305593
+      Expansion_Bedroom_52: -84774188653335629
+      Expansion_Bedroom_53: -66407946256173065
+      Expansion_Bedroom_54: -6894972946530318908
+      Expansion_Bedroom_55: 4108612889354474629
+      Expansion_Bedroom_56: -1503890521450548841
+      Expansion_Bedroom_57: -5506154979066743834
+      Expansion_Bedroom_58: 790085857155951905
+      Expansion_Bedroom_59: -6824972519021227897
+      Expansion_Bedroom_6: -6947315701011781787
+      Expansion_Bedroom_60: -7271046806461246650
+      Expansion_Bedroom_61: 2908633470896076148
+      Expansion_Bedroom_62: 5309262746952327132
+      Expansion_Bedroom_63: 1907837920065965623
+      Expansion_Bedroom_64: -5399074227769041537
+      Expansion_Bedroom_65: -1235238333931561208
+      Expansion_Bedroom_66: -5855503338913779682
+      Expansion_Bedroom_67: 7731845633371715752
+      Expansion_Bedroom_68: 6705308220491804339
+      Expansion_Bedroom_69: -4902894856459751322
+      Expansion_Bedroom_7: 266219198392450965
+      Expansion_Bedroom_70: -2688605440565725655
+      Expansion_Bedroom_71: 6558402758317191927
+      Expansion_Bedroom_72: 1879308845068328179
+      Expansion_Bedroom_73: -2054786565607569400
+      Expansion_Bedroom_74: 7532938427196168186
+      Expansion_Bedroom_75: -6273946387630326757
+      Expansion_Bedroom_76: -631087027524527432
+      Expansion_Bedroom_77: 1753843210846310305
+      Expansion_Bedroom_8: -7400340533863476993
+      Expansion_Bedroom_9: 2160312950616108156
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

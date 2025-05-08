@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 0cee1d33963834c2b970bf99ef1dc084
+guid: 56a19deb0ef9c462c993897015d93dcb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7466072705578688170
-    second: Merchant_walk_0
+      213: -7410632096833407433
+    second: Fisherman_walk_0
   - first:
-      213: 8345097194195845112
-    second: Merchant_walk_1
+      213: 2728202691605425101
+    second: Fisherman_walk_1
   - first:
-      213: 5654886150606356721
-    second: Merchant_walk_2
+      213: -6695905847603491286
+    second: Fisherman_walk_2
   - first:
-      213: -317885699409729569
-    second: Merchant_walk_3
+      213: 109494345155161309
+    second: Fisherman_walk_3
   - first:
-      213: 8751845260512266403
-    second: Merchant_walk_4
+      213: -2534038357791199580
+    second: Fisherman_walk_4
   - first:
-      213: 4173189143946391649
-    second: Merchant_walk_5
+      213: -6249624673903620860
+    second: Fisherman_walk_5
   - first:
-      213: -6801067791988022073
-    second: Merchant_walk_6
+      213: -7191641317077105826
+    second: Fisherman_walk_6
   - first:
-      213: 8987306081120881167
-    second: Merchant_walk_7
+      213: -8422710167240400920
+    second: Fisherman_walk_7
   - first:
-      213: -8578526363910285229
-    second: Merchant_walk_8
+      213: 5479903112680555219
+    second: Fisherman_walk_8
   - first:
-      213: 356120389262025980
-    second: Merchant_walk_9
+      213: -6151949772324754089
+    second: Fisherman_walk_9
   - first:
-      213: 6987883693354059230
-    second: Merchant_walk_10
+      213: -8550432644442812641
+    second: Fisherman_walk_10
   - first:
-      213: -6472090371866627195
-    second: Merchant_walk_11
+      213: -4853495546336914964
+    second: Fisherman_walk_11
   - first:
-      213: -1037404677704543783
-    second: Merchant_walk_12
+      213: 3037187652227470598
+    second: Fisherman_walk_12
   - first:
-      213: -9174160088612530634
-    second: Merchant_walk_13
+      213: -7366269673958955273
+    second: Fisherman_walk_13
   - first:
-      213: -6556421831816885129
-    second: Merchant_walk_14
+      213: 2570430983532964596
+    second: Fisherman_walk_14
   - first:
-      213: 4801048153060091190
-    second: Merchant_walk_15
+      213: 1706988944017819844
+    second: Fisherman_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,16 +141,64 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Merchant_walk_0
+      name: Fisherman_walk_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 71
-        width: 14
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 736f2230f55282990800000000000000
+      internalID: -7410632096833407433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_walk_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 71
+        width: 16
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6512eb46e6e236890800000000000000
-      internalID: -7466072705578688170
+      spriteID: dcbe764b4e58cd520800000000000000
+      internalID: 2728202691605425101
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_1
+      name: Fisherman_walk_2
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 71
-        width: 16
-        height: 18
+        width: 15
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,19 +230,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8fff6241fadbfc370800000000000000
-      internalID: 8345097194195845112
+      spriteID: a2e0228ab1d5313a0800000000000000
+      internalID: -6695905847603491286
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_2
+      name: Fisherman_walk_3
       rect:
         serializedVersion: 2
-        x: 33
+        x: 47
         y: 71
-        width: 14
+        width: 16
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,41 +252,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f00b2c3ef03a7e40800000000000000
-      internalID: 5654886150606356721
+      spriteID: ddc23ebd680058100800000000000000
+      internalID: 109494345155161309
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 71
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fd7a18ff3a4a69bf0800000000000000
-      internalID: -317885699409729569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Merchant_walk_4
+      name: Fisherman_walk_4
       rect:
         serializedVersion: 2
         x: 0
         y: 47
         width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ae24ac1a8945dcd0800000000000000
+      internalID: -2534038357791199580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_walk_5
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 47
+        width: 15
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -248,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3a8050a25ecc47970800000000000000
-      internalID: 8751845260512266403
+      spriteID: 40d4574987fd449a0800000000000000
+      internalID: -6249624673903620860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_5
+      name: Fisherman_walk_6
       rect:
         serializedVersion: 2
-        x: 16
+        x: 31
         y: 47
-        width: 14
-        height: 18
+        width: 15
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,19 +318,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 160f0797a652ae930800000000000000
-      internalID: 4173189143946391649
+      spriteID: e53c8973358223c90800000000000000
+      internalID: -7191641317077105826
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_6
+      name: Fisherman_walk_7
       rect:
         serializedVersion: 2
-        x: 32
+        x: 47
         y: 47
-        width: 14
+        width: 15
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -292,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7c4243570e0cd91a0800000000000000
-      internalID: -6801067791988022073
+      spriteID: 8ef90937ab58c1b80800000000000000
+      internalID: -8422710167240400920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 47
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f0a0be4934359bc70800000000000000
-      internalID: 8987306081120881167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Merchant_walk_8
+      name: Fisherman_walk_8
       rect:
         serializedVersion: 2
         x: 2
         y: 23
-        width: 14
-        height: 19
+        width: 15
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,41 +362,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 358ddc619b3f2f880800000000000000
-      internalID: -8578526363910285229
+      spriteID: 3d2c1e2e8d68c0c40800000000000000
+      internalID: 5479903112680555219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_9
+      name: Fisherman_walk_9
       rect:
         serializedVersion: 2
         x: 18
         y: 23
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: cf4ac337b9131f400800000000000000
-      internalID: 356120389262025980
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Merchant_walk_10
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 23
-        width: 14
+        width: 15
         height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -380,20 +384,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ed50d1a1233f9f060800000000000000
-      internalID: 6987883693354059230
+      spriteID: 75da988c642ef9aa0800000000000000
+      internalID: -6151949772324754089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_11
+      name: Fisherman_walk_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f0510efc2c65980800000000000000
+      internalID: -8550432644442812641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_walk_11
       rect:
         serializedVersion: 2
         x: 50
         y: 23
         width: 14
-        height: 18
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,19 +428,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583f9aee8148e26a0800000000000000
-      internalID: -6472090371866627195
+      spriteID: ce1d5a9f38be4acb0800000000000000
+      internalID: -4853495546336914964
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_12
+      name: Fisherman_walk_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 14
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6059837f312462a20800000000000000
+      internalID: 3037187652227470598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_walk_13
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 16
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -424,41 +472,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9d1971921f56a91f0800000000000000
-      internalID: -1037404677704543783
+      spriteID: 7f6a1fb72c0c5c990800000000000000
+      internalID: -7366269673958955273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Merchant_walk_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6361fa59106dea080800000000000000
-      internalID: -9174160088612530634
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Merchant_walk_14
+      name: Fisherman_walk_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
-        width: 14
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fae32d5c510ca320800000000000000
+      internalID: 2570430983532964596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fisherman_walk_15
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 0
+        width: 15
         height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -468,30 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 77c40f4d419e205a0800000000000000
-      internalID: -6556421831816885129
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Merchant_walk_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 63521b0bbdfb0a240800000000000000
-      internalID: 4801048153060091190
+      spriteID: 4c883bb866170b710800000000000000
+      internalID: 1706988944017819844
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Merchant_walk_0: -7466072705578688170
-      Merchant_walk_1: 8345097194195845112
-      Merchant_walk_10: 6987883693354059230
-      Merchant_walk_11: -6472090371866627195
-      Merchant_walk_12: -1037404677704543783
-      Merchant_walk_13: -9174160088612530634
-      Merchant_walk_14: -6556421831816885129
-      Merchant_walk_15: 4801048153060091190
-      Merchant_walk_2: 5654886150606356721
-      Merchant_walk_3: -317885699409729569
-      Merchant_walk_4: 8751845260512266403
-      Merchant_walk_5: 4173189143946391649
-      Merchant_walk_6: -6801067791988022073
-      Merchant_walk_7: 8987306081120881167
-      Merchant_walk_8: -8578526363910285229
-      Merchant_walk_9: 356120389262025980
+      Fisherman_walk_0: -7410632096833407433
+      Fisherman_walk_1: 2728202691605425101
+      Fisherman_walk_10: -8550432644442812641
+      Fisherman_walk_11: -4853495546336914964
+      Fisherman_walk_12: 3037187652227470598
+      Fisherman_walk_13: -7366269673958955273
+      Fisherman_walk_14: 2570430983532964596
+      Fisherman_walk_15: 1706988944017819844
+      Fisherman_walk_2: -6695905847603491286
+      Fisherman_walk_3: 109494345155161309
+      Fisherman_walk_4: -2534038357791199580
+      Fisherman_walk_5: -6249624673903620860
+      Fisherman_walk_6: -7191641317077105826
+      Fisherman_walk_7: -8422710167240400920
+      Fisherman_walk_8: 5479903112680555219
+      Fisherman_walk_9: -6151949772324754089
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

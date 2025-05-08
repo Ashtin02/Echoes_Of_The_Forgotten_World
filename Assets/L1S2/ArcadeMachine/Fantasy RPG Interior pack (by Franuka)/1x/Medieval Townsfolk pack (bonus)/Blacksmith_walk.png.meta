@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 1bcb13e766c88440a868b732aa080577
+guid: a835a7861f17c4b7fb697fd4162ad44b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 3268470051332887831
-    second: Farmer_idle_0
+      213: 795862931045267377
+    second: Blacksmith_walk_0
   - first:
-      213: -6826832364856625882
-    second: Farmer_idle_1
+      213: -3394638568714363067
+    second: Blacksmith_walk_1
   - first:
-      213: -5990166430365732646
-    second: Farmer_idle_2
+      213: -2598869591406406921
+    second: Blacksmith_walk_2
   - first:
-      213: -4042264678337651180
-    second: Farmer_idle_3
+      213: -7057087205501796869
+    second: Blacksmith_walk_3
   - first:
-      213: -3372857457604916721
-    second: Farmer_idle_4
+      213: -3788038487357410569
+    second: Blacksmith_walk_4
   - first:
-      213: 5406953091664724818
-    second: Farmer_idle_5
+      213: -773854258607311842
+    second: Blacksmith_walk_5
   - first:
-      213: 8826505691147008524
-    second: Farmer_idle_6
+      213: -4896742585792851883
+    second: Blacksmith_walk_6
   - first:
-      213: -5863613475923870600
-    second: Farmer_idle_7
+      213: 5941730802282187596
+    second: Blacksmith_walk_7
   - first:
-      213: 3760638678735602299
-    second: Farmer_idle_8
+      213: 2901453730515344105
+    second: Blacksmith_walk_8
   - first:
-      213: 7072343260235336708
-    second: Farmer_idle_9
+      213: 4958736822524862697
+    second: Blacksmith_walk_9
   - first:
-      213: -720834359423858937
-    second: Farmer_idle_10
+      213: 2769375322957151382
+    second: Blacksmith_walk_10
   - first:
-      213: -3986650715182323720
-    second: Farmer_idle_11
+      213: 3060474772043612586
+    second: Blacksmith_walk_11
   - first:
-      213: -1583462284124312189
-    second: Farmer_idle_12
+      213: -5400010243389677324
+    second: Blacksmith_walk_12
   - first:
-      213: -545729591663434249
-    second: Farmer_idle_13
+      213: -2037956739876217716
+    second: Blacksmith_walk_13
   - first:
-      213: 1173644777347684599
-    second: Farmer_idle_14
+      213: 6647345966224454406
+    second: Blacksmith_walk_14
   - first:
-      213: 7743636085296134904
-    second: Farmer_idle_15
+      213: -6987914007552275790
+    second: Blacksmith_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Farmer_idle_0
+      name: Blacksmith_walk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 71
-        width: 15
-        height: 22
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71513b0d130fb5d20800000000000000
-      internalID: 3268470051332887831
+      spriteID: 1b7bade7e197b0b00800000000000000
+      internalID: 795862931045267377
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_1
+      name: Blacksmith_walk_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 15
         y: 71
-        width: 15
-        height: 22
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 625b49f52283241a0800000000000000
-      internalID: -6826832364856625882
+      spriteID: 54f90f21532d3e0d0800000000000000
+      internalID: -3394638568714363067
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_2
+      name: Blacksmith_walk_2
       rect:
         serializedVersion: 2
         x: 32
         y: 71
-        width: 15
-        height: 22
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,42 +230,108 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ad0b49c6e57aedca0800000000000000
-      internalID: -5990166430365732646
+      spriteID: 7f218a240e5feebd0800000000000000
+      internalID: -2598869591406406921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_3
+      name: Blacksmith_walk_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 71
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd7c1f9390301e90800000000000000
+      internalID: -7057087205501796869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_walk_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 47
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2bd8dc01f2e6bc0800000000000000
+      internalID: -3788038487357410569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_walk_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 47
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e14b9cfd6a7b245f0800000000000000
+      internalID: -773854258607311842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_walk_6
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 47
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5501a41ff864b0cb0800000000000000
+      internalID: -4896742585792851883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Blacksmith_walk_7
       rect:
         serializedVersion: 2
         x: 48
-        y: 71
-        width: 15
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41e539f11bdf6e7c0800000000000000
-      internalID: -4042264678337651180
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_idle_4
-      rect:
-        serializedVersion: 2
-        x: 1
         y: 47
-        width: 14
-        height: 22
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0a8e6133043131d0800000000000000
-      internalID: -3372857457604916721
+      spriteID: c4bc60d1fa4457250800000000000000
+      internalID: 5941730802282187596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_5
+      name: Blacksmith_walk_8
       rect:
         serializedVersion: 2
-        x: 17
-        y: 47
-        width: 14
-        height: 22
+        x: 3
+        y: 23
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 25340e9803b590b40800000000000000
-      internalID: 5406953091664724818
+      spriteID: 9ea599b9bc8044820800000000000000
+      internalID: 2901453730515344105
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_6
+      name: Blacksmith_walk_9
       rect:
         serializedVersion: 2
-        x: 33
-        y: 47
-        width: 14
-        height: 22
+        x: 19
+        y: 23
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,42 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c0af7c8492c0e7a70800000000000000
-      internalID: 8826505691147008524
+      spriteID: 9e06e391ed8f0d440800000000000000
+      internalID: 4958736822524862697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_7
+      name: Blacksmith_walk_10
       rect:
         serializedVersion: 2
-        x: 49
-        y: 47
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 87c3d534c9240aea0800000000000000
-      internalID: -5863613475923870600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_idle_8
-      rect:
-        serializedVersion: 2
-        x: 1
+        x: 35
         y: 23
         width: 14
-        height: 22
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7241ae14f8703430800000000000000
-      internalID: 3760638678735602299
+      spriteID: 69cf796fe2cce6620800000000000000
+      internalID: 2769375322957151382
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_9
+      name: Blacksmith_walk_11
       rect:
         serializedVersion: 2
-        x: 17
+        x: 51
         y: 23
-        width: 14
-        height: 22
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,64 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40c84fb69b2062260800000000000000
-      internalID: 7072343260235336708
+      spriteID: aa144bf079df87a20800000000000000
+      internalID: 3060474772043612586
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_10
+      name: Blacksmith_walk_12
       rect:
         serializedVersion: 2
-        x: 33
-        y: 23
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 70705a028f41ff5f0800000000000000
-      internalID: -720834359423858937
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_idle_11
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 23
-        width: 14
-        height: 22
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 8f72006fb429ca8c0800000000000000
-      internalID: -3986650715182323720
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Farmer_idle_12
-      rect:
-        serializedVersion: 2
-        x: 1
+        x: 2
         y: 0
-        width: 15
-        height: 21
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38daa8f2179660ae0800000000000000
-      internalID: -1583462284124312189
+      spriteID: 4f0a94b4b4f4f05b0800000000000000
+      internalID: -5400010243389677324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_13
+      name: Blacksmith_walk_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
-        width: 15
-        height: 21
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f56b79e3dd2d68f0800000000000000
-      internalID: -545729591663434249
+      spriteID: c8c90148429b7b3e0800000000000000
+      internalID: -2037956739876217716
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_14
+      name: Blacksmith_walk_14
       rect:
         serializedVersion: 2
-        x: 33
+        x: 34
         y: 0
-        width: 15
-        height: 21
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f81d4ee4bf994010800000000000000
-      internalID: 1173644777347684599
+      spriteID: 6033fe7efed104c50800000000000000
+      internalID: 6647345966224454406
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_idle_15
+      name: Blacksmith_walk_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
         width: 15
-        height: 21
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8faf8f5fdfbe67b60800000000000000
-      internalID: 7743636085296134904
+      spriteID: 2baced2db31f50f90800000000000000
+      internalID: -6987914007552275790
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Farmer_idle_0: 3268470051332887831
-      Farmer_idle_1: -6826832364856625882
-      Farmer_idle_10: -720834359423858937
-      Farmer_idle_11: -3986650715182323720
-      Farmer_idle_12: -1583462284124312189
-      Farmer_idle_13: -545729591663434249
-      Farmer_idle_14: 1173644777347684599
-      Farmer_idle_15: 7743636085296134904
-      Farmer_idle_2: -5990166430365732646
-      Farmer_idle_3: -4042264678337651180
-      Farmer_idle_4: -3372857457604916721
-      Farmer_idle_5: 5406953091664724818
-      Farmer_idle_6: 8826505691147008524
-      Farmer_idle_7: -5863613475923870600
-      Farmer_idle_8: 3760638678735602299
-      Farmer_idle_9: 7072343260235336708
+      Blacksmith_walk_0: 795862931045267377
+      Blacksmith_walk_1: -3394638568714363067
+      Blacksmith_walk_10: 2769375322957151382
+      Blacksmith_walk_11: 3060474772043612586
+      Blacksmith_walk_12: -5400010243389677324
+      Blacksmith_walk_13: -2037956739876217716
+      Blacksmith_walk_14: 6647345966224454406
+      Blacksmith_walk_15: -6987914007552275790
+      Blacksmith_walk_2: -2598869591406406921
+      Blacksmith_walk_3: -7057087205501796869
+      Blacksmith_walk_4: -3788038487357410569
+      Blacksmith_walk_5: -773854258607311842
+      Blacksmith_walk_6: -4896742585792851883
+      Blacksmith_walk_7: 5941730802282187596
+      Blacksmith_walk_8: 2901453730515344105
+      Blacksmith_walk_9: 4958736822524862697
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

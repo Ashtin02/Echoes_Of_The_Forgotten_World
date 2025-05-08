@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 3688aa0800f754a70aba3fac8ed06ed7
+guid: 0cee1d33963834c2b970bf99ef1dc084
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 638577554652680042
-    second: Bartender_idle_0
+      213: -7466072705578688170
+    second: Merchant_walk_0
   - first:
-      213: -3148278083350028660
-    second: Bartender_idle_1
+      213: 8345097194195845112
+    second: Merchant_walk_1
   - first:
-      213: 5869714512367613854
-    second: Bartender_idle_2
+      213: 5654886150606356721
+    second: Merchant_walk_2
   - first:
-      213: 747051108366580493
-    second: Bartender_idle_3
+      213: -317885699409729569
+    second: Merchant_walk_3
   - first:
-      213: 7981596880392396442
-    second: Bartender_idle_4
+      213: 8751845260512266403
+    second: Merchant_walk_4
   - first:
-      213: 3593601056578928885
-    second: Bartender_idle_5
+      213: 4173189143946391649
+    second: Merchant_walk_5
   - first:
-      213: -2597412701150836476
-    second: Bartender_idle_6
+      213: -6801067791988022073
+    second: Merchant_walk_6
   - first:
-      213: 3905158010615973210
-    second: Bartender_idle_7
+      213: 8987306081120881167
+    second: Merchant_walk_7
   - first:
-      213: -7511529133735686113
-    second: Bartender_idle_8
+      213: -8578526363910285229
+    second: Merchant_walk_8
   - first:
-      213: -4152528203337314929
-    second: Bartender_idle_9
+      213: 356120389262025980
+    second: Merchant_walk_9
   - first:
-      213: -1415499031904284332
-    second: Bartender_idle_10
+      213: 6987883693354059230
+    second: Merchant_walk_10
   - first:
-      213: -7218603925546032782
-    second: Bartender_idle_11
+      213: -6472090371866627195
+    second: Merchant_walk_11
   - first:
-      213: 1277393889484756511
-    second: Bartender_idle_12
+      213: -1037404677704543783
+    second: Merchant_walk_12
   - first:
-      213: -368013121433905307
-    second: Bartender_idle_13
+      213: -9174160088612530634
+    second: Merchant_walk_13
   - first:
-      213: 8035877364154230969
-    second: Bartender_idle_14
+      213: -6556421831816885129
+    second: Merchant_walk_14
   - first:
-      213: 8051429246519548179
-    second: Bartender_idle_15
+      213: 4801048153060091190
+    second: Merchant_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bartender_idle_0
+      name: Merchant_walk_0
       rect:
         serializedVersion: 2
         x: 1
         y: 71
         width: 14
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a6f4c9217eeacd800800000000000000
-      internalID: 638577554652680042
+      spriteID: 6512eb46e6e236890800000000000000
+      internalID: -7466072705578688170
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_1
+      name: Merchant_walk_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 71
-        width: 14
-        height: 17
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8e16c373c11f44d0800000000000000
-      internalID: -3148278083350028660
+      spriteID: 8fff6241fadbfc370800000000000000
+      internalID: 8345097194195845112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_2
+      name: Merchant_walk_2
       rect:
         serializedVersion: 2
         x: 33
         y: 71
         width: 14
-        height: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e9770aaff3a657150800000000000000
-      internalID: 5869714512367613854
+      spriteID: 1f00b2c3ef03a7e40800000000000000
+      internalID: 5654886150606356721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_3
+      name: Merchant_walk_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 71
-        width: 14
-        height: 16
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0b7047660f0e5a00800000000000000
-      internalID: 747051108366580493
+      spriteID: fd7a18ff3a4a69bf0800000000000000
+      internalID: -317885699409729569
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_4
+      name: Merchant_walk_4
       rect:
         serializedVersion: 2
         x: 0
         y: 47
         width: 14
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a9e972c031454ce60800000000000000
-      internalID: 7981596880392396442
+      spriteID: 3a8050a25ecc47970800000000000000
+      internalID: 8751845260512266403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_5
+      name: Merchant_walk_5
       rect:
         serializedVersion: 2
         x: 16
         y: 47
         width: 14
-        height: 17
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5f00bd90f190fd130800000000000000
-      internalID: 3593601056578928885
+      spriteID: 160f0797a652ae930800000000000000
+      internalID: 4173189143946391649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_6
+      name: Merchant_walk_6
       rect:
         serializedVersion: 2
         x: 32
         y: 47
         width: 14
-        height: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40901d4f8e224fbd0800000000000000
-      internalID: -2597412701150836476
+      spriteID: 7c4243570e0cd91a0800000000000000
+      internalID: -6801067791988022073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_7
+      name: Merchant_walk_7
       rect:
         serializedVersion: 2
         x: 48
         y: 47
         width: 14
-        height: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a55498e2588e13630800000000000000
-      internalID: 3905158010615973210
+      spriteID: f0a0be4934359bc70800000000000000
+      internalID: 8987306081120881167
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_8
+      name: Merchant_walk_8
       rect:
         serializedVersion: 2
         x: 2
         y: 23
         width: 14
-        height: 17
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,19 +362,107 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f10dfa7fc00b1c790800000000000000
-      internalID: -7511529133735686113
+      spriteID: 358ddc619b3f2f880800000000000000
+      internalID: -8578526363910285229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_9
+      name: Merchant_walk_9
       rect:
         serializedVersion: 2
         x: 18
         y: 23
         width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4ac337b9131f400800000000000000
+      internalID: 356120389262025980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_walk_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed50d1a1233f9f060800000000000000
+      internalID: 6987883693354059230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_walk_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 23
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 583f9aee8148e26a0800000000000000
+      internalID: -6472090371866627195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_walk_12
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1971921f56a91f0800000000000000
+      internalID: -1037404677704543783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_walk_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 16
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -358,108 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f8dc940a9914f56c0800000000000000
-      internalID: -4152528203337314929
+      spriteID: 6361fa59106dea080800000000000000
+      internalID: -9174160088612530634
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_10
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 23
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4519f6f41232b5ce0800000000000000
-      internalID: -1415499031904284332
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bartender_idle_11
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 23
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 271a69bb9fd52db90800000000000000
-      internalID: -7218603925546032782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bartender_idle_12
-      rect:
-        serializedVersion: 2
-        x: 1
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f165efc79f63ab110800000000000000
-      internalID: 1277393889484756511
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bartender_idle_13
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 0
-        width: 14
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 567df30140e84eaf0800000000000000
-      internalID: -368013121433905307
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bartender_idle_14
+      name: Merchant_walk_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
         width: 14
-        height: 15
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9b8e30503eb258f60800000000000000
-      internalID: 8035877364154230969
+      spriteID: 77c40f4d419e205a0800000000000000
+      internalID: -6556421831816885129
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bartender_idle_15
+      name: Merchant_walk_15
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 0
-        width: 14
-        height: 15
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3191dfccd3c6cbf60800000000000000
-      internalID: 8051429246519548179
+      spriteID: 63521b0bbdfb0a240800000000000000
+      internalID: 4801048153060091190
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bartender_idle_0: 638577554652680042
-      Bartender_idle_1: -3148278083350028660
-      Bartender_idle_10: -1415499031904284332
-      Bartender_idle_11: -7218603925546032782
-      Bartender_idle_12: 1277393889484756511
-      Bartender_idle_13: -368013121433905307
-      Bartender_idle_14: 8035877364154230969
-      Bartender_idle_15: 8051429246519548179
-      Bartender_idle_2: 5869714512367613854
-      Bartender_idle_3: 747051108366580493
-      Bartender_idle_4: 7981596880392396442
-      Bartender_idle_5: 3593601056578928885
-      Bartender_idle_6: -2597412701150836476
-      Bartender_idle_7: 3905158010615973210
-      Bartender_idle_8: -7511529133735686113
-      Bartender_idle_9: -4152528203337314929
+      Merchant_walk_0: -7466072705578688170
+      Merchant_walk_1: 8345097194195845112
+      Merchant_walk_10: 6987883693354059230
+      Merchant_walk_11: -6472090371866627195
+      Merchant_walk_12: -1037404677704543783
+      Merchant_walk_13: -9174160088612530634
+      Merchant_walk_14: -6556421831816885129
+      Merchant_walk_15: 4801048153060091190
+      Merchant_walk_2: 5654886150606356721
+      Merchant_walk_3: -317885699409729569
+      Merchant_walk_4: 8751845260512266403
+      Merchant_walk_5: 4173189143946391649
+      Merchant_walk_6: -6801067791988022073
+      Merchant_walk_7: 8987306081120881167
+      Merchant_walk_8: -8578526363910285229
+      Merchant_walk_9: 356120389262025980
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

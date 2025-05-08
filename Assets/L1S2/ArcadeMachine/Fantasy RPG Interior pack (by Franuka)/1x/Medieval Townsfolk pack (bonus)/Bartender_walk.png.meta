@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 56a19deb0ef9c462c993897015d93dcb
+guid: 45696f1cc066c43949bbfd5732c230e7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7410632096833407433
-    second: Fisherman_walk_0
+      213: -4120094010699117618
+    second: Bartender_walk_0
   - first:
-      213: 2728202691605425101
-    second: Fisherman_walk_1
+      213: 1043230075236788878
+    second: Bartender_walk_1
   - first:
-      213: -6695905847603491286
-    second: Fisherman_walk_2
+      213: 7419128467354602347
+    second: Bartender_walk_2
   - first:
-      213: 109494345155161309
-    second: Fisherman_walk_3
+      213: 4560305713340638313
+    second: Bartender_walk_3
   - first:
-      213: -2534038357791199580
-    second: Fisherman_walk_4
+      213: 2719321138630337665
+    second: Bartender_walk_4
   - first:
-      213: -6249624673903620860
-    second: Fisherman_walk_5
+      213: 2707921489247304186
+    second: Bartender_walk_5
   - first:
-      213: -7191641317077105826
-    second: Fisherman_walk_6
+      213: 5727073979029327380
+    second: Bartender_walk_6
   - first:
-      213: -8422710167240400920
-    second: Fisherman_walk_7
+      213: 7867206874059907062
+    second: Bartender_walk_7
   - first:
-      213: 5479903112680555219
-    second: Fisherman_walk_8
+      213: 9131144817927018349
+    second: Bartender_walk_8
   - first:
-      213: -6151949772324754089
-    second: Fisherman_walk_9
+      213: 2777691119193088174
+    second: Bartender_walk_9
   - first:
-      213: -8550432644442812641
-    second: Fisherman_walk_10
+      213: -7470909665403354041
+    second: Bartender_walk_10
   - first:
-      213: -4853495546336914964
-    second: Fisherman_walk_11
+      213: -1286499389041941851
+    second: Bartender_walk_11
   - first:
-      213: 3037187652227470598
-    second: Fisherman_walk_12
+      213: 5794864252773424322
+    second: Bartender_walk_12
   - first:
-      213: -7366269673958955273
-    second: Fisherman_walk_13
+      213: 8127534591686057281
+    second: Bartender_walk_13
   - first:
-      213: 2570430983532964596
-    second: Fisherman_walk_14
+      213: -1477038713096061521
+    second: Bartender_walk_14
   - first:
-      213: 1706988944017819844
-    second: Fisherman_walk_15
+      213: -220727105321103002
+    second: Bartender_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fisherman_walk_0
+      name: Bartender_walk_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 71
-        width: 15
-        height: 20
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 736f2230f55282990800000000000000
-      internalID: -7410632096833407433
+      spriteID: ecb8013935c72d6c0800000000000000
+      internalID: -4120094010699117618
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_1
+      name: Bartender_walk_1
       rect:
         serializedVersion: 2
-        x: 15
+        x: 17
         y: 71
-        width: 16
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dcbe764b4e58cd520800000000000000
-      internalID: 2728202691605425101
+      spriteID: e8a2e75e93c4a7e00800000000000000
+      internalID: 1043230075236788878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_2
+      name: Bartender_walk_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 71
-        width: 15
-        height: 20
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2e0228ab1d5313a0800000000000000
-      internalID: -6695905847603491286
+      spriteID: b6bc8a7680a06f660800000000000000
+      internalID: 7419128467354602347
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_3
+      name: Bartender_walk_3
       rect:
         serializedVersion: 2
-        x: 47
+        x: 49
         y: 71
-        width: 16
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddc23ebd680058100800000000000000
-      internalID: 109494345155161309
+      spriteID: 9646ade72e5794f30800000000000000
+      internalID: 4560305713340638313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_4
+      name: Bartender_walk_4
       rect:
         serializedVersion: 2
         x: 0
         y: 47
         width: 14
-        height: 20
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4ae24ac1a8945dcd0800000000000000
-      internalID: -2534038357791199580
+      spriteID: 184a5420b28fcb520800000000000000
+      internalID: 2719321138630337665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_5
+      name: Bartender_walk_5
       rect:
         serializedVersion: 2
-        x: 15
+        x: 16
         y: 47
-        width: 15
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 40d4574987fd449a0800000000000000
-      internalID: -6249624673903620860
+      spriteID: af97b3e4f38749520800000000000000
+      internalID: 2707921489247304186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_6
+      name: Bartender_walk_6
       rect:
         serializedVersion: 2
-        x: 31
+        x: 32
         y: 47
-        width: 15
-        height: 20
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e53c8973358223c90800000000000000
-      internalID: -7191641317077105826
+      spriteID: 41e0d6ac077aa7f40800000000000000
+      internalID: 5727073979029327380
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_7
+      name: Bartender_walk_7
       rect:
         serializedVersion: 2
-        x: 47
+        x: 48
         y: 47
-        width: 15
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8ef90937ab58c1b80800000000000000
-      internalID: -8422710167240400920
+      spriteID: 6ff1ade38feed2d60800000000000000
+      internalID: 7867206874059907062
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_8
+      name: Bartender_walk_8
       rect:
         serializedVersion: 2
         x: 2
         y: 23
-        width: 15
-        height: 20
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3d2c1e2e8d68c0c40800000000000000
-      internalID: 5479903112680555219
+      spriteID: d67503145d758be70800000000000000
+      internalID: 9131144817927018349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_9
+      name: Bartender_walk_9
       rect:
         serializedVersion: 2
         x: 18
         y: 23
-        width: 15
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 75da988c642ef9aa0800000000000000
-      internalID: -6151949772324754089
+      spriteID: ea0e2472b575c8620800000000000000
+      internalID: 2777691119193088174
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_10
+      name: Bartender_walk_10
       rect:
         serializedVersion: 2
         x: 34
         y: 23
-        width: 15
-        height: 20
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f1f0510efc2c65980800000000000000
-      internalID: -8550432644442812641
+      spriteID: 744c99ced3ff15890800000000000000
+      internalID: -7470909665403354041
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_11
+      name: Bartender_walk_11
       rect:
         serializedVersion: 2
         x: 50
         y: 23
         width: 14
-        height: 19
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ce1d5a9f38be4acb0800000000000000
-      internalID: -4853495546336914964
+      spriteID: 5a2e5603f9f652ee0800000000000000
+      internalID: -1286499389041941851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_12
+      name: Bartender_walk_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 15
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6059837f312462a20800000000000000
-      internalID: 3037187652227470598
+      spriteID: 2cc5b2cd55e7b6050800000000000000
+      internalID: 5794864252773424322
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_13
+      name: Bartender_walk_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
-        width: 16
-        height: 18
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f6a1fb72c0c5c990800000000000000
-      internalID: -7366269673958955273
+      spriteID: 14d952d46adcac070800000000000000
+      internalID: 8127534591686057281
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_14
+      name: Bartender_walk_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
-        width: 15
-        height: 19
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4fae32d5c510ca320800000000000000
-      internalID: 2570430983532964596
+      spriteID: fadb86abd11808be0800000000000000
+      internalID: -1477038713096061521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Fisherman_walk_15
+      name: Bartender_walk_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
-        width: 15
-        height: 18
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c883bb866170b710800000000000000
-      internalID: 1706988944017819844
+      spriteID: 661190ffdd1dfecf0800000000000000
+      internalID: -220727105321103002
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fisherman_walk_0: -7410632096833407433
-      Fisherman_walk_1: 2728202691605425101
-      Fisherman_walk_10: -8550432644442812641
-      Fisherman_walk_11: -4853495546336914964
-      Fisherman_walk_12: 3037187652227470598
-      Fisherman_walk_13: -7366269673958955273
-      Fisherman_walk_14: 2570430983532964596
-      Fisherman_walk_15: 1706988944017819844
-      Fisherman_walk_2: -6695905847603491286
-      Fisherman_walk_3: 109494345155161309
-      Fisherman_walk_4: -2534038357791199580
-      Fisherman_walk_5: -6249624673903620860
-      Fisherman_walk_6: -7191641317077105826
-      Fisherman_walk_7: -8422710167240400920
-      Fisherman_walk_8: 5479903112680555219
-      Fisherman_walk_9: -6151949772324754089
+      Bartender_walk_0: -4120094010699117618
+      Bartender_walk_1: 1043230075236788878
+      Bartender_walk_10: -7470909665403354041
+      Bartender_walk_11: -1286499389041941851
+      Bartender_walk_12: 5794864252773424322
+      Bartender_walk_13: 8127534591686057281
+      Bartender_walk_14: -1477038713096061521
+      Bartender_walk_15: -220727105321103002
+      Bartender_walk_2: 7419128467354602347
+      Bartender_walk_3: 4560305713340638313
+      Bartender_walk_4: 2719321138630337665
+      Bartender_walk_5: 2707921489247304186
+      Bartender_walk_6: 5727073979029327380
+      Bartender_walk_7: 7867206874059907062
+      Bartender_walk_8: 9131144817927018349
+      Bartender_walk_9: 2777691119193088174
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

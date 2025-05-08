@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 338865cad5fa2464a926a19a95dd5c37
+guid: 3688aa0800f754a70aba3fac8ed06ed7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 343931018179182821
-    second: Blacksmith_idle_0
+      213: 638577554652680042
+    second: Bartender_idle_0
   - first:
-      213: 5788346729427952236
-    second: Blacksmith_idle_1
+      213: -3148278083350028660
+    second: Bartender_idle_1
   - first:
-      213: -1750491474304890883
-    second: Blacksmith_idle_2
+      213: 5869714512367613854
+    second: Bartender_idle_2
   - first:
-      213: 2634401800637171286
-    second: Blacksmith_idle_3
+      213: 747051108366580493
+    second: Bartender_idle_3
   - first:
-      213: 3384195257278779211
-    second: Blacksmith_idle_4
+      213: 7981596880392396442
+    second: Bartender_idle_4
   - first:
-      213: -9010634854734808261
-    second: Blacksmith_idle_5
+      213: 3593601056578928885
+    second: Bartender_idle_5
   - first:
-      213: -8333723788202223315
-    second: Blacksmith_idle_6
+      213: -2597412701150836476
+    second: Bartender_idle_6
   - first:
-      213: -2677820263552315678
-    second: Blacksmith_idle_7
+      213: 3905158010615973210
+    second: Bartender_idle_7
   - first:
-      213: -6921258095495906444
-    second: Blacksmith_idle_8
+      213: -7511529133735686113
+    second: Bartender_idle_8
   - first:
-      213: 1944356026036279192
-    second: Blacksmith_idle_9
+      213: -4152528203337314929
+    second: Bartender_idle_9
   - first:
-      213: -8915657343720626081
-    second: Blacksmith_idle_10
+      213: -1415499031904284332
+    second: Bartender_idle_10
   - first:
-      213: -8252120617700771307
-    second: Blacksmith_idle_11
+      213: -7218603925546032782
+    second: Bartender_idle_11
   - first:
-      213: 6783715150795764310
-    second: Blacksmith_idle_12
+      213: 1277393889484756511
+    second: Bartender_idle_12
   - first:
-      213: 3666079839041568906
-    second: Blacksmith_idle_13
+      213: -368013121433905307
+    second: Bartender_idle_13
   - first:
-      213: -6376366072547366778
-    second: Blacksmith_idle_14
+      213: 8035877364154230969
+    second: Bartender_idle_14
   - first:
-      213: -3814611879626445297
-    second: Blacksmith_idle_15
+      213: 8051429246519548179
+    second: Bartender_idle_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,146 +141,128 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blacksmith_idle_0
+      name: Bartender_idle_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 71
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f4c9217eeacd800800000000000000
+      internalID: 638577554652680042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 71
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8e16c373c11f44d0800000000000000
+      internalID: -3148278083350028660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 71
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9770aaff3a657150800000000000000
+      internalID: 5869714512367613854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 71
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0b7047660f0e5a00800000000000000
+      internalID: 747051108366580493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_4
       rect:
         serializedVersion: 2
         x: 0
-        y: 71
-        width: 15
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5e00fc55073e5c400800000000000000
-      internalID: 343931018179182821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_1
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 71
-        width: 16
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c62e854bea6545050800000000000000
-      internalID: 5788346729427952236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_2
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 71
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: df705b3574105b7e0800000000000000
-      internalID: -1750491474304890883
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_3
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 71
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 656c0a2ea764f8420800000000000000
-      internalID: 2634401800637171286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_4
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 47
-        width: 13
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4fc9a008a317fe20800000000000000
-      internalID: 3384195257278779211
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_5
-      rect:
-        serializedVersion: 2
-        x: 15
-        y: 47
-        width: 14
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b3b37ca075bc3f280800000000000000
-      internalID: -9010634854734808261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_idle_6
-      rect:
-        serializedVersion: 2
-        x: 31
         y: 47
         width: 14
         height: 17
@@ -292,17 +274,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d29dbfb5e5aa85c80800000000000000
-      internalID: -8333723788202223315
+      spriteID: a9e972c031454ce60800000000000000
+      internalID: 7981596880392396442
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_7
+      name: Bartender_idle_5
       rect:
         serializedVersion: 2
-        x: 47
+        x: 16
         y: 47
         width: 14
         height: 17
@@ -314,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ee0f9278a876dad0800000000000000
-      internalID: -2677820263552315678
+      spriteID: 5f00bd90f190fd130800000000000000
+      internalID: 3593601056578928885
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_8
+      name: Bartender_idle_6
       rect:
         serializedVersion: 2
-        x: 3
-        y: 23
+        x: 32
+        y: 47
         width: 14
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47b7b2bbe60c2ff90800000000000000
-      internalID: -6921258095495906444
+      spriteID: 40901d4f8e224fbd0800000000000000
+      internalID: -2597412701150836476
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_9
+      name: Bartender_idle_7
       rect:
         serializedVersion: 2
-        x: 19
-        y: 23
+        x: 48
+        y: 47
         width: 14
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,17 +340,17 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 89758c8018dbbfa10800000000000000
-      internalID: 1944356026036279192
+      spriteID: a55498e2588e13630800000000000000
+      internalID: 3905158010615973210
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_10
+      name: Bartender_idle_8
       rect:
         serializedVersion: 2
-        x: 35
+        x: 2
         y: 23
         width: 14
         height: 17
@@ -380,19 +362,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f58ed6012e8354480800000000000000
-      internalID: -8915657343720626081
+      spriteID: f10dfa7fc00b1c790800000000000000
+      internalID: -7511529133735686113
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_11
+      name: Bartender_idle_9
       rect:
         serializedVersion: 2
-        x: 51
+        x: 18
         y: 23
-        width: 13
+        width: 14
         height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -402,20 +384,64 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 51ab44215049a7d80800000000000000
-      internalID: -8252120617700771307
+      spriteID: f8dc940a9914f56c0800000000000000
+      internalID: -4152528203337314929
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_12
+      name: Bartender_idle_10
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 23
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4519f6f41232b5ce0800000000000000
+      internalID: -1415499031904284332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_11
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 23
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271a69bb9fd52db90800000000000000
+      internalID: -7218603925546032782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bartender_idle_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 16
-        height: 17
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 652fd9cecf8942e50800000000000000
-      internalID: 6783715150795764310
+      spriteID: f165efc79f63ab110800000000000000
+      internalID: 1277393889484756511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_13
+      name: Bartender_idle_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
-        width: 16
-        height: 17
+        width: 14
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a804b4c903880e230800000000000000
-      internalID: 3666079839041568906
+      spriteID: 567df30140e84eaf0800000000000000
+      internalID: -368013121433905307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_14
+      name: Bartender_idle_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 68826f727d89287a0800000000000000
-      internalID: -6376366072547366778
+      spriteID: 9b8e30503eb258f60800000000000000
+      internalID: 8035877364154230969
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_idle_15
+      name: Bartender_idle_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
-        width: 15
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0e61e6c4b6cf0bc0800000000000000
-      internalID: -3814611879626445297
+      spriteID: 3191dfccd3c6cbf60800000000000000
+      internalID: 8051429246519548179
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Blacksmith_idle_0: 343931018179182821
-      Blacksmith_idle_1: 5788346729427952236
-      Blacksmith_idle_10: -8915657343720626081
-      Blacksmith_idle_11: -8252120617700771307
-      Blacksmith_idle_12: 6783715150795764310
-      Blacksmith_idle_13: 3666079839041568906
-      Blacksmith_idle_14: -6376366072547366778
-      Blacksmith_idle_15: -3814611879626445297
-      Blacksmith_idle_2: -1750491474304890883
-      Blacksmith_idle_3: 2634401800637171286
-      Blacksmith_idle_4: 3384195257278779211
-      Blacksmith_idle_5: -9010634854734808261
-      Blacksmith_idle_6: -8333723788202223315
-      Blacksmith_idle_7: -2677820263552315678
-      Blacksmith_idle_8: -6921258095495906444
-      Blacksmith_idle_9: 1944356026036279192
+      Bartender_idle_0: 638577554652680042
+      Bartender_idle_1: -3148278083350028660
+      Bartender_idle_10: -1415499031904284332
+      Bartender_idle_11: -7218603925546032782
+      Bartender_idle_12: 1277393889484756511
+      Bartender_idle_13: -368013121433905307
+      Bartender_idle_14: 8035877364154230969
+      Bartender_idle_15: 8051429246519548179
+      Bartender_idle_2: 5869714512367613854
+      Bartender_idle_3: 747051108366580493
+      Bartender_idle_4: 7981596880392396442
+      Bartender_idle_5: 3593601056578928885
+      Bartender_idle_6: -2597412701150836476
+      Bartender_idle_7: 3905158010615973210
+      Bartender_idle_8: -7511529133735686113
+      Bartender_idle_9: -4152528203337314929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: a835a7861f17c4b7fb697fd4162ad44b
+guid: c4471d819155d4df9acc99928d6f7176
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 795862931045267377
-    second: Blacksmith_walk_0
+      213: 4334207460417465507
+    second: Kid01_idle_0
   - first:
-      213: -3394638568714363067
-    second: Blacksmith_walk_1
+      213: 208199816224130813
+    second: Kid01_idle_1
   - first:
-      213: -2598869591406406921
-    second: Blacksmith_walk_2
+      213: -7001732371391034305
+    second: Kid01_idle_2
   - first:
-      213: -7057087205501796869
-    second: Blacksmith_walk_3
+      213: 473851767684849818
+    second: Kid01_idle_3
   - first:
-      213: -3788038487357410569
-    second: Blacksmith_walk_4
+      213: 7104202632464388670
+    second: Kid01_idle_4
   - first:
-      213: -773854258607311842
-    second: Blacksmith_walk_5
+      213: 4592927086144160688
+    second: Kid01_idle_5
   - first:
-      213: -4896742585792851883
-    second: Blacksmith_walk_6
+      213: -1651042598326706072
+    second: Kid01_idle_6
   - first:
-      213: 5941730802282187596
-    second: Blacksmith_walk_7
+      213: -6214410381032858661
+    second: Kid01_idle_7
   - first:
-      213: 2901453730515344105
-    second: Blacksmith_walk_8
+      213: 2627432316778378117
+    second: Kid01_idle_8
   - first:
-      213: 4958736822524862697
-    second: Blacksmith_walk_9
+      213: -8088995772527446390
+    second: Kid01_idle_9
   - first:
-      213: 2769375322957151382
-    second: Blacksmith_walk_10
+      213: -7900489694570127215
+    second: Kid01_idle_10
   - first:
-      213: 3060474772043612586
-    second: Blacksmith_walk_11
+      213: 112981827391404689
+    second: Kid01_idle_11
   - first:
-      213: -5400010243389677324
-    second: Blacksmith_walk_12
+      213: -4182844617767899726
+    second: Kid01_idle_12
   - first:
-      213: -2037956739876217716
-    second: Blacksmith_walk_13
+      213: 5206716461740827285
+    second: Kid01_idle_13
   - first:
-      213: 6647345966224454406
-    second: Blacksmith_walk_14
+      213: 370959645988223222
+    second: Kid01_idle_14
   - first:
-      213: -6987914007552275790
-    second: Blacksmith_walk_15
+      213: -4353896250704859631
+    second: Kid01_idle_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blacksmith_walk_0
+      name: Kid01_idle_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 71
         width: 14
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,42 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1b7bade7e197b0b00800000000000000
-      internalID: 795862931045267377
+      spriteID: 3ace70db8b2362c30800000000000000
+      internalID: 4334207460417465507
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_1
+      name: Kid01_idle_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 71
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 54f90f21532d3e0d0800000000000000
-      internalID: -3394638568714363067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Blacksmith_walk_2
-      rect:
-        serializedVersion: 2
-        x: 32
+        x: 17
         y: 71
         width: 14
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f218a240e5feebd0800000000000000
-      internalID: -2598869591406406921
+      spriteID: df6475831aca3e200800000000000000
+      internalID: 208199816224130813
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_3
+      name: Kid01_idle_2
       rect:
         serializedVersion: 2
-        x: 47
+        x: 33
         y: 71
-        width: 16
-        height: 17
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +230,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bfd7c1f9390301e90800000000000000
-      internalID: -7057087205501796869
+      spriteID: f3c42e64189d4de90800000000000000
+      internalID: -7001732371391034305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_4
+      name: Kid01_idle_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 71
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a90eb011ca5739600800000000000000
+      internalID: 473851767684849818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kid01_idle_4
       rect:
         serializedVersion: 2
         x: 1
         y: 47
         width: 12
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7f2bd8dc01f2e6bc0800000000000000
-      internalID: -3788038487357410569
+      spriteID: e325f6097a2379260800000000000000
+      internalID: 7104202632464388670
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_5
+      name: Kid01_idle_5
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 47
-        width: 13
-        height: 17
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e14b9cfd6a7b245f0800000000000000
-      internalID: -773854258607311842
+      spriteID: 0b384e8b9da5dbf30800000000000000
+      internalID: 4592927086144160688
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_6
+      name: Kid01_idle_6
       rect:
         serializedVersion: 2
-        x: 31
+        x: 33
         y: 47
-        width: 14
-        height: 18
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5501a41ff864b0cb0800000000000000
-      internalID: -4896742585792851883
+      spriteID: 860e2b121815619e0800000000000000
+      internalID: -1651042598326706072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_7
+      name: Kid01_idle_7
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 47
-        width: 13
-        height: 17
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4bc60d1fa4457250800000000000000
-      internalID: 5941730802282187596
+      spriteID: bdb590e0faaf1c9a0800000000000000
+      internalID: -6214410381032858661
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_8
+      name: Kid01_idle_8
       rect:
         serializedVersion: 2
         x: 3
         y: 23
         width: 12
-        height: 18
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ea599b9bc8044820800000000000000
-      internalID: 2901453730515344105
+      spriteID: 583f4f875c3867420800000000000000
+      internalID: 2627432316778378117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_9
+      name: Kid01_idle_9
       rect:
         serializedVersion: 2
         x: 19
         y: 23
-        width: 13
-        height: 17
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9e06e391ed8f0d440800000000000000
-      internalID: 4958736822524862697
+      spriteID: a867dd4c33d1ebf80800000000000000
+      internalID: -8088995772527446390
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_10
+      name: Kid01_idle_10
       rect:
         serializedVersion: 2
         x: 35
         y: 23
-        width: 14
-        height: 18
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69cf796fe2cce6620800000000000000
-      internalID: 2769375322957151382
+      spriteID: 190638b3b72db5290800000000000000
+      internalID: -7900489694570127215
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_11
+      name: Kid01_idle_11
       rect:
         serializedVersion: 2
         x: 51
         y: 23
-        width: 13
-        height: 17
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa144bf079df87a20800000000000000
-      internalID: 3060474772043612586
+      spriteID: 19a3db79f54619100800000000000000
+      internalID: 112981827391404689
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_12
+      name: Kid01_idle_12
       rect:
         serializedVersion: 2
-        x: 2
+        x: 1
         y: 0
         width: 14
-        height: 17
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f0a94b4b4f4f05b0800000000000000
-      internalID: -5400010243389677324
+      spriteID: 2bd2a475bfc83f5c0800000000000000
+      internalID: -4182844617767899726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_13
+      name: Kid01_idle_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
-        width: 16
-        height: 16
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8c90148429b7b3e0800000000000000
-      internalID: -2037956739876217716
+      spriteID: 592ad3c1909f14840800000000000000
+      internalID: 5206716461740827285
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_14
+      name: Kid01_idle_14
       rect:
         serializedVersion: 2
-        x: 34
+        x: 33
         y: 0
         width: 14
-        height: 17
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6033fe7efed104c50800000000000000
-      internalID: 6647345966224454406
+      spriteID: 6f8f12525d9e52500800000000000000
+      internalID: 370959645988223222
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blacksmith_walk_15
+      name: Kid01_idle_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
-        width: 15
-        height: 16
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2baced2db31f50f90800000000000000
-      internalID: -6987914007552275790
+      spriteID: 11ee4db8d6ad393c0800000000000000
+      internalID: -4353896250704859631
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Blacksmith_walk_0: 795862931045267377
-      Blacksmith_walk_1: -3394638568714363067
-      Blacksmith_walk_10: 2769375322957151382
-      Blacksmith_walk_11: 3060474772043612586
-      Blacksmith_walk_12: -5400010243389677324
-      Blacksmith_walk_13: -2037956739876217716
-      Blacksmith_walk_14: 6647345966224454406
-      Blacksmith_walk_15: -6987914007552275790
-      Blacksmith_walk_2: -2598869591406406921
-      Blacksmith_walk_3: -7057087205501796869
-      Blacksmith_walk_4: -3788038487357410569
-      Blacksmith_walk_5: -773854258607311842
-      Blacksmith_walk_6: -4896742585792851883
-      Blacksmith_walk_7: 5941730802282187596
-      Blacksmith_walk_8: 2901453730515344105
-      Blacksmith_walk_9: 4958736822524862697
+      Kid01_idle_0: 4334207460417465507
+      Kid01_idle_1: 208199816224130813
+      Kid01_idle_10: -7900489694570127215
+      Kid01_idle_11: 112981827391404689
+      Kid01_idle_12: -4182844617767899726
+      Kid01_idle_13: 5206716461740827285
+      Kid01_idle_14: 370959645988223222
+      Kid01_idle_15: -4353896250704859631
+      Kid01_idle_2: -7001732371391034305
+      Kid01_idle_3: 473851767684849818
+      Kid01_idle_4: 7104202632464388670
+      Kid01_idle_5: 4592927086144160688
+      Kid01_idle_6: -1651042598326706072
+      Kid01_idle_7: -6214410381032858661
+      Kid01_idle_8: 2627432316778378117
+      Kid01_idle_9: -8088995772527446390
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

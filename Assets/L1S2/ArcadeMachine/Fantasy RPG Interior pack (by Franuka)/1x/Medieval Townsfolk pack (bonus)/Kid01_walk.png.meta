@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 8d7819e7c69944cba886fd2899b3a53c
+guid: 3dcf8067fda3d41cc8f76efddef40aa0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5165834394559894997
-    second: Barmaid_idle_0
+      213: -8714920839056864724
+    second: Kid01_walk_0
   - first:
-      213: -2363284825567433455
-    second: Barmaid_idle_1
+      213: -2152389905226942697
+    second: Kid01_walk_1
   - first:
-      213: 5367599661847274870
-    second: Barmaid_idle_2
+      213: 319497996947561410
+    second: Kid01_walk_2
   - first:
-      213: 1385218121429757199
-    second: Barmaid_idle_3
+      213: -2042300723366030354
+    second: Kid01_walk_3
   - first:
-      213: -2991596002154316471
-    second: Barmaid_idle_4
+      213: -7608833910331347911
+    second: Kid01_walk_4
   - first:
-      213: -5022982412896226094
-    second: Barmaid_idle_5
+      213: 5367984509741968303
+    second: Kid01_walk_5
   - first:
-      213: -438319155412391833
-    second: Barmaid_idle_6
+      213: 229653892361573201
+    second: Kid01_walk_6
   - first:
-      213: 8507130420147828796
-    second: Barmaid_idle_7
+      213: -6284236725525625431
+    second: Kid01_walk_7
   - first:
-      213: -8291667140774438458
-    second: Barmaid_idle_8
+      213: 8360510239305181627
+    second: Kid01_walk_8
   - first:
-      213: -2437147474419627769
-    second: Barmaid_idle_9
+      213: 1256466589418912739
+    second: Kid01_walk_9
   - first:
-      213: 2816943817192002583
-    second: Barmaid_idle_10
+      213: 8629127861783220383
+    second: Kid01_walk_10
   - first:
-      213: -955558599165017939
-    second: Barmaid_idle_11
+      213: -1640118610068889922
+    second: Kid01_walk_11
   - first:
-      213: -8318947973353528433
-    second: Barmaid_idle_12
+      213: 3417395524208163908
+    second: Kid01_walk_12
   - first:
-      213: 8610266859493032763
-    second: Barmaid_idle_13
+      213: -6393464008642980612
+    second: Kid01_walk_13
   - first:
-      213: 6818934319346989942
-    second: Barmaid_idle_14
+      213: -6251066317124650212
+    second: Kid01_walk_14
   - first:
-      213: 2035725601452368087
-    second: Barmaid_idle_15
+      213: 4820374320407171318
+    second: Kid01_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Barmaid_idle_0
+      name: Kid01_walk_0
       rect:
         serializedVersion: 2
         x: 1
         y: 71
         width: 14
-        height: 21
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5d5dc38130bb0b740800000000000000
-      internalID: 5165834394559894997
+      spriteID: c2acd56aba16e0780800000000000000
+      internalID: -8714920839056864724
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_1
+      name: Kid01_walk_1
       rect:
         serializedVersion: 2
         x: 17
         y: 71
         width: 14
-        height: 21
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11d6bfce8fce33fd0800000000000000
-      internalID: -2363284825567433455
+      spriteID: 717bfc8f8cc2122e0800000000000000
+      internalID: -2152389905226942697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_2
+      name: Kid01_walk_2
       rect:
         serializedVersion: 2
         x: 33
         y: 71
         width: 14
-        height: 20
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 675e9e4247b8d7a40800000000000000
-      internalID: 5367599661847274870
+      spriteID: 2cb12864cb51f6400800000000000000
+      internalID: 319497996947561410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_3
+      name: Kid01_walk_3
       rect:
         serializedVersion: 2
         x: 49
         y: 71
         width: 14
-        height: 20
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0d2140da88493310800000000000000
-      internalID: 1385218121429757199
+      spriteID: ee39e3b005a48a3e0800000000000000
+      internalID: -2042300723366030354
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_4
+      name: Kid01_walk_4
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 47
-        width: 14
-        height: 21
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 94dfc144947bb76d0800000000000000
-      internalID: -2991596002154316471
+      spriteID: 93ce0c33fddf76690800000000000000
+      internalID: -7608833910331347911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_5
+      name: Kid01_walk_5
       rect:
         serializedVersion: 2
-        x: 16
+        x: 17
         y: 47
-        width: 14
-        height: 21
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2d4394ebb18ca4ab0800000000000000
-      internalID: -5022982412896226094
+      spriteID: fab28f68879ee7a40800000000000000
+      internalID: 5367984509741968303
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_6
+      name: Kid01_walk_6
       rect:
         serializedVersion: 2
-        x: 32
+        x: 33
         y: 47
-        width: 14
-        height: 20
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 768256bec07cae9f0800000000000000
-      internalID: -438319155412391833
+      spriteID: 1535f739ff4ef2300800000000000000
+      internalID: 229653892361573201
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_7
+      name: Kid01_walk_7
       rect:
         serializedVersion: 2
-        x: 48
+        x: 49
         y: 47
-        width: 14
-        height: 20
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c38b4de5b066f0670800000000000000
-      internalID: 8507130420147828796
+      spriteID: 9a5c4925ef7e9c8a0800000000000000
+      internalID: -6284236725525625431
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_8
+      name: Kid01_walk_8
       rect:
         serializedVersion: 2
-        x: 2
+        x: 3
         y: 23
-        width: 14
-        height: 21
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6c95c56aaa41eec80800000000000000
-      internalID: -8291667140774438458
+      spriteID: bb92dca44cf760470800000000000000
+      internalID: 8360510239305181627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_9
+      name: Kid01_walk_9
       rect:
         serializedVersion: 2
-        x: 18
+        x: 19
         y: 23
-        width: 14
-        height: 21
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7094af9d8438d2ed0800000000000000
-      internalID: -2437147474419627769
+      spriteID: 3ebf57eb4bddf6110800000000000000
+      internalID: 1256466589418912739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_10
+      name: Kid01_walk_10
       rect:
         serializedVersion: 2
-        x: 34
+        x: 35
         y: 23
-        width: 14
-        height: 20
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 71456f71a7bc71720800000000000000
-      internalID: 2816943817192002583
+      spriteID: f90d30b3212d0c770800000000000000
+      internalID: 8629127861783220383
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_11
+      name: Kid01_walk_11
       rect:
         serializedVersion: 2
-        x: 50
+        x: 51
         y: 23
-        width: 14
-        height: 20
+        width: 12
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: da003be448c2db2f0800000000000000
-      internalID: -955558599165017939
+      spriteID: ebe165950d02d39e0800000000000000
+      internalID: -1640118610068889922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_12
+      name: Kid01_walk_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
         width: 14
-        height: 20
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f83ae47d4e82d8c80800000000000000
-      internalID: -8318947973353528433
+      spriteID: 44cff658f170d6f20800000000000000
+      internalID: 3417395524208163908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_13
+      name: Kid01_walk_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
         width: 14
-        height: 20
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b33866de610dd7770800000000000000
-      internalID: 8610266859493032763
+      spriteID: cf41790bb5ad547a0800000000000000
+      internalID: -6393464008642980612
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_14
+      name: Kid01_walk_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
         width: 14
-        height: 19
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 67bb56b92a8b1ae50800000000000000
-      internalID: 6818934319346989942
+      spriteID: c1b306cdd40cf39a0800000000000000
+      internalID: -6251066317124650212
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Barmaid_idle_15
+      name: Kid01_walk_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
         width: 14
-        height: 19
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7d0acb616a9504c10800000000000000
-      internalID: 2035725601452368087
+      spriteID: 6f0d84ca7e865e240800000000000000
+      internalID: 4820374320407171318
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Barmaid_idle_0: 5165834394559894997
-      Barmaid_idle_1: -2363284825567433455
-      Barmaid_idle_10: 2816943817192002583
-      Barmaid_idle_11: -955558599165017939
-      Barmaid_idle_12: -8318947973353528433
-      Barmaid_idle_13: 8610266859493032763
-      Barmaid_idle_14: 6818934319346989942
-      Barmaid_idle_15: 2035725601452368087
-      Barmaid_idle_2: 5367599661847274870
-      Barmaid_idle_3: 1385218121429757199
-      Barmaid_idle_4: -2991596002154316471
-      Barmaid_idle_5: -5022982412896226094
-      Barmaid_idle_6: -438319155412391833
-      Barmaid_idle_7: 8507130420147828796
-      Barmaid_idle_8: -8291667140774438458
-      Barmaid_idle_9: -2437147474419627769
+      Kid01_walk_0: -8714920839056864724
+      Kid01_walk_1: -2152389905226942697
+      Kid01_walk_10: 8629127861783220383
+      Kid01_walk_11: -1640118610068889922
+      Kid01_walk_12: 3417395524208163908
+      Kid01_walk_13: -6393464008642980612
+      Kid01_walk_14: -6251066317124650212
+      Kid01_walk_15: 4820374320407171318
+      Kid01_walk_2: 319497996947561410
+      Kid01_walk_3: -2042300723366030354
+      Kid01_walk_4: -7608833910331347911
+      Kid01_walk_5: 5367984509741968303
+      Kid01_walk_6: 229653892361573201
+      Kid01_walk_7: -6284236725525625431
+      Kid01_walk_8: 8360510239305181627
+      Kid01_walk_9: 1256466589418912739
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

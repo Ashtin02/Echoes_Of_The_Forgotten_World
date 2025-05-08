@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: c4471d819155d4df9acc99928d6f7176
+guid: 7e4bd236a5b794b808eeb0b5817c725e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4334207460417465507
-    second: Kid01_idle_0
+      213: -6389375695305881593
+    second: Farmer_walk_0
   - first:
-      213: 208199816224130813
-    second: Kid01_idle_1
+      213: 1030365481818218194
+    second: Farmer_walk_1
   - first:
-      213: -7001732371391034305
-    second: Kid01_idle_2
+      213: -6399566232615246443
+    second: Farmer_walk_2
   - first:
-      213: 473851767684849818
-    second: Kid01_idle_3
+      213: -8701674565161937945
+    second: Farmer_walk_3
   - first:
-      213: 7104202632464388670
-    second: Kid01_idle_4
+      213: 6567275715775971466
+    second: Farmer_walk_4
   - first:
-      213: 4592927086144160688
-    second: Kid01_idle_5
+      213: 1978047359580794342
+    second: Farmer_walk_5
   - first:
-      213: -1651042598326706072
-    second: Kid01_idle_6
+      213: 7132458760643885533
+    second: Farmer_walk_6
   - first:
-      213: -6214410381032858661
-    second: Kid01_idle_7
+      213: 7279514298666788440
+    second: Farmer_walk_7
   - first:
-      213: 2627432316778378117
-    second: Kid01_idle_8
+      213: -2338844968647059237
+    second: Farmer_walk_8
   - first:
-      213: -8088995772527446390
-    second: Kid01_idle_9
+      213: 4183037646260015415
+    second: Farmer_walk_9
   - first:
-      213: -7900489694570127215
-    second: Kid01_idle_10
+      213: -8644264612686798301
+    second: Farmer_walk_10
   - first:
-      213: 112981827391404689
-    second: Kid01_idle_11
+      213: 6417807270628270821
+    second: Farmer_walk_11
   - first:
-      213: -4182844617767899726
-    second: Kid01_idle_12
+      213: 49057923220623973
+    second: Farmer_walk_12
   - first:
-      213: 5206716461740827285
-    second: Kid01_idle_13
+      213: -426684181669483920
+    second: Farmer_walk_13
   - first:
-      213: 370959645988223222
-    second: Kid01_idle_14
+      213: -5127855955042819089
+    second: Farmer_walk_14
   - first:
-      213: -4353896250704859631
-    second: Kid01_idle_15
+      213: 7859292947271415348
+    second: Farmer_walk_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kid01_idle_0
+      name: Farmer_walk_0
       rect:
         serializedVersion: 2
         x: 1
         y: 71
         width: 14
-        height: 16
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ace70db8b2362c30800000000000000
-      internalID: 4334207460417465507
+      spriteID: 70847c058a06457a0800000000000000
+      internalID: -6389375695305881593
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_1
+      name: Farmer_walk_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 71
-        width: 14
-        height: 16
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df6475831aca3e200800000000000000
-      internalID: 208199816224130813
+      spriteID: 2de599452f79c4e00800000000000000
+      internalID: 1030365481818218194
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_2
+      name: Farmer_walk_2
       rect:
         serializedVersion: 2
         x: 33
         y: 71
         width: 14
-        height: 15
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f3c42e64189d4de90800000000000000
-      internalID: -7001732371391034305
+      spriteID: 5952264fa6c2037a0800000000000000
+      internalID: -6399566232615246443
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_3
+      name: Farmer_walk_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 71
-        width: 14
-        height: 15
+        width: 15
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +252,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a90eb011ca5739600800000000000000
-      internalID: 473851767684849818
+      spriteID: 7e3987026117d3780800000000000000
+      internalID: -8701674565161937945
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_4
+      name: Farmer_walk_4
       rect:
         serializedVersion: 2
         x: 1
         y: 47
-        width: 12
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e325f6097a2379260800000000000000
-      internalID: 7104202632464388670
+      spriteID: a8040e4f776a32b50800000000000000
+      internalID: 6567275715775971466
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_5
+      name: Farmer_walk_5
       rect:
         serializedVersion: 2
         x: 17
         y: 47
-        width: 12
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b384e8b9da5dbf30800000000000000
-      internalID: 4592927086144160688
+      spriteID: 6ed66b8e79f637b10800000000000000
+      internalID: 1978047359580794342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_6
+      name: Farmer_walk_6
       rect:
         serializedVersion: 2
         x: 33
         y: 47
-        width: 12
-        height: 15
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 860e2b121815619e0800000000000000
-      internalID: -1651042598326706072
+      spriteID: dd93d4314759bf260800000000000000
+      internalID: 7132458760643885533
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_7
+      name: Farmer_walk_7
       rect:
         serializedVersion: 2
         x: 49
         y: 47
-        width: 12
-        height: 15
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -314,20 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bdb590e0faaf1c9a0800000000000000
-      internalID: -6214410381032858661
+      spriteID: 8562965afa7060560800000000000000
+      internalID: 7279514298666788440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_8
+      name: Farmer_walk_8
       rect:
         serializedVersion: 2
-        x: 3
+        x: 1
         y: 23
-        width: 12
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 583f4f875c3867420800000000000000
-      internalID: 2627432316778378117
+      spriteID: bd8151b84e0ca8fd0800000000000000
+      internalID: -2338844968647059237
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_9
+      name: Farmer_walk_9
       rect:
         serializedVersion: 2
-        x: 19
+        x: 17
         y: 23
-        width: 12
-        height: 16
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a867dd4c33d1ebf80800000000000000
-      internalID: -8088995772527446390
+      spriteID: 7311a6b93922d0a30800000000000000
+      internalID: 4183037646260015415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_10
+      name: Farmer_walk_10
       rect:
         serializedVersion: 2
-        x: 35
+        x: 33
         y: 23
-        width: 12
-        height: 15
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 190638b3b72db5290800000000000000
-      internalID: -7900489694570127215
+      spriteID: 322e2505227690880800000000000000
+      internalID: -8644264612686798301
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_11
+      name: Farmer_walk_11
       rect:
         serializedVersion: 2
-        x: 51
+        x: 49
         y: 23
-        width: 12
-        height: 15
+        width: 14
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 19a3db79f54619100800000000000000
-      internalID: 112981827391404689
+      spriteID: 5e2a7baa5b1a01950800000000000000
+      internalID: 6417807270628270821
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_12
+      name: Farmer_walk_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
         width: 14
-        height: 15
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2bd2a475bfc83f5c0800000000000000
-      internalID: -4182844617767899726
+      spriteID: 562dbf6dbe94ea000800000000000000
+      internalID: 49057923220623973
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_13
+      name: Farmer_walk_13
       rect:
         serializedVersion: 2
         x: 17
         y: 0
-        width: 14
-        height: 15
+        width: 15
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 592ad3c1909f14840800000000000000
-      internalID: 5206716461740827285
+      spriteID: 07aef485ffc141af0800000000000000
+      internalID: -426684181669483920
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_14
+      name: Farmer_walk_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
         width: 14
-        height: 14
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6f8f12525d9e52500800000000000000
-      internalID: 370959645988223222
+      spriteID: fe32d4c6d2236d8b0800000000000000
+      internalID: -5127855955042819089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid01_idle_15
+      name: Farmer_walk_15
       rect:
         serializedVersion: 2
         x: 49
         y: 0
-        width: 14
-        height: 14
+        width: 15
+        height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 11ee4db8d6ad393c0800000000000000
-      internalID: -4353896250704859631
+      spriteID: 43678d39b41d11d60800000000000000
+      internalID: 7859292947271415348
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kid01_idle_0: 4334207460417465507
-      Kid01_idle_1: 208199816224130813
-      Kid01_idle_10: -7900489694570127215
-      Kid01_idle_11: 112981827391404689
-      Kid01_idle_12: -4182844617767899726
-      Kid01_idle_13: 5206716461740827285
-      Kid01_idle_14: 370959645988223222
-      Kid01_idle_15: -4353896250704859631
-      Kid01_idle_2: -7001732371391034305
-      Kid01_idle_3: 473851767684849818
-      Kid01_idle_4: 7104202632464388670
-      Kid01_idle_5: 4592927086144160688
-      Kid01_idle_6: -1651042598326706072
-      Kid01_idle_7: -6214410381032858661
-      Kid01_idle_8: 2627432316778378117
-      Kid01_idle_9: -8088995772527446390
+      Farmer_walk_0: -6389375695305881593
+      Farmer_walk_1: 1030365481818218194
+      Farmer_walk_10: -8644264612686798301
+      Farmer_walk_11: 6417807270628270821
+      Farmer_walk_12: 49057923220623973
+      Farmer_walk_13: -426684181669483920
+      Farmer_walk_14: -5127855955042819089
+      Farmer_walk_15: 7859292947271415348
+      Farmer_walk_2: -6399566232615246443
+      Farmer_walk_3: -8701674565161937945
+      Farmer_walk_4: 6567275715775971466
+      Farmer_walk_5: 1978047359580794342
+      Farmer_walk_6: 7132458760643885533
+      Farmer_walk_7: 7279514298666788440
+      Farmer_walk_8: -2338844968647059237
+      Farmer_walk_9: 4183037646260015415
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

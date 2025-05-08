@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 44f839b539cb14457a3a8037c21c1ee7
+guid: 044dd0de48e4d42e6b8ee5a838ed1e69
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6359197276711125177
-    second: Kid02_walk_0
+      213: 687226044036645251
+    second: Merchant_idle_0
   - first:
-      213: 3255311728573987515
-    second: Kid02_walk_1
+      213: -7423969360247530
+    second: Merchant_idle_1
   - first:
-      213: 360734970574023659
-    second: Kid02_walk_2
+      213: 5043977001957412897
+    second: Merchant_idle_2
   - first:
-      213: 8229448390900704110
-    second: Kid02_walk_3
+      213: 335707607657928438
+    second: Merchant_idle_3
   - first:
-      213: -1390712767566055678
-    second: Kid02_walk_4
+      213: 978983089742923731
+    second: Merchant_idle_4
   - first:
-      213: -1775421026722569588
-    second: Kid02_walk_5
+      213: -4910477921367645368
+    second: Merchant_idle_5
   - first:
-      213: -8531797361924001250
-    second: Kid02_walk_6
+      213: -3080512441660583193
+    second: Merchant_idle_6
   - first:
-      213: 6563246545525589655
-    second: Kid02_walk_7
+      213: 1857507302023587409
+    second: Merchant_idle_7
   - first:
-      213: -6309029109471872100
-    second: Kid02_walk_8
+      213: 5438218829323366139
+    second: Merchant_idle_8
   - first:
-      213: -6030365850586824922
-    second: Kid02_walk_9
+      213: -5103462306770209244
+    second: Merchant_idle_9
   - first:
-      213: -4322102043495003818
-    second: Kid02_walk_10
+      213: -3079178998141896837
+    second: Merchant_idle_10
   - first:
-      213: -3315743149937052035
-    second: Kid02_walk_11
+      213: -410508652956264433
+    second: Merchant_idle_11
   - first:
-      213: 3082796245116160499
-    second: Kid02_walk_12
+      213: -8188759790815390946
+    second: Merchant_idle_12
   - first:
-      213: 1318136525567486236
-    second: Kid02_walk_13
+      213: 5297420854062575985
+    second: Merchant_idle_13
   - first:
-      213: 3433650996019647815
-    second: Kid02_walk_14
+      213: 6636245857148282122
+    second: Merchant_idle_14
   - first:
-      213: 1664338168944215380
-    second: Kid02_walk_15
+      213: -4092198857910983426
+    second: Merchant_idle_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,17 +141,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kid02_walk_0
+      name: Merchant_idle_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 71
-        width: 14
-        height: 16
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 74f7001f4c79fb7a0800000000000000
-      internalID: -6359197276711125177
+      spriteID: 381833b2274898900800000000000000
+      internalID: 687226044036645251
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_1
+      name: Merchant_idle_1
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 71
-        width: 14
-        height: 15
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbab0de05c03d2d20800000000000000
-      internalID: 3255311728573987515
+      spriteID: 615857f60ff95eff0800000000000000
+      internalID: -7423969360247530
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_2
+      name: Merchant_idle_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 71
-        width: 14
-        height: 16
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,20 +230,42 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: beb20236b86910500800000000000000
-      internalID: 360734970574023659
+      spriteID: 12059e0fb5ecff540800000000000000
+      internalID: 5043977001957412897
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_3
+      name: Merchant_idle_3
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 71
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f6d8de5a4ca8a400800000000000000
+      internalID: 335707607657928438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Merchant_idle_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
         width: 14
-        height: 15
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,20 +274,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e63eb05c5bfd43270800000000000000
-      internalID: 8229448390900704110
+      spriteID: 3d7cd39eeeb069d00800000000000000
+      internalID: 978983089742923731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_4
+      name: Merchant_idle_5
       rect:
         serializedVersion: 2
-        x: 1
+        x: 16
         y: 47
-        width: 13
-        height: 16
+        width: 14
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +296,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 207ff903b1233bce0800000000000000
-      internalID: -1390712767566055678
+      spriteID: 843ab7be85a7adbb0800000000000000
+      internalID: -4910477921367645368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_5
+      name: Merchant_idle_6
       rect:
         serializedVersion: 2
-        x: 17
+        x: 32
         y: 47
-        width: 13
-        height: 15
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,20 +318,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c8221779bff6c57e0800000000000000
-      internalID: -1775421026722569588
+      spriteID: 7e256ac6142df35d0800000000000000
+      internalID: -3080512441660583193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_6
+      name: Merchant_idle_7
       rect:
         serializedVersion: 2
-        x: 33
+        x: 48
         y: 47
-        width: 13
-        height: 16
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,42 +340,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e12b7e2b087f89980800000000000000
-      internalID: -8531797361924001250
+      spriteID: 1566fc8bc0137c910800000000000000
+      internalID: 1857507302023587409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_7
-      rect:
-        serializedVersion: 2
-        x: 49
-        y: 47
-        width: 13
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 796cc57a5f5551b50800000000000000
-      internalID: 6563246545525589655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kid02_walk_8
+      name: Merchant_idle_8
       rect:
         serializedVersion: 2
         x: 2
         y: 23
-        width: 13
-        height: 16
+        width: 14
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -336,20 +362,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c9b745c9373d178a0800000000000000
-      internalID: -6309029109471872100
+      spriteID: bfee8ac563f687b40800000000000000
+      internalID: 5438218829323366139
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_9
+      name: Merchant_idle_9
       rect:
         serializedVersion: 2
         x: 18
         y: 23
-        width: 13
-        height: 15
+        width: 14
+        height: 19
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -358,20 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62f302a8536df4ca0800000000000000
-      internalID: -6030365850586824922
+      spriteID: 426bd50421cdc29b0800000000000000
+      internalID: -5103462306770209244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_10
+      name: Merchant_idle_10
       rect:
         serializedVersion: 2
         x: 34
         y: 23
-        width: 13
-        height: 16
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -380,20 +406,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6598d76471fc404c0800000000000000
-      internalID: -4322102043495003818
+      spriteID: b77b8efe30f8445d0800000000000000
+      internalID: -3079178998141896837
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_11
+      name: Merchant_idle_11
       rect:
         serializedVersion: 2
         x: 50
         y: 23
-        width: 13
-        height: 15
+        width: 14
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,20 +428,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d7631953c2d1cf1d0800000000000000
-      internalID: -3315743149937052035
+      spriteID: f08515b1e849d4af0800000000000000
+      internalID: -410508652956264433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_12
+      name: Merchant_idle_12
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 14
-        height: 15
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,20 +450,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3f98e010ada48ca20800000000000000
-      internalID: 3082796245116160499
+      spriteID: e13527d2b5eab5e80800000000000000
+      internalID: -8188759790815390946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_13
+      name: Merchant_idle_13
       rect:
         serializedVersion: 2
-        x: 17
+        x: 16
         y: 0
-        width: 14
-        height: 14
+        width: 16
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -446,20 +472,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c19eaebaf26fa4210800000000000000
-      internalID: 1318136525567486236
+      spriteID: 17175282338348940800000000000000
+      internalID: 5297420854062575985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_14
+      name: Merchant_idle_14
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 0
-        width: 14
-        height: 15
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +494,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 745da6c7367c6af20800000000000000
-      internalID: 3433650996019647815
+      spriteID: a052b7d527ea81c50800000000000000
+      internalID: 6636245857148282122
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kid02_walk_15
+      name: Merchant_idle_15
       rect:
         serializedVersion: 2
-        x: 49
+        x: 48
         y: 0
-        width: 14
-        height: 14
+        width: 16
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4554b022fbae81710800000000000000
-      internalID: 1664338168944215380
+      spriteID: ef4e4f3f1d69537c0800000000000000
+      internalID: -4092198857910983426
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kid02_walk_0: -6359197276711125177
-      Kid02_walk_1: 3255311728573987515
-      Kid02_walk_10: -4322102043495003818
-      Kid02_walk_11: -3315743149937052035
-      Kid02_walk_12: 3082796245116160499
-      Kid02_walk_13: 1318136525567486236
-      Kid02_walk_14: 3433650996019647815
-      Kid02_walk_15: 1664338168944215380
-      Kid02_walk_2: 360734970574023659
-      Kid02_walk_3: 8229448390900704110
-      Kid02_walk_4: -1390712767566055678
-      Kid02_walk_5: -1775421026722569588
-      Kid02_walk_6: -8531797361924001250
-      Kid02_walk_7: 6563246545525589655
-      Kid02_walk_8: -6309029109471872100
-      Kid02_walk_9: -6030365850586824922
+      Merchant_idle_0: 687226044036645251
+      Merchant_idle_1: -7423969360247530
+      Merchant_idle_10: -3079178998141896837
+      Merchant_idle_11: -410508652956264433
+      Merchant_idle_12: -8188759790815390946
+      Merchant_idle_13: 5297420854062575985
+      Merchant_idle_14: 6636245857148282122
+      Merchant_idle_15: -4092198857910983426
+      Merchant_idle_2: 5043977001957412897
+      Merchant_idle_3: 335707607657928438
+      Merchant_idle_4: 978983089742923731
+      Merchant_idle_5: -4910477921367645368
+      Merchant_idle_6: -3080512441660583193
+      Merchant_idle_7: 1857507302023587409
+      Merchant_idle_8: 5438218829323366139
+      Merchant_idle_9: -5103462306770209244
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

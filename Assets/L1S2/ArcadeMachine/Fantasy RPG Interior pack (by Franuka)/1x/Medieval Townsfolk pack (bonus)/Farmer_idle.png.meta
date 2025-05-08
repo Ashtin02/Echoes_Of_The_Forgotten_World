@@ -1,55 +1,55 @@
 fileFormatVersion: 2
-guid: 7e4bd236a5b794b808eeb0b5817c725e
+guid: 1bcb13e766c88440a868b732aa080577
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6389375695305881593
-    second: Farmer_walk_0
+      213: 3268470051332887831
+    second: Farmer_idle_0
   - first:
-      213: 1030365481818218194
-    second: Farmer_walk_1
+      213: -6826832364856625882
+    second: Farmer_idle_1
   - first:
-      213: -6399566232615246443
-    second: Farmer_walk_2
+      213: -5990166430365732646
+    second: Farmer_idle_2
   - first:
-      213: -8701674565161937945
-    second: Farmer_walk_3
+      213: -4042264678337651180
+    second: Farmer_idle_3
   - first:
-      213: 6567275715775971466
-    second: Farmer_walk_4
+      213: -3372857457604916721
+    second: Farmer_idle_4
   - first:
-      213: 1978047359580794342
-    second: Farmer_walk_5
+      213: 5406953091664724818
+    second: Farmer_idle_5
   - first:
-      213: 7132458760643885533
-    second: Farmer_walk_6
+      213: 8826505691147008524
+    second: Farmer_idle_6
   - first:
-      213: 7279514298666788440
-    second: Farmer_walk_7
+      213: -5863613475923870600
+    second: Farmer_idle_7
   - first:
-      213: -2338844968647059237
-    second: Farmer_walk_8
+      213: 3760638678735602299
+    second: Farmer_idle_8
   - first:
-      213: 4183037646260015415
-    second: Farmer_walk_9
+      213: 7072343260235336708
+    second: Farmer_idle_9
   - first:
-      213: -8644264612686798301
-    second: Farmer_walk_10
+      213: -720834359423858937
+    second: Farmer_idle_10
   - first:
-      213: 6417807270628270821
-    second: Farmer_walk_11
+      213: -3986650715182323720
+    second: Farmer_idle_11
   - first:
-      213: 49057923220623973
-    second: Farmer_walk_12
+      213: -1583462284124312189
+    second: Farmer_idle_12
   - first:
-      213: -426684181669483920
-    second: Farmer_walk_13
+      213: -545729591663434249
+    second: Farmer_idle_13
   - first:
-      213: -5127855955042819089
-    second: Farmer_walk_14
+      213: 1173644777347684599
+    second: Farmer_idle_14
   - first:
-      213: 7859292947271415348
-    second: Farmer_walk_15
+      213: 7743636085296134904
+    second: Farmer_idle_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -141,16 +141,42 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Farmer_walk_0
+      name: Farmer_idle_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 71
-        width: 14
+        width: 15
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -160,14 +186,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 70847c058a06457a0800000000000000
-      internalID: -6389375695305881593
+      spriteID: 71513b0d130fb5d20800000000000000
+      internalID: 3268470051332887831
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_1
+      name: Farmer_idle_1
       rect:
         serializedVersion: 2
         x: 16
@@ -182,19 +208,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2de599452f79c4e00800000000000000
-      internalID: 1030365481818218194
+      spriteID: 625b49f52283241a0800000000000000
+      internalID: -6826832364856625882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_2
+      name: Farmer_idle_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 32
         y: 71
-        width: 14
+        width: 15
         height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,14 +230,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5952264fa6c2037a0800000000000000
-      internalID: -6399566232615246443
+      spriteID: ad0b49c6e57aedca0800000000000000
+      internalID: -5990166430365732646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_3
+      name: Farmer_idle_3
       rect:
         serializedVersion: 2
         x: 48
@@ -226,14 +252,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7e3987026117d3780800000000000000
-      internalID: -8701674565161937945
+      spriteID: 41e539f11bdf6e7c0800000000000000
+      internalID: -4042264678337651180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_4
+      name: Farmer_idle_4
       rect:
         serializedVersion: 2
         x: 1
@@ -248,14 +274,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8040e4f776a32b50800000000000000
-      internalID: 6567275715775971466
+      spriteID: f0a8e6133043131d0800000000000000
+      internalID: -3372857457604916721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_5
+      name: Farmer_idle_5
       rect:
         serializedVersion: 2
         x: 17
@@ -270,14 +296,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6ed66b8e79f637b10800000000000000
-      internalID: 1978047359580794342
+      spriteID: 25340e9803b590b40800000000000000
+      internalID: 5406953091664724818
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_6
+      name: Farmer_idle_6
       rect:
         serializedVersion: 2
         x: 33
@@ -292,14 +318,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: dd93d4314759bf260800000000000000
-      internalID: 7132458760643885533
+      spriteID: c0af7c8492c0e7a70800000000000000
+      internalID: 8826505691147008524
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_7
+      name: Farmer_idle_7
       rect:
         serializedVersion: 2
         x: 49
@@ -314,14 +340,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8562965afa7060560800000000000000
-      internalID: 7279514298666788440
+      spriteID: 87c3d534c9240aea0800000000000000
+      internalID: -5863613475923870600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_8
+      name: Farmer_idle_8
       rect:
         serializedVersion: 2
         x: 1
@@ -336,14 +362,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bd8151b84e0ca8fd0800000000000000
-      internalID: -2338844968647059237
+      spriteID: b7241ae14f8703430800000000000000
+      internalID: 3760638678735602299
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_9
+      name: Farmer_idle_9
       rect:
         serializedVersion: 2
         x: 17
@@ -358,14 +384,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7311a6b93922d0a30800000000000000
-      internalID: 4183037646260015415
+      spriteID: 40c84fb69b2062260800000000000000
+      internalID: 7072343260235336708
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_10
+      name: Farmer_idle_10
       rect:
         serializedVersion: 2
         x: 33
@@ -380,14 +406,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 322e2505227690880800000000000000
-      internalID: -8644264612686798301
+      spriteID: 70705a028f41ff5f0800000000000000
+      internalID: -720834359423858937
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_11
+      name: Farmer_idle_11
       rect:
         serializedVersion: 2
         x: 49
@@ -402,19 +428,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5e2a7baa5b1a01950800000000000000
-      internalID: 6417807270628270821
+      spriteID: 8f72006fb429ca8c0800000000000000
+      internalID: -3986650715182323720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_12
+      name: Farmer_idle_12
       rect:
         serializedVersion: 2
         x: 1
         y: 0
-        width: 14
+        width: 15
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -424,14 +450,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 562dbf6dbe94ea000800000000000000
-      internalID: 49057923220623973
+      spriteID: 38daa8f2179660ae0800000000000000
+      internalID: -1583462284124312189
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_13
+      name: Farmer_idle_13
       rect:
         serializedVersion: 2
         x: 17
@@ -446,19 +472,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 07aef485ffc141af0800000000000000
-      internalID: -426684181669483920
+      spriteID: 7f56b79e3dd2d68f0800000000000000
+      internalID: -545729591663434249
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_14
+      name: Farmer_idle_14
       rect:
         serializedVersion: 2
         x: 33
         y: 0
-        width: 14
+        width: 15
         height: 21
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -468,14 +494,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fe32d4c6d2236d8b0800000000000000
-      internalID: -5127855955042819089
+      spriteID: 7f81d4ee4bf994010800000000000000
+      internalID: 1173644777347684599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Farmer_walk_15
+      name: Farmer_idle_15
       rect:
         serializedVersion: 2
         x: 49
@@ -490,8 +516,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 43678d39b41d11d60800000000000000
-      internalID: 7859292947271415348
+      spriteID: 8faf8f5fdfbe67b60800000000000000
+      internalID: 7743636085296134904
       vertices: []
       indices: 
       edges: []
@@ -510,22 +536,22 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Farmer_walk_0: -6389375695305881593
-      Farmer_walk_1: 1030365481818218194
-      Farmer_walk_10: -8644264612686798301
-      Farmer_walk_11: 6417807270628270821
-      Farmer_walk_12: 49057923220623973
-      Farmer_walk_13: -426684181669483920
-      Farmer_walk_14: -5127855955042819089
-      Farmer_walk_15: 7859292947271415348
-      Farmer_walk_2: -6399566232615246443
-      Farmer_walk_3: -8701674565161937945
-      Farmer_walk_4: 6567275715775971466
-      Farmer_walk_5: 1978047359580794342
-      Farmer_walk_6: 7132458760643885533
-      Farmer_walk_7: 7279514298666788440
-      Farmer_walk_8: -2338844968647059237
-      Farmer_walk_9: 4183037646260015415
+      Farmer_idle_0: 3268470051332887831
+      Farmer_idle_1: -6826832364856625882
+      Farmer_idle_10: -720834359423858937
+      Farmer_idle_11: -3986650715182323720
+      Farmer_idle_12: -1583462284124312189
+      Farmer_idle_13: -545729591663434249
+      Farmer_idle_14: 1173644777347684599
+      Farmer_idle_15: 7743636085296134904
+      Farmer_idle_2: -5990166430365732646
+      Farmer_idle_3: -4042264678337651180
+      Farmer_idle_4: -3372857457604916721
+      Farmer_idle_5: 5406953091664724818
+      Farmer_idle_6: 8826505691147008524
+      Farmer_idle_7: -5863613475923870600
+      Farmer_idle_8: 3760638678735602299
+      Farmer_idle_9: 7072343260235336708
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -566,7 +566,7 @@ SpriteRenderer:
   m_Size: {x: 1.26, y: 0.62}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &541361439
@@ -1471,7 +1471,7 @@ SpriteRenderer:
   m_Size: {x: 0.2, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &788556085
@@ -1558,7 +1558,7 @@ SpriteRenderer:
   m_Size: {x: 1.34, y: 1.05}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &790929954
@@ -2057,6 +2057,8 @@ MonoBehaviour:
   interactionPrompt: {fileID: 288202040}
   transition: {fileID: 1042562262}
   TransitionTime: 1
+  BullyObject1: {fileID: 279214715}
+  BullyObject2: {fileID: 690638887}
 --- !u!61 &1099399715
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3112,7 +3114,7 @@ SpriteRenderer:
   m_Size: {x: 0.28, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1989462004
@@ -3214,7 +3216,7 @@ SpriteRenderer:
   m_Size: {x: 0.32, y: 0.32}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &2033699389
@@ -3597,7 +3599,7 @@ SpriteRenderer:
   m_Size: {x: 0.23, y: 0.3}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &2116232688

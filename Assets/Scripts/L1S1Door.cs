@@ -10,14 +10,30 @@ public class Door : MonoBehaviour
     public float TransitionTime = 1f;
     private bool inRange = false; //Dertermines if player is in range of interaction or not
 
+    public GameObject BullyObject1; //reference to bully sprite 1
+    public GameObject BullyObject2; //reference to bully sprite 2
+    private BullyMovement bullyMovement1; //bully 1 movement reference 
+
+    private BullyMovement bullyMovement2; //bully 2 movement reference 
+
+
     void Update()
     {
         //if player is in the range and hits space bar move to next scene (enter pizza shop)
         if (inRange && Input.GetKeyDown(KeyCode.Space))
         {
+            bullyMovement1 = BullyObject1.GetComponent<BullyMovement>();
+            bullyMovement2 = BullyObject2.GetComponent<BullyMovement>();
+            Rigidbody2D rb1 = BullyObject1.GetComponent<Rigidbody2D>();
+            Rigidbody2D rb2 = BullyObject2.GetComponent<Rigidbody2D>();
+            bullyMovement1.enabled = false;
+            bullyMovement2.enabled = false;
+            rb1.linearVelocity = Vector2.zero;
+            rb2.linearVelocity = Vector2.zero;
+
+
+
             LoadNextLevel();
-
-
         }
     }
 
@@ -50,6 +66,7 @@ public class Door : MonoBehaviour
 
     IEnumerator LoadLevel(int LevelIndex)
     {
+
         //Play anim 
         transition.SetTrigger("start");
 
@@ -57,8 +74,6 @@ public class Door : MonoBehaviour
         yield return new WaitForSeconds(TransitionTime);
 
         SceneManager.LoadScene(LevelIndex);
-
-        //Load Scene 
 
 
     }

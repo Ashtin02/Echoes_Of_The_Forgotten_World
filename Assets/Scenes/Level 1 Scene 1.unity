@@ -1653,6 +1653,8 @@ MonoBehaviour:
   interactionPrompt: {fileID: 288202040}
   transition: {fileID: 1042562262}
   TransitionTime: 1
+  BullyObject1: {fileID: 279214715}
+  BullyObject2: {fileID: 690638887}
 --- !u!61 &1099399715
 BoxCollider2D:
   m_ObjectHideFlags: 0

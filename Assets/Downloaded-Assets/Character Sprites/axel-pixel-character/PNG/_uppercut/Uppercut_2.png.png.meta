@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Uppercut_2.png_0: -5161120938006067979
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Blue_Nebula_02-512x512_0: -402881257976837091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

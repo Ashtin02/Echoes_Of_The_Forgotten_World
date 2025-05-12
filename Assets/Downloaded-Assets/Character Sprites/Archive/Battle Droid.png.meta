@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Battle Droid_0: 2460413655374848866
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

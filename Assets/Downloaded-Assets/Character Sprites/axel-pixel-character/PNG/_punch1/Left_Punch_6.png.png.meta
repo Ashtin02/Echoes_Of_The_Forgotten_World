@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Left_Punch_6.png_0: -5489153005971335100
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

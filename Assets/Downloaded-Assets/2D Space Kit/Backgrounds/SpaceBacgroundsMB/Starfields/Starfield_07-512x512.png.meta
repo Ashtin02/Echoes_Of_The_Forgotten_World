@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Starfield_07-512x512_0: -781026278883234737
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

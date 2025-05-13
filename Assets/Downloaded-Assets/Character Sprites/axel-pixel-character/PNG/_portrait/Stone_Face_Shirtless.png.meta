@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Stone_Face_Shirtless_0: -2192614177105748774
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

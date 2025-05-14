@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Buzz Droid_0: 3327760085728959038
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Ship_Side_3-TransparentBG_0: 3605541092612785313
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

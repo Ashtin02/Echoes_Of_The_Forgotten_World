@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Right_Punch_1.png_0: 5798689183761717010
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

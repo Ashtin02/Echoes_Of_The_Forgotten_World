@@ -27,27 +27,36 @@ public class L2S1_Dialog : MonoBehaviour
     [Header("Dialog Content")]
     public string[] lines = new string[]
     {
-        "Hey, I finally made it to the ship. What's the situation?",
-        "Welcome aboard! We've been waiting for you. The navigation system is malfunctioning.",
-        "I've tried to fix it, but the circuitry is fried. We need replacement parts.",
-        "ANALYSIS: PROBABILITY OF SUCCESSFUL REPAIR WITH CURRENT RESOURCES: 12.34%",
-        "Don't be so negative! We've gotten out of worse situations before.",
-        "My sensors indicate unusual energy signatures coming from the abandoned station.",
-        "Maybe we could salvage what we need from there? It's risky though.",
-        "I've made it through worse. Let me grab my gear and we'll head over."
+        "Whoa! Where am I? How did I get here?",  // Timmy
+        "Hey kid! How did you get aboard our ship?",  // Axel
+        "He just... appeared out of nowhere! The teleporter wasn't even active.",  // Huntress
+        "SCAN COMPLETE: SUBJECT IS HUMAN. AGE: APPROXIMATELY 10-12 EARTH YEARS.",  // Robot 1
+        "This is impossible. Our shields should prevent any unauthorized teleportation.",  // Huntress
+        "My sensors detect quantum displacement energy. Most unusual.",  // Robot 2
+        "Perhaps he came through the arcade gateway? It was activated recently.",  // Robot 3
+        "Arcade? Wait, I was just playing an arcade game and then...",  // Timmy
+        "We don't have time for this! Enemy ships approaching fast!",  // Axel
+        "Shields at 67% and dropping. We need to engage evasive maneuvers now.",  // Robot 2
+        "Kid, hang on tight. We'll figure this out after we deal with these raiders.",  // Huntress
+        "What? Raiders? Are we in... SPACE?!",  // Timmy
+        "Cannons 3 and 4! Suppressing fire now!!", // Axel
     };
-    
-    [Header("Speaker Order")]
+
     public int[] speakerInd = new int[]
     {
-        0, // Hero
-        1, // Human Male 
-        2, // Human Female
+        0, // Timmy
+        1, // Axel
+        2, // Huntress
         3, // Robot 1
-        2, // Human Female
+        2, // Huntress
         4, // Robot 2
         5, // Robot 3
-        0  // Hero
+        0, // Timmy
+        1, // Axel
+        4, // Robot 2
+        2, // Huntress
+        0, // Timmy
+        1, // Axel
     };
     
     private int currentLine = 0;
@@ -80,6 +89,7 @@ public class L2S1_Dialog : MonoBehaviour
                 // End dialog
                 dialogBox.SetActive(false);
                 dialogActive = false;
+                avatar.gameObject.SetActive(false);
                 
                 // You can add any code here that should happen when the dialog ends
                 // For example, triggering another event or animation

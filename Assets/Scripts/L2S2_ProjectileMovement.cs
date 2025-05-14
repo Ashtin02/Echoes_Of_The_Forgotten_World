@@ -1,0 +1,10 @@
+using UnityEngine;
+
+public class L2S2_ProjectileMovement : MonoBehaviour
+{
+    public float fireSpeed = 10f;
+    
+    private void Update() {
+        transform.Translate(Vector2.right * fireSpeed * Time.deltaTime);
+    }
+}

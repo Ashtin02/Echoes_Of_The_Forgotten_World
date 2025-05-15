@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ShipMovement : MonoBehaviour
+public class L2S2_ShipMovement : MonoBehaviour
 {
     public float movSpeed = 5f;
     private Rigidbody2D rb;

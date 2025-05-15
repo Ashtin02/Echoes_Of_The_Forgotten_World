@@ -770,11 +770,11 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: 65b5a4a8-f545-4c23-a920-a4bc44b82010
+  cloudProjectId: 3088856c-16f0-43cf-a5ca-bc463d24d117
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Echoes_Game
-  organizationId: ashriv
+  projectName: Echoes_Of_The_Forgotten_World 2025-05-12_19-42-52
+  organizationId: genjifuji
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -1976,6 +1976,8 @@ GameObject:
   - component: {fileID: 792581846}
   - component: {fileID: 792581845}
   - component: {fileID: 792581847}
+  - component: {fileID: 792581848}
+  - component: {fileID: 792581849}
   m_Layer: 0
   m_Name: ArcadeGame
   m_TagString: Untagged
@@ -2089,6 +2091,60 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: -1.3}
   m_Radius: 0.8
+--- !u!114 &792581848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792581843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58c5da1d13ec6564ba07642b169250d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 808213741}
+  arcadeMachine: {fileID: 792581846}
+  matDuration: 1.5
+  gameWorldSceneName: ArcadeGameWorld
+  matEffect: {fileID: 0}
+  matSound: {fileID: 0}
+--- !u!58 &792581849
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792581843}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_Radius: 2.36
 --- !u!1 &808213737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2205,15 +2261,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 100
-  m_Sprite: {fileID: 2673615633629062988, guid: 37b9fc76e6957482e87719a02fac2e9a, type: 3}
+  m_Sprite: {fileID: -2962222884277579539, guid: 5082d5f7c06b44c089471e37908a4926, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.26, y: 0.3}
+  m_Size: {x: 0.46666667, y: 0.53333336}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &808213741
@@ -2225,7 +2281,7 @@ Transform:
   m_GameObject: {fileID: 808213737}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.47, y: 1.3079, z: 0}
+  m_LocalPosition: {x: 19.51, y: 10.93, z: 0}
   m_LocalScale: {x: 11, y: 11, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []

@@ -171,11 +171,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 55163bbbf28cf4619876ad3d278fc2de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxLives: 3
+  currentLives: 0
   maxHealth: 3
   slider: {fileID: 280706741}
   ship: {fileID: 421786649}
   explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
   gameOverUI: {fileID: 1533513457}
+  hasShield: 0
 --- !u!114 &280706741
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -242,10 +245,11 @@ GameObject:
   - component: {fileID: 421786655}
   - component: {fileID: 421786656}
   - component: {fileID: 421786657}
-  - component: {fileID: 421786658}
+  - component: {fileID: 421786660}
+  - component: {fileID: 421786659}
   m_Layer: 0
   m_Name: Fighter
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,6 +425,9 @@ MonoBehaviour:
   projectile: {fileID: 612907188}
   firePoint: {fileID: 421786654}
   fireSpeed: 5
+  Piercing: 0
+  Double: 0
+  Triple: 0
 --- !u!114 &421786657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -433,7 +440,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f7046122bf58430a858733a604d8969, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &421786658
+--- !u!114 &421786659
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,14 +449,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 421786649}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 55163bbbf28cf4619876ad3d278fc2de, type: 3}
+  m_Script: {fileID: 11500000, guid: 83bfebef4c0e1438287a78591d46b2d0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 3
-  slider: {fileID: 0}
-  ship: {fileID: 421786649}
-  explosion: {fileID: 0}
-  gameOverUI: {fileID: 1533513457}
+  healthSystem: {fileID: 280706740}
+  explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
+  shipFiring: {fileID: 421786656}
+--- !u!114 &421786660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421786649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cadd091792b5a4f72aa74ee6810b3e0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUpController: {fileID: 421786659}
+  duration: 10
 --- !u!1 &522260619
 GameObject:
   m_ObjectHideFlags: 0

@@ -5,17 +5,22 @@ using System.Collections;
 
 public class L2S2_HealthSystem : MonoBehaviour
 {
+
+    public int maxLives = 3;
+    public int currentLives;
     public int maxHealth = 3;
     private int currentHealth;
     public Slider slider;
     public GameObject ship;
     public GameObject explosion;
     public GameObject gameOverUI;
+    public bool hasShield = false;
 
 
     void Start()
     {
         currentHealth = maxHealth;
+        currentLives = 1;
 
         if (gameOverUI != null)
         {
@@ -25,11 +30,25 @@ public class L2S2_HealthSystem : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
+        if (hasShield)
+        {
+            destroyShield();
+            return;
+        }
         currentHealth -= damage;
 
         if (currentHealth <= 0)
         {
-            Explode();
+            if (currentLives > 1)
+            {
+                currentLives--;
+                currentHealth = maxHealth;
+            }
+            else
+            {
+                currentLives = 0;
+                Explode();
+            }
         }
     }
 
@@ -71,12 +90,27 @@ public class L2S2_HealthSystem : MonoBehaviour
         SceneManager.LoadScene("Level 2 Scene 2");
     }
 
+    public void AddLife()
+    {
+        if (currentLives < maxLives)
+        {
+            currentLives = Mathf.Min(maxLives, currentLives + 1);
+        }
+    }
+
     IEnumerator ShowGameOverAfterDelay(float delay)
-{
-    yield return new WaitForSeconds(delay);
-    Time.timeScale = 0f;
-    gameOverUI.SetActive(true);
-}
+    {
+        yield return new WaitForSeconds(delay);
+        Time.timeScale = 0f;
+        gameOverUI.SetActive(true);
+    }
 
 
+    private void destroyShield()
+    {
+        hasShield = false;
+
+        var sprite = ship.GetComponent<SpriteRenderer>();
+        sprite.color = Color.white;
+    }
 }

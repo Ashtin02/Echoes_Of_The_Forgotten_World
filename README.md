@@ -76,4 +76,4 @@ More importantly, I've gained appreciation for how project requirements should s
 
 [Echoes of the Forgotten World Video Presentation](https://youtu.be/C_ioHrTwdL4)
 
-![Echoes of the Forgotten World PowerPoint](CapstonePresentation.pdf)
+[Echoes of the Forgotten World PowerPoint](CapstonePresentation.pdf)

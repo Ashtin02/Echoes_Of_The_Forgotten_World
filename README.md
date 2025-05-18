@@ -29,10 +29,10 @@ Assets/
 ## Angela's Blog 
 # Breaking Into Game Development: My Unity Journey
 
-## Project Snapshot
+## Project Overview
 Our team is developing a 2D game in Unity inspired by classic arcade games. This project gives us the opportunity to explore game development principles while delivering something engaging and nostalgic.
 
-## My Development Focus
+## Work Completed
 I concentrated on Level 1 - Scene 3, where I was responsible for:
 - Sourcing and implementing scene assets
 - Creating the arcade machine centerpiece
@@ -40,7 +40,7 @@ I concentrated on Level 1 - Scene 3, where I was responsible for:
     - This scene serves as a crucial transition point in our game, setting up the player's entry into the game world.
 - I developed the enemy ship and it's firing capablities. This was complicated as I wanted the movment to be a bit more 'natural' instead of a harsh zig-zag pattern.
 
-## Technical Hurdles & Growth
+## Technical Hurdles & Growth (Challenges & Solutions)
 Working with Unity presented unique challenges compared to my previous coding experiences:
 
 **Physics System Complexity**  
@@ -63,7 +63,16 @@ This project revealed how different development environments benefit from tailor
 2. We developed a "layering" approach to scene development, working in separate scenes before integration—similar to layers in Photoshop
 3. This compartmentalization minimized conflicts while maintaining creative freedom
 
-## Personal Growth
+## Key Learnings
 Returning to C# has been refreshing after my earlier alternative language project. The practical application within Unity expanded my understanding of the language a great deal.
 
 More importantly, I've gained appreciation for how project requirements should shape development processes, not the other way around. Our team's adaptability in creating custom workflows specifically for Unity collaboration demonstrates this principle.
+
+![image](https://github.com/user-attachments/assets/30294288-f681-4254-84b6-d696ee3386ce)
+
+![image](https://github.com/user-attachments/assets/34def04f-06c0-402d-bcc6-34cfd49b1d89)
+
+![image](https://github.com/user-attachments/assets/39ae1387-0ce0-4389-b64d-41cb4b39de74)
+
+
+

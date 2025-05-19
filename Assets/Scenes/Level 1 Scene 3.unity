@@ -2106,7 +2106,7 @@ MonoBehaviour:
   player: {fileID: 808213741}
   arcadeMachine: {fileID: 792581846}
   matDuration: 1.5
-  gameWorldSceneName: ArcadeGameWorld
+  gameWorldSceneName: Level 2 Scene 1
   matEffect: {fileID: 0}
   matSound: {fileID: 0}
 --- !u!58 &792581849

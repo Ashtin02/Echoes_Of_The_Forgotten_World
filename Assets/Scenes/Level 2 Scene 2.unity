@@ -2831,7 +2831,7 @@ MonoBehaviour:
   Ghost: {fileID: 55670013}
   Shrink: {fileID: 407775101}
   Grow: {fileID: 909475102}
-  spawnRate: 20
+  spawnRate: 5
   minX: -7
   maxX: 7
   spawnY: 8.5

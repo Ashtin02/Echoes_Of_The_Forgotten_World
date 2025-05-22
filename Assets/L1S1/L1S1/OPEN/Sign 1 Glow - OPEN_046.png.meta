@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b2d02712759d648d4b44a67f2142e93d
+guid: 5767d0f815f0f4281b66ce65c9cdf3a0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8861113688149432845
-    second: longstreet_0
+      213: 27759035690884811
+    second: Sign 1 Glow - OPEN_046_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: longstreet_0
+      name: Sign 1 Glow - OPEN_046_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2416
-        height: 256
+        width: 31
+        height: 24
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d0a9f7083fff8fa70800000000000000
-      internalID: 8861113688149432845
+      spriteID: bce99a522be926000800000000000000
+      internalID: 27759035690884811
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      tile_0101_0: 2857798344692077279
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

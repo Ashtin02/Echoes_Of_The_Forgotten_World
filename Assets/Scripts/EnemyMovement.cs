@@ -28,45 +28,45 @@ public class EnemyMovement : MonoBehaviour
     }
     
     void Update()
+{
+    // Calculate zigzag pattern
+    patternOffset += Time.deltaTime * patternSpeed;
+    float zigzag = Mathf.Sin(patternOffset) * zigzagAmount;
+    
+    // Move the enemy left/right in world space
+    Vector3 movement = new Vector3(direction * moveSpeed * Time.deltaTime, 0, 0);
+    movement.y += zigzag * Time.deltaTime;
+    
+    // Specify Space.World so movement is relative to the world axes
+    transform.Translate(movement, Space.World);
+    
+    // Continue with descent logic
+    if (isDescending)
     {
-        // Calculate zigzag pattern
-        patternOffset += Time.deltaTime * patternSpeed;
-        float zigzag = Mathf.Sin(patternOffset) * zigzagAmount;
+        transform.Translate(Vector2.down * downwardSpeed * Time.deltaTime, Space.World);
         
-        // Move the enemy left/right with zigzag
-        Vector3 movement = new Vector3(direction * moveSpeed * Time.deltaTime, 0, 0);
-        movement.y += zigzag * Time.deltaTime;
-        transform.Translate(movement);
-        
-        // Move down if still descending
-        if (isDescending)
+        if (transform.position.y <= stopDescendingY)
         {
-            transform.Translate(Vector2.down * downwardSpeed * Time.deltaTime);
-            
-            // Stop descending at certain height
-            if (transform.position.y <= stopDescendingY)
-            {
-                isDescending = false;
-            }
-        }
-        
-        // Check if it's gone too low (off screen) and reset
-        if (transform.position.y < maxDescendY)
-        {
-            // Natural reset - gradually move back to start
-            ResetPosition();
-        }
-        
-        // Check boundaries and reverse direction
-        if (transform.position.x >= rightBoundary.position.x && direction == 1)
-        {
-            direction = -1;
-        }
-        else if (transform.position.x <= leftBoundary.position.x && direction == -1)
-        {
-            direction = 1;
+            isDescending = false;
         }
     }
+    
+    // Reset position if off screen vertically
+    if (transform.position.y < maxDescendY)
+    {
+        ResetPosition();
+    }
+    
+    // Check horizontal boundaries and reverse direction
+    if (transform.position.x >= rightBoundary.position.x && direction == 1)
+    {
+        direction = -1;
+    }
+    else if (transform.position.x <= leftBoundary.position.x && direction == -1)
+    {
+        direction = 1;
+    }
+}
     
     void ResetPosition()
     {

@@ -8,15 +8,23 @@ public class EnemySpawner : MonoBehaviour
     public Transform[] spawnPoints;
     public float spawnInterval = 1f;
 
-    // Scene references for boundaries:
     public Transform leftBoundaryReference;
     public Transform rightBoundaryReference;
 
+    /// <summary>
+    /// Initialize the enemy spawner and start spawning enemies in waves.
+    /// This method is called once at the start of the game.
+    /// It begins a coroutine to spawn a specified number of enemies at defined intervals.
+    /// </summary>
     void Start()
     {
         StartCoroutine(SpawnWave());
     }
-
+    /// <summary>
+    /// Spawns a wave of enemies at defined spawn points.
+    /// This coroutine instantiates a specified number of enemies at random spawn points
+    /// </summary>
+    /// <returns></returns>
     IEnumerator SpawnWave()
     {
         for (int i = 0; i < enemiesPerWave; i++)
@@ -24,7 +32,6 @@ public class EnemySpawner : MonoBehaviour
             Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
             GameObject enemyInstance = Instantiate(enemyPrefab, spawnPoint.position, Quaternion.identity);
 
-            // Now the enemy prefab's movement component can be set directly.
             EnemyMovement movement = enemyInstance.GetComponent<EnemyMovement>();
             movement.leftBoundary = leftBoundaryReference;
             movement.rightBoundary = rightBoundaryReference;

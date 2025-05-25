@@ -14,40 +14,64 @@ public class ArcadeMachineTeleport : MonoBehaviour
     private bool isMaterializing = false;
     private bool playerInputEnabled = true;
     
+    /// <summary>
+    /// Initialize the ArcadeMachineTeleport component.
+    /// </summary>
     private void Start()
     {
         audioSource = GetComponent<AudioSource>();
         if (audioSource == null)
             audioSource = gameObject.AddComponent<AudioSource>();
     }
-    
+    /// <summary>
+    /// Trigger the teleport effect when called.
+    /// This can be called from a dialog or any other event.
+    /// </summary>
+    public void TriggerTeleport()
+{
+    if (!isMaterializing)
+    {
+        Debug.Log("Teleport triggered by dialog - starting effect");
+        StartMatPlayerIntoArcade();
+    }
+}
+    /// <summary>
+    /// Starts the materializing effect to suck the player into the arcade machine.
+    /// </summary>
     public void StartMatPlayerIntoArcade()
     {
         if (!isMaterializing)
             StartCoroutine(SuckPlayerIntoArcade());
     }
-    
+    /// <summary>
+    /// Disables player input during the materializing effect.
+    /// This prevents the player from moving or interacting while the effect is playing.
+    /// </summary>
     public void DisablePlayerInput()
     {
         playerInputEnabled = false;
     }
-
+    /// <summary>
+    /// 
+    /// </summary>
     public void EnablePlayerInput()
     {
         playerInputEnabled = true;
     }
-    
+    /// <summary>
+    /// Coroutine that handles the materializing effect of sucking the player into the arcade machine.
+    /// This includes moving the player towards the arcade machine, shrinking them, and playing sound and particle effects.
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator SuckPlayerIntoArcade()
     {
         isMaterializing = true;
-        
-        DisablePlayerInput();
             
         // Play sound effect
         if (matSound != null)
             audioSource.PlayOneShot(matSound);
             
-        // Start particle effect if assigned
+        // Start particle effect
         if (matEffect != null)
             matEffect.Play();
             
@@ -64,11 +88,9 @@ public class ArcadeMachineTeleport : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / matDuration;
             
-            // Move player toward arcade machine with increasing speed
             float speedMultiplier = Mathf.Lerp(0.5f, 3f, t);
             player.position = Vector3.Lerp(initialPosition, arcadeMachine.position, t * speedMultiplier);
             
-            // Shrink player as they approach the machine
             float scaleMultiplier = Mathf.Lerp(1f, 0.1f, t);
             player.localScale = initialScale * scaleMultiplier;
             
@@ -87,10 +109,14 @@ public class ArcadeMachineTeleport : MonoBehaviour
         
         isMaterializing = false;
     }
-    
+    /// <summary>
+    /// Coroutine that creates a screen flash effect when the player is teleported.
+    /// This simulates a visual effect to indicate the teleportation is happening.
+    /// Creates a white texture that fades in and out over 0.5 seconds using a sine wave pattern.
+    /// </summary>
+    /// <returns>IEnumerator for coroutine execution, yields null each frame during the flash animation</returns>
     private IEnumerator FlashScreen()
     {
-        // Create a white texture to cover the screen
         Texture2D whiteTexture = new Texture2D(1, 1);
         whiteTexture.SetPixel(0, 0, Color.white);
         whiteTexture.Apply();
@@ -110,7 +136,11 @@ public class ArcadeMachineTeleport : MonoBehaviour
         
         flashAlpha = 0;
     }
-    
+    /// <summary>
+    /// Checks if player input is currently enabled.
+    /// This is used to determine if the player can move or interact with the game world.
+    /// </summary>
+    /// <returns></returns>
     public bool IsPlayerInputEnabled()
     {
         return playerInputEnabled;
@@ -132,13 +162,4 @@ public class ArcadeMachineTeleport : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
-{
-    // Automatically start the effect when the character enters the trigger area
-    if (other.gameObject.name == "Character" && !isMaterializing)
-    {
-        Debug.Log("Character entered arcade machine area - starting effect");
-        StartMatPlayerIntoArcade();
-    }
-}
 }

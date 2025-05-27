@@ -2057,6 +2057,7 @@ GameObject:
   - component: {fileID: 792581847}
   - component: {fileID: 792581848}
   - component: {fileID: 792581849}
+  - component: {fileID: 792581850}
   m_Layer: 0
   m_Name: ArcadeGame
   m_TagString: Untagged
@@ -2224,6 +2225,18 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 2.36
+--- !u!114 &792581850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 792581843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f647a7ee5fff3c4794690466927ac60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &808213737
 GameObject:
   m_ObjectHideFlags: 0
@@ -2560,7 +2573,7 @@ GameObject:
   - component: {fileID: 887096175}
   - component: {fileID: 887096174}
   - component: {fileID: 887096173}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: TMP (UI)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2614,8 +2627,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2652,7 +2665,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -7.208626, y: 4.359007, z: 30.997147, w: 7.7493076}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -3335,80 +3348,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.445}
---- !u!1 &1079976215
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1079976217}
-  - component: {fileID: 1079976216}
-  m_Layer: 0
-  m_Name: DialogueController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1079976216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079976215}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 048c1d8b15b2c4ef18ec2d5bd55582f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 1599969646}
-  dialogText: {fileID: 887096173}
-  heroObject: {fileID: 0}
-  humanMaleObject: {fileID: 0}
-  humanFemaleObject: {fileID: 0}
-  robot1Object: {fileID: 0}
-  robot2Object: {fileID: 0}
-  robot3Object: {fileID: 0}
-  avatar: {fileID: 0}
-  heroAvatar: {fileID: 0}
-  humanMaleAvatar: {fileID: 0}
-  humanFemaleAvatar: {fileID: 0}
-  robot1Avatar: {fileID: 0}
-  robot2Avatar: {fileID: 0}
-  robot3Avatar: {fileID: 0}
-  lines:
-  - Whoa! Where am I? How did I get here?
-  - Hey kid! How did you get aboard our ship?
-  - He just... appeared out of nowhere! The teleporter wasn't even active.
-  - 'SCAN COMPLETE: SUBJECT IS HUMAN. AGE: APPROXIMATELY 10-12 EARTH YEARS.'
-  - This is impossible. Our shields should prevent any unauthorized teleportation.
-  - My sensors detect quantum displacement energy. Most unusual.
-  - Perhaps he came through the arcade gateway? It was activated recently.
-  - Arcade? Wait, I was just playing an arcade game and then...
-  - We don't have time for this! Enemy ships approaching fast!
-  - Shields at 67% and dropping. We need to engage evasive maneuvers now.
-  - Kid, hang on tight. We'll figure this out after we deal with these raiders.
-  - What? Raiders? Are we in... SPACE?!
-  - Cannons 3 and 4! Suppressing fire now!!
-  speakerInd: 00000000010000000200000003000000020000000400000005000000000000000100000004000000020000000000000001000000
---- !u!4 &1079976217
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1079976215}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 168.75, y: 247.25, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1103726423
 GameObject:
   m_ObjectHideFlags: 0
@@ -4694,7 +4633,7 @@ GameObject:
   - component: {fileID: 1599969647}
   - component: {fileID: 1599969649}
   - component: {fileID: 1599969648}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6637,7 +6576,6 @@ GameObject:
   - component: {fileID: 2025452677}
   - component: {fileID: 2025452676}
   - component: {fileID: 2025452675}
-  - component: {fileID: 2025452674}
   m_Layer: 0
   m_Name: DialogueCanvas
   m_TagString: Untagged
@@ -6645,48 +6583,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2025452674
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025452673}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 048c1d8b15b2c4ef18ec2d5bd55582f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogBox: {fileID: 1599969646}
-  dialogText: {fileID: 887096173}
-  heroObject: {fileID: 0}
-  humanMaleObject: {fileID: 0}
-  humanFemaleObject: {fileID: 0}
-  robot1Object: {fileID: 0}
-  robot2Object: {fileID: 0}
-  robot3Object: {fileID: 0}
-  avatar: {fileID: 0}
-  heroAvatar: {fileID: 0}
-  humanMaleAvatar: {fileID: 0}
-  humanFemaleAvatar: {fileID: 0}
-  robot1Avatar: {fileID: 0}
-  robot2Avatar: {fileID: 0}
-  robot3Avatar: {fileID: 0}
-  lines:
-  - Whoa! Where am I? How did I get here?
-  - Hey kid! How did you get aboard our ship?
-  - He just... appeared out of nowhere! The teleporter wasn't even active.
-  - 'SCAN COMPLETE: SUBJECT IS HUMAN. AGE: APPROXIMATELY 10-12 EARTH YEARS.'
-  - This is impossible. Our shields should prevent any unauthorized teleportation.
-  - My sensors detect quantum displacement energy. Most unusual.
-  - Perhaps he came through the arcade gateway? It was activated recently.
-  - Arcade? Wait, I was just playing an arcade game and then...
-  - We don't have time for this! Enemy ships approaching fast!
-  - Shields at 67% and dropping. We need to engage evasive maneuvers now.
-  - Kid, hang on tight. We'll figure this out after we deal with these raiders.
-  - What? Raiders? Are we in... SPACE?!
-  - Cannons 3 and 4! Suppressing fire now!!
-  speakerInd: 00000000010000000200000003000000020000000400000005000000000000000100000004000000020000000000000001000000
 --- !u!114 &2025452675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7459,7 +7355,6 @@ SceneRoots:
   - {fileID: 1975086319}
   - {fileID: 2025452678}
   - {fileID: 792581846}
-  - {fileID: 1079976217}
   - {fileID: 1189598234}
   - {fileID: 1575745637}
   - {fileID: 1432475280}

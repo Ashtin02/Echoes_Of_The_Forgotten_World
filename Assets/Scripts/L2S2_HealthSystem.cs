@@ -87,7 +87,7 @@ public class L2S2_HealthSystem : MonoBehaviour
     public void RetryLevel()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Level 2 Scene 2");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     public void AddLife()

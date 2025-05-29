@@ -10,12 +10,15 @@ public class L2S2_ShipFiring : MonoBehaviour
     public bool Double = false;
 
     public bool Triple = false;
+    public float fireRate = 0.25f;
+    public float nextFiretime = 0f;
 
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFiretime)
         {
             FireProjectile();
+            nextFiretime = Time.time + fireRate;
         }
     }
 

@@ -1,0 +1,1209 @@
+fileFormatVersion: 2
+guid: 448cd6841ce9d43388f55178bd6cc060
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4765166297048361892
+    second: Boss 7 - Alt Sprite Sheet_0
+  - first:
+      213: -8248126470085628398
+    second: Boss 7 - Alt Sprite Sheet_1
+  - first:
+      213: -2635025658593978405
+    second: Boss 7 - Alt Sprite Sheet_2
+  - first:
+      213: -4817427518724316339
+    second: Boss 7 - Alt Sprite Sheet_3
+  - first:
+      213: -6492097494876487704
+    second: Boss 7 - Alt Sprite Sheet_4
+  - first:
+      213: 5562708792831399587
+    second: Boss 7 - Alt Sprite Sheet_5
+  - first:
+      213: -5370479108509328912
+    second: Boss 7 - Alt Sprite Sheet_6
+  - first:
+      213: 4443122817293662218
+    second: Boss 7 - Alt Sprite Sheet_7
+  - first:
+      213: -2190860739733080005
+    second: Boss 7 - Alt Sprite Sheet_8
+  - first:
+      213: -3547333097239147615
+    second: Boss 7 - Alt Sprite Sheet_9
+  - first:
+      213: 4307741288670244131
+    second: Boss 7 - Alt Sprite Sheet_10
+  - first:
+      213: 5963072630290918104
+    second: Boss 7 - Alt Sprite Sheet_11
+  - first:
+      213: 7362888316430676337
+    second: Boss 7 - Alt Sprite Sheet_12
+  - first:
+      213: 5410768562883537983
+    second: Boss 7 - Alt Sprite Sheet_13
+  - first:
+      213: -1064112530981756406
+    second: Boss 7 - Alt Sprite Sheet_14
+  - first:
+      213: 1790983614436218274
+    second: Boss 7 - Alt Sprite Sheet_15
+  - first:
+      213: 290678520853467748
+    second: Boss 7 - Alt Sprite Sheet_16
+  - first:
+      213: -1325448263389361461
+    second: Boss 7 - Alt Sprite Sheet_17
+  - first:
+      213: 4868702452948470007
+    second: Boss 7 - Alt Sprite Sheet_18
+  - first:
+      213: 9105545638468839120
+    second: Boss 7 - Alt Sprite Sheet_19
+  - first:
+      213: 2520899686705981148
+    second: Boss 7 - Alt Sprite Sheet_20
+  - first:
+      213: 5570518609233617053
+    second: Boss 7 - Alt Sprite Sheet_21
+  - first:
+      213: -3020704546424344892
+    second: Boss 7 - Alt Sprite Sheet_22
+  - first:
+      213: -6537796343667127896
+    second: Boss 7 - Alt Sprite Sheet_23
+  - first:
+      213: -9132118097748628864
+    second: Boss 7 - Alt Sprite Sheet_24
+  - first:
+      213: 7594212423438324610
+    second: Boss 7 - Alt Sprite Sheet_25
+  - first:
+      213: 4718108316393901672
+    second: Boss 7 - Alt Sprite Sheet_26
+  - first:
+      213: -6838972477382509790
+    second: Boss 7 - Alt Sprite Sheet_27
+  - first:
+      213: 8905635614190289036
+    second: Boss 7 - Alt Sprite Sheet_28
+  - first:
+      213: 1040275695065950937
+    second: Boss 7 - Alt Sprite Sheet_29
+  - first:
+      213: -2050640247750127793
+    second: Boss 7 - Alt Sprite Sheet_30
+  - first:
+      213: 4881694158427649561
+    second: Boss 7 - Alt Sprite Sheet_31
+  - first:
+      213: 3026177850355477180
+    second: Boss 7 - Alt Sprite Sheet_32
+  - first:
+      213: -7196287965976158327
+    second: Boss 7 - Alt Sprite Sheet_33
+  - first:
+      213: 2033519808783371326
+    second: Boss 7 - Alt Sprite Sheet_34
+  - first:
+      213: 1557127225086629142
+    second: Boss 7 - Alt Sprite Sheet_35
+  - first:
+      213: 3186619492670801208
+    second: Boss 7 - Alt Sprite Sheet_36
+  - first:
+      213: 1983045262588342987
+    second: Boss 7 - Alt Sprite Sheet_37
+  - first:
+      213: 3293620659404216172
+    second: Boss 7 - Alt Sprite Sheet_38
+  - first:
+      213: 6921225024554635163
+    second: Boss 7 - Alt Sprite Sheet_39
+  - first:
+      213: 7213892439651214669
+    second: Boss 7 - Alt Sprite Sheet_40
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 275
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab2b3f0085412240800000000000000
+      internalID: 4765166297048361892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 275
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21eac080da4c88d80800000000000000
+      internalID: -8248126470085628398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 275
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd7577ddf128e6bd0800000000000000
+      internalID: -2635025658593978405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 275
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d43ee3f023f052db0800000000000000
+      internalID: -4817427518724316339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 211
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8effeaa99bf67e5a0800000000000000
+      internalID: -6492097494876487704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 211
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a658a1bc26b23d40800000000000000
+      internalID: 5562708792831399587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 211
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f915af64b93875b0800000000000000
+      internalID: -5370479108509328912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 211
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08b83269a429ad30800000000000000
+      internalID: 4443122817293662218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 211
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b383cdfc3cf7891e0800000000000000
+      internalID: -2190860739733080005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 211
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ab0317b75755cec0800000000000000
+      internalID: -3547333097239147615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 211
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32d297fe0eb28cb30800000000000000
+      internalID: 4307741288670244131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Special 8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 211
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da285aa6f611c250800000000000000
+      internalID: 5963072630290918104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 147
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17179bdd9eb3e2660800000000000000
+      internalID: 7362888316430676337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 147
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3c26882759e61b40800000000000000
+      internalID: 5410768562883537983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 147
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a026acd7a438b31f0800000000000000
+      internalID: -1064112530981756406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 147
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a51409bb1adad810800000000000000
+      internalID: 1790983614436218274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 147
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4629e4b1392b80400800000000000000
+      internalID: 290678520853467748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 147
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcac484b3df0b9de0800000000000000
+      internalID: -1325448263389361461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 147
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f80111e51b119340800000000000000
+      internalID: 4868702452948470007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Low Damage 8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 147
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6ea03d3856d5e70800000000000000
+      internalID: 9105545638468839120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 83
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd6e084a8e80cf220800000000000000
+      internalID: 2520899686705981148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 83
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90a21649257e4d40800000000000000
+      internalID: 5570518609233617053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 3
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 83
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ce28fa283d4416d0800000000000000
+      internalID: -3020704546424344892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 4
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 83
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a98fd93dd41545a0800000000000000
+      internalID: -6537796343667127896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 5
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 83
+        width: 59
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08ae6c069f2344180800000000000000
+      internalID: -9132118097748628864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 6
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 83
+        width: 59
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28356e796ff046960800000000000000
+      internalID: 7594212423438324610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 7
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 83
+        width: 59
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e897224861a7140800000000000000
+      internalID: 4718108316393901672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - High Damage 8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 83
+        width: 59
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b31f824c61711a0800000000000000
+      internalID: -6838972477382509790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8041e2386c279b70800000000000000
+      internalID: 8905635614190289036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dae0e8ab3dcf6e00800000000000000
+      internalID: 1040275695065950937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f0cb63f89aa83e0800000000000000
+      internalID: -2050640247750127793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 4
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916fd2709f24fb340800000000000000
+      internalID: 4881694158427649561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_2_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 2
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbae795b8b42ff920800000000000000
+      internalID: 3026177850355477180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_2_2
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f9296f836a12c90800000000000000
+      internalID: -7196287965976158327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_3_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 4
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cc046fd73883c10800000000000000
+      internalID: 2033519808783371326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_3_2
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615d06116f60c9510800000000000000
+      internalID: 1557127225086629142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_3_3
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 2
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8358afe8b85293c20800000000000000
+      internalID: 3186619492670801208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_4_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 3
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc27912e821358b10800000000000000
+      internalID: 1983045262588342987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Shot_4_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c671da41a8a45bd20800000000000000
+      internalID: 3293620659404216172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 4
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9f8f175d712d0060800000000000000
+      internalID: 6921225024554635163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 7 - Alt Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 3
+        width: 25
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d456949f3f4ec1460800000000000000
+      internalID: 7213892439651214669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 45717e54aa7c54b65a337a74c6bb6359
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Boss 7 - Alt Sprite Sheet_0: 4765166297048361892
+      Boss 7 - Alt Sprite Sheet_1: -8248126470085628398
+      Boss 7 - Alt Sprite Sheet_2: -2635025658593978405
+      Boss 7 - Alt Sprite Sheet_28: 8905635614190289036
+      Boss 7 - Alt Sprite Sheet_29: 1040275695065950937
+      Boss 7 - Alt Sprite Sheet_3: -4817427518724316339
+      Boss 7 - Alt Sprite Sheet_30: -2050640247750127793
+      Boss 7 - Alt Sprite Sheet_31: 4881694158427649561
+      Boss 7 - Alt Sprite Sheet_39: 6921225024554635163
+      Boss 7 - Alt Sprite Sheet_40: 7213892439651214669
+      Boss 7 - High Damage 1: 2520899686705981148
+      Boss 7 - High Damage 2: 5570518609233617053
+      Boss 7 - High Damage 3: -3020704546424344892
+      Boss 7 - High Damage 4: -6537796343667127896
+      Boss 7 - High Damage 5: -9132118097748628864
+      Boss 7 - High Damage 6: 7594212423438324610
+      Boss 7 - High Damage 7: 4718108316393901672
+      Boss 7 - High Damage 8: -6838972477382509790
+      Boss 7 - Low Damage 1: 7362888316430676337
+      Boss 7 - Low Damage 2: 5410768562883537983
+      Boss 7 - Low Damage 3: -1064112530981756406
+      Boss 7 - Low Damage 4: 1790983614436218274
+      Boss 7 - Low Damage 5: 290678520853467748
+      Boss 7 - Low Damage 6: -1325448263389361461
+      Boss 7 - Low Damage 7: 4868702452948470007
+      Boss 7 - Low Damage 8: 9105545638468839120
+      Boss 7 - Shot_2_1: 3026177850355477180
+      Boss 7 - Shot_2_2: -7196287965976158327
+      Boss 7 - Shot_3_1: 2033519808783371326
+      Boss 7 - Shot_3_2: 1557127225086629142
+      Boss 7 - Shot_3_3: 3186619492670801208
+      Boss 7 - Shot_4_1: 1983045262588342987
+      Boss 7 - Shot_4_2: 3293620659404216172
+      Boss 7 - Special 1: -6492097494876487704
+      Boss 7 - Special 2: 5562708792831399587
+      Boss 7 - Special 3: -5370479108509328912
+      Boss 7 - Special 4: 4443122817293662218
+      Boss 7 - Special 5: -2190860739733080005
+      Boss 7 - Special 6: -3547333097239147615
+      Boss 7 - Special 7: 4307741288670244131
+      Boss 7 - Special 8: 5963072630290918104
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

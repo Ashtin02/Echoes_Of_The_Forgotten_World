@@ -327,7 +327,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_6
+      name: Final Boss - Shot_2
       rect:
         serializedVersion: 2
         x: 83
@@ -371,7 +371,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_8
+      name: Final Boss - Shot_3_1
       rect:
         serializedVersion: 2
         x: 116
@@ -393,7 +393,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_9
+      name: Final Boss - Shot_3_2
       rect:
         serializedVersion: 2
         x: 132
@@ -415,7 +415,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_10
+      name: Final Boss - Shot_3_3
       rect:
         serializedVersion: 2
         x: 144
@@ -437,7 +437,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_11
+      name: Final Boss - Shot_3_4
       rect:
         serializedVersion: 2
         x: 160
@@ -459,7 +459,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_12
+      name: Final Boss - shot_4_1
       rect:
         serializedVersion: 2
         x: 181
@@ -481,7 +481,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_13
+      name: Final Boss - Shot_4_2
       rect:
         serializedVersion: 2
         x: 197
@@ -503,7 +503,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_14
+      name: Final Boss - Shot_5_1
       rect:
         serializedVersion: 2
         x: 213
@@ -525,7 +525,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_15
+      name: Final Boss - Shot_5_2
       rect:
         serializedVersion: 2
         x: 228
@@ -547,11 +547,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_16
+      name: Final Boss - Shot_5_Gun
       rect:
         serializedVersion: 2
         x: 243
-        y: 2
+        y: 1
         width: 10
         height: 11
       alignment: 0
@@ -569,7 +569,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Final Boss - Alt Sprite Sheet_17
+      name: Final Boss - Shot_5_un
       rect:
         serializedVersion: 2
         x: 259
@@ -1419,14 +1419,6 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       Final Boss - Alt Sprite Sheet_1: -1784553778
-      Final Boss - Alt Sprite Sheet_10: -1546187144
-      Final Boss - Alt Sprite Sheet_11: -105414223
-      Final Boss - Alt Sprite Sheet_12: -1423595754
-      Final Boss - Alt Sprite Sheet_13: 287191391
-      Final Boss - Alt Sprite Sheet_14: -1834003333
-      Final Boss - Alt Sprite Sheet_15: 921064078
-      Final Boss - Alt Sprite Sheet_16: 1955539450
-      Final Boss - Alt Sprite Sheet_17: -522070602
       Final Boss - Alt Sprite Sheet_18: 1408370085
       Final Boss - Alt Sprite Sheet_19: -2119084242
       Final Boss - Alt Sprite Sheet_2: 727805603
@@ -1437,10 +1429,7 @@ TextureImporter:
       Final Boss - Alt Sprite Sheet_3: -1712711654
       Final Boss - Alt Sprite Sheet_4: -1267396428
       Final Boss - Alt Sprite Sheet_5: 1611719763
-      Final Boss - Alt Sprite Sheet_6: -1901914094
       Final Boss - Alt Sprite Sheet_7: -1740118993
-      Final Boss - Alt Sprite Sheet_8: -1008763838
-      Final Boss - Alt Sprite Sheet_9: 90942444
       Final Boss - High Damage 1: -1598144688
       Final Boss - High Damage 2: 404490629
       Final Boss - High Damage 3: -871537689
@@ -1465,6 +1454,16 @@ TextureImporter:
       Final Boss - Low Damage 6: 272096921
       Final Boss - Low Damage 7: -1994788513
       Final Boss - Low Damage 8: -128667367
+      Final Boss - Shot_2: -1901914094
+      Final Boss - Shot_3_1: -1008763838
+      Final Boss - Shot_3_2: 90942444
+      Final Boss - Shot_3_3: -1546187144
+      Final Boss - Shot_3_4: -105414223
+      Final Boss - Shot_4_2: 287191391
+      Final Boss - Shot_5_1: -1834003333
+      Final Boss - Shot_5_2: 921064078
+      Final Boss - Shot_5_Gun: 1955539450
+      Final Boss - Shot_5_un: -522070602
       Final Boss - Special 1: 1797534876
       Final Boss - Special 2: -1399002533
       Final Boss - Special 3: -197368531
@@ -1473,6 +1472,7 @@ TextureImporter:
       Final Boss - Special 6: -6605746
       Final Boss - Special 7: -257690049
       Final Boss - Special 8: -359620370
+      Final Boss - shot_4_1: -1423595754
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

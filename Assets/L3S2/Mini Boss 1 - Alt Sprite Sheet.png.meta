@@ -856,7 +856,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_28
+      name: Boss 6 - Shot_1_1
       rect:
         serializedVersion: 2
         x: 5
@@ -878,7 +878,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_29
+      name: Boss 6 - Shot_1_2
       rect:
         serializedVersion: 2
         x: 21
@@ -900,7 +900,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_30
+      name: Boss 6 - Shot_1_3
       rect:
         serializedVersion: 2
         x: 37
@@ -922,7 +922,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_31
+      name: Boss 6 - Shot_1_4
       rect:
         serializedVersion: 2
         x: 53
@@ -944,7 +944,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_32
+      name: Boss 6 - Shot_2_1
       rect:
         serializedVersion: 2
         x: 69
@@ -966,12 +966,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_33
+      name: Boss 6 - Shot_2_2
       rect:
         serializedVersion: 2
         x: 85
         y: 4
-        width: 21
+        width: 7
         height: 11
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -988,13 +988,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_34
+      name: MiniBoss1 - Shot_3_2
       rect:
         serializedVersion: 2
         x: 117
-        y: 4
-        width: 23
-        height: 9
+        y: 3
+        width: 6
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1010,10 +1010,10 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_35
+      name: Boss 6 - Shot_4_1
       rect:
         serializedVersion: 2
-        x: 147
+        x: 131
         y: 3
         width: 10
         height: 10
@@ -1032,14 +1032,14 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 6 - Alt Sprite Sheet_36
+      name: Boss 6 - Shot_4_2
       rect:
         serializedVersion: 2
-        x: 160
-        y: 0
-        width: 58
-        height: 17
-      alignment: 0
+        x: 145
+        y: 2
+        width: 14
+        height: 11
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
@@ -1097,6 +1097,94 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Mini Boss 1 - Shot_3_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4
+        width: 6
+        height: 7
+      alignment: 9
+      pivot: {x: 0.4999993, y: 0.547816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5dd8333159da41d0b5e743d6ad491f4
+      internalID: -653727027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 6 - Shot_4_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1a715a6dd524e6fac4c086e2f9bd18
+      internalID: -431185045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 6 - Shot_4_4
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 0
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ad9af01492e4227a272a8cb2ef0aea
+      internalID: 1695205748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boss 6 - Shot_4_5
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66d7f0a1d1df7406cbd4675229ceea3e
+      internalID: 722770365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
@@ -1114,16 +1202,7 @@ TextureImporter:
       Boss 6 - Alt Sprite Sheet_0: -5873072928995209549
       Boss 6 - Alt Sprite Sheet_1: -6571551655600103548
       Boss 6 - Alt Sprite Sheet_2: -6055226325597338976
-      Boss 6 - Alt Sprite Sheet_28: -8399795690358041533
-      Boss 6 - Alt Sprite Sheet_29: -3518724158222013859
       Boss 6 - Alt Sprite Sheet_3: -8797853348202689700
-      Boss 6 - Alt Sprite Sheet_30: 539357727875191845
-      Boss 6 - Alt Sprite Sheet_31: -6029365973255141230
-      Boss 6 - Alt Sprite Sheet_32: -1234712239800438036
-      Boss 6 - Alt Sprite Sheet_33: 5274896046910372307
-      Boss 6 - Alt Sprite Sheet_34: 9068045783541731
-      Boss 6 - Alt Sprite Sheet_35: -900820152319208213
-      Boss 6 - Alt Sprite Sheet_36: -6477510123486412966
       Boss 6 - Alt Sprite Sheet_37: 2186445182713681364
       Boss 6 - Alt Sprite Sheet_38: 1278486388963211073
       Boss 6 - High Damage 1: 2848237528444064001
@@ -1133,6 +1212,17 @@ TextureImporter:
       Boss 6 - High Damage 6: 6557571168468993481
       Boss 6 - High Damage 7: 9058696532365558921
       Boss 6 - High Damage 8: -348418931106563554
+      Boss 6 - Shot_1_1: -8399795690358041533
+      Boss 6 - Shot_1_2: -3518724158222013859
+      Boss 6 - Shot_1_3: 539357727875191845
+      Boss 6 - Shot_1_4: -6029365973255141230
+      Boss 6 - Shot_2_1: -1234712239800438036
+      Boss 6 - Shot_2_2: 5274896046910372307
+      Boss 6 - Shot_4_1: -900820152319208213
+      Boss 6 - Shot_4_2: -6477510123486412966
+      Boss 6 - Shot_4_3: -431185045
+      Boss 6 - Shot_4_4: 1695205748
+      Boss 6 - Shot_4_5: 722770365
       Boss 6 - Special 1: -3487780753502871835
       Boss 6 - Special 2: 5345663648079814978
       Boss 6 - Special 3: -1881225806506378154
@@ -1150,6 +1240,8 @@ TextureImporter:
       Boss 6 - little Damage 7: 4608717064769943486
       Boss 6 - little Damage 8: 4493411479391179418
       Boss 6 -High Damage 5: -3142339084642148075
+      Mini Boss 1 - Shot_3_1: -653727027
+      MiniBoss1 - Shot_3_2: 9068045783541731
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

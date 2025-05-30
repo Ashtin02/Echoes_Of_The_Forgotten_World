@@ -866,7 +866,7 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 5
-        y: 4
+        y: 5
         width: 6
         height: 7
       alignment: 0
@@ -950,11 +950,11 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_32
+      name: Boss 7 - Shot_2_1
       rect:
         serializedVersion: 2
         x: 63
-        y: 3
+        y: 2
         width: 17
         height: 11
       alignment: 0
@@ -972,7 +972,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_33
+      name: Boss 7 - Shot_2_2
       rect:
         serializedVersion: 2
         x: 80
@@ -994,7 +994,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_34
+      name: Boss 7 - Shot_3_1
       rect:
         serializedVersion: 2
         x: 100
@@ -1016,7 +1016,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_35
+      name: Boss 7 - Shot_3_2
       rect:
         serializedVersion: 2
         x: 115
@@ -1038,7 +1038,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_36
+      name: Boss 7 - Shot_3_3
       rect:
         serializedVersion: 2
         x: 130
@@ -1060,12 +1060,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_37
+      name: Boss 7 - Shot_4_1
       rect:
         serializedVersion: 2
         x: 143
         y: 3
-        width: 18
+        width: 17
         height: 9
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1082,12 +1082,12 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Boss 7 - Alt Sprite Sheet_38
+      name: Boss 7 - Shot_4_2
       rect:
         serializedVersion: 2
-        x: 159
+        x: 160
         y: 3
-        width: 27
+        width: 18
         height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1169,13 +1169,6 @@ TextureImporter:
       Boss 7 - Alt Sprite Sheet_3: -4817427518724316339
       Boss 7 - Alt Sprite Sheet_30: -2050640247750127793
       Boss 7 - Alt Sprite Sheet_31: 4881694158427649561
-      Boss 7 - Alt Sprite Sheet_32: 3026177850355477180
-      Boss 7 - Alt Sprite Sheet_33: -7196287965976158327
-      Boss 7 - Alt Sprite Sheet_34: 2033519808783371326
-      Boss 7 - Alt Sprite Sheet_35: 1557127225086629142
-      Boss 7 - Alt Sprite Sheet_36: 3186619492670801208
-      Boss 7 - Alt Sprite Sheet_37: 1983045262588342987
-      Boss 7 - Alt Sprite Sheet_38: 3293620659404216172
       Boss 7 - Alt Sprite Sheet_39: 6921225024554635163
       Boss 7 - Alt Sprite Sheet_40: 7213892439651214669
       Boss 7 - High Damage 1: 2520899686705981148
@@ -1194,6 +1187,13 @@ TextureImporter:
       Boss 7 - Low Damage 6: -1325448263389361461
       Boss 7 - Low Damage 7: 4868702452948470007
       Boss 7 - Low Damage 8: 9105545638468839120
+      Boss 7 - Shot_2_1: 3026177850355477180
+      Boss 7 - Shot_2_2: -7196287965976158327
+      Boss 7 - Shot_3_1: 2033519808783371326
+      Boss 7 - Shot_3_2: 1557127225086629142
+      Boss 7 - Shot_3_3: 3186619492670801208
+      Boss 7 - Shot_4_1: 1983045262588342987
+      Boss 7 - Shot_4_2: 3293620659404216172
       Boss 7 - Special 1: -6492097494876487704
       Boss 7 - Special 2: 5562708792831399587
       Boss 7 - Special 3: -5370479108509328912

@@ -54,8 +54,9 @@ public class BullyMovement : MonoBehaviour
    {
       if (collision.CompareTag("Player"))
       {
-         caughtScreen.SetActive(true); //shows caught screen 
-         Time.timeScale = 0f; //pause game
+         // caughtScreen.SetActive(true); //shows caught screen 
+         // Time.timeScale = 0f; //pause game
+         SceneManager.LoadScene("GameOver");
          canMove = false;
       }
    }

@@ -100,9 +100,12 @@ public class L2S2_HealthSystem : MonoBehaviour
 
     IEnumerator ShowGameOverAfterDelay(float delay)
     {
+        // yield return new WaitForSeconds(delay);
+        // Time.timeScale = 0f;
+        // gameOverUI.SetActive(true);
         yield return new WaitForSeconds(delay);
-        Time.timeScale = 0f;
-        gameOverUI.SetActive(true);
+        SceneManager.LoadScene("GameOver");
+
     }
 
 

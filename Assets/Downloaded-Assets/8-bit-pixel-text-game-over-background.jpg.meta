@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      8-bit-pixel-text-game-over-background_0: -7777433085444015404
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

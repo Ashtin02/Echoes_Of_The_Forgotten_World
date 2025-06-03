@@ -9,10 +9,7 @@ public class L2S2_EnemyMovement : MonoBehaviour
     public GameObject enemyShip;
     public Vector3 Direction = Vector2.right;
     public float speed = 5.0f;
-    /// <summary>
-    /// Awake is called when the script instance is being loaded.
-    /// This method initializes the enemy formation by instantiating enemy ships in a grid pattern.
-    /// </summary>
+
     void Awake()
     {
         for (int row = 0; row < this.rows; row++)
@@ -32,10 +29,7 @@ public class L2S2_EnemyMovement : MonoBehaviour
             }
         }
     }
-    /// <summary>
-    /// Update is called once per frame.
-    /// This method moves the enemy formation in the specified direction and checks for boundaries.
-    /// </summary>
+
     void Update()
     {
         this.transform.position += Direction * this.speed * Time.deltaTime;
@@ -60,9 +54,7 @@ public class L2S2_EnemyMovement : MonoBehaviour
             }
         }
     }
-    /// <summary>
-    /// Advances the enemy formation by changing its direction and moving it down.
-    /// </summary>
+
     private void Advance()
     {
         Direction.x *= -1f;

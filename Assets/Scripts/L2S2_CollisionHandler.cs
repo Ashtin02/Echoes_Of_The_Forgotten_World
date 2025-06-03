@@ -7,6 +7,8 @@ public class L2S2_CollisionHandler : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
+
+        Debug.Log("Projectile hit: " + collision.name + " (tag: " + collision.tag + ")");
         // PLAYER LOGIC
         if (gameObject.CompareTag("Player"))
         {
@@ -34,5 +36,17 @@ public class L2S2_CollisionHandler : MonoBehaviour
                 Destroy(gameObject); // destroy this enemy object
             }
         }
+
+        if (collision.CompareTag("Boss"))
+        {
+            L3_Boss_Health bossHealth = collision.GetComponent<L3_Boss_Health>(); // fix: get from the boss
+            if (bossHealth != null)
+            {
+                bossHealth.takeDamage();
+            }
+            Instantiate(explosion, transform.position, transform.rotation);
+            Destroy(gameObject); // fix: destroy the projectile, not the boss
+        }
+
     }
 }

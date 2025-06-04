@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class L3_Boss_Health : MonoBehaviour
@@ -6,6 +7,7 @@ public class L3_Boss_Health : MonoBehaviour
     private int currentHealth;
     public GameObject explosion;
     private Animator animator;
+    public Action onBossDefeated;
 
     void Start()
     {
@@ -26,7 +28,7 @@ public class L3_Boss_Health : MonoBehaviour
     {
         Debug.Log("Boss should explode now!");
         Instantiate(explosion, transform.position, transform.rotation);
-
+        onBossDefeated?.Invoke();
         Destroy(gameObject);
 
     }

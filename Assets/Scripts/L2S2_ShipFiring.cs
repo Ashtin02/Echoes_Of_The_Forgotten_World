@@ -17,8 +17,16 @@ public class L2S2_ShipFiring : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) && Time.time >= nextFiretime)
         {
-            FireProjectile();
-            nextFiretime = Time.time + fireRate;
+            if (projectile == null)
+            {
+                Debug.LogWarning("Projectile prefab is not assigned or has been destroyed.");
+                return;
+            }
+            else
+            {
+                FireProjectile();
+                nextFiretime = Time.time + fireRate;
+            }
         }
     }
 

@@ -14,7 +14,7 @@ public class L3_MiniBoss_Movement : MonoBehaviour
         
     }
 
-    void Update()
+    void FixedUpdate()
     {
         Vector3 leftEdge = Camera.main.ViewportToWorldPoint(Vector3.zero);
         Vector3 rightEdge = Camera.main.ViewportToWorldPoint(Vector3.right);

@@ -1,4 +1,3 @@
-using System.Data;
 using UnityEngine;
 
 public class L3_MiniBoss_Movement : MonoBehaviour

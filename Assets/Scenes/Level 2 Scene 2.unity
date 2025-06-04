@@ -555,7 +555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b6b6019e7d0494941af76b5606b6a646, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpriteRenderer: {fileID: 0}
 --- !u!1 &407775101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1175,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 90
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4811,6 +4810,10 @@ PrefabInstance:
     - target: {fileID: 6363702484099998296, guid: 612fa25e8c46e934089221e86b3536f6, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6941837584427760944, guid: 612fa25e8c46e934089221e86b3536f6, type: 3}
+      propertyPath: m_SortingOrder
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6963039676350083752, guid: 612fa25e8c46e934089221e86b3536f6, type: 3}
       propertyPath: m_Enabled

@@ -4,6 +4,7 @@ public class L2S2_ProjectileMovement : MonoBehaviour
 {
     public float fireSpeed = 10f;
     public bool isPiercing = false;
+    
 
 
     private void Update()

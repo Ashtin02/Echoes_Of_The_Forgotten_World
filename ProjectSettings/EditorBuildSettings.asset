@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenu.unity
+    guid: b6edf08f3628c84429bba9a9e9bc480c
   - enabled: 1
     path: Assets/Scenes/Level 1 Scene 1.unity
     guid: 99ee053e1de6d46e784207eaf6157a25
@@ -21,17 +21,17 @@ EditorBuildSettings:
     path: Assets/Scenes/Level 2 Scene 2.unity
     guid: 73af3439f59044320a2b6e89051f7f38
   - enabled: 1
-    path: Assets/Scenes/Level 2 Enemy Ship.unity
-    guid: fe1b40742f6262c4f950a1a5f4f759f0
-  - enabled: 1
-    path: Assets/Scenes/GameOver.unity
-    guid: f110ac263405cb443a4138b16b9d93f9
+    path: Assets/Scenes/Level 3 Boss.unity
+    guid: a6955bc29c9624e0aa2a186b15b25dae
   - enabled: 1
     path: Assets/Scenes/Level 3 Scene 2.unity
     guid: 520590839666d40d0a55c73c8f623a7a
   - enabled: 1
     path: Assets/Scenes/Level 3 Scene 3.unity
     guid: fce64b8512de34db691a39061d88ab4a
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: f110ac263405cb443a4138b16b9d93f9
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

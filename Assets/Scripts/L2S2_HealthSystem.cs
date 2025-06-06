@@ -3,9 +3,12 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 using System.Collections;
 
+/// <summary>
+/// Manages the player's health system, including lives, healing, shield handling,
+/// damage logic, and game over behavior.
+/// </summary>
 public class L2S2_HealthSystem : MonoBehaviour
 {
-
     public int maxLives = 3;
     public int currentLives;
     public int maxHealth = 3;
@@ -16,7 +19,9 @@ public class L2S2_HealthSystem : MonoBehaviour
     public GameObject gameOverUI;
     public bool hasShield = false;
 
-
+    /// <summary>
+    /// Creates the health system for our ship initializing current health and lives
+    /// </summary>
     void Start()
     {
         currentHealth = maxHealth;
@@ -28,6 +33,11 @@ public class L2S2_HealthSystem : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Applies damage to the player, accounting for shield and lives.
+    /// Triggers game over if health and lives are depleted.
+    /// </summary>
+    /// <param name="damage">Amount of damage to apply</param>
     public void TakeDamage(int damage)
     {
         if (hasShield)
@@ -52,44 +62,36 @@ public class L2S2_HealthSystem : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Function that heals the player for a certain amount
+    /// </summary>
+    /// <param name="amount"> healing amount</param>
     public void Heal(int amount)
     {
         currentHealth = Mathf.Min(currentHealth + amount, maxHealth);
     }
 
+    /// <summary>
+    /// Handles the ship's destruction and triggers the game over sequence.
+    /// </summary>
     void Explode()
     {
-
         Instantiate(explosion, ship.transform.position, ship.transform.rotation);
-
         Destroy(ship);
-
         StartCoroutine(ShowGameOverAfterDelay(1f));
     }
 
+    /// <summary>
+    /// updates UI health each frame depeneding on current health
+    /// </summary>
     void Update()
     {
-        // Press 'X' to simulate taking 1 damage
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            TakeDamage(1);
-        }
-
-        //Press 'Z' to simulate healing 1 health point
-        if (Input.GetKeyDown(KeyCode.Z))
-        {
-            Heal(1);
-        }
-
         slider.value = currentHealth;
     }
 
-    public void RetryLevel()
-    {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-    }
-
+    /// <summary>
+    /// Adds a life to our ship, maximum of 3
+    /// </summary>
     public void AddLife()
     {
         if (currentLives < maxLives)
@@ -98,21 +100,22 @@ public class L2S2_HealthSystem : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Shows game over screen
+    /// </summary>
+    /// <param name="delay"> delay in seconds for screen to show up</param>
     IEnumerator ShowGameOverAfterDelay(float delay)
     {
-        // yield return new WaitForSeconds(delay);
-        // Time.timeScale = 0f;
-        // gameOverUI.SetActive(true);
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene("GameOver");
-
     }
 
-
+    /// <summary>
+    /// Destroys shield instead of doing damage if the shield is active
+    /// </summary>
     private void destroyShield()
     {
         hasShield = false;
-
         var sprite = ship.GetComponent<SpriteRenderer>();
         sprite.color = Color.white;
     }

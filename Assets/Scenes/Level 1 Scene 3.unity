@@ -2358,10 +2358,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58c5da1d13ec6564ba07642b169250d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  transition: {fileID: 1265879267}
+  TransitionTime: 1
   player: {fileID: 808213741}
   arcadeMachine: {fileID: 792581846}
   matDuration: 1.5
-  gameWorldSceneName: Level 2 Scene 1
   matEffect: {fileID: 0}
   matSound: {fileID: 0}
 --- !u!58 &792581849
@@ -4150,6 +4151,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1265879267 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4046753779092206325, guid: b87888d9a9dee426b848847f3be9f295, type: 3}
+  m_PrefabInstance: {fileID: 1424004947}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1297900779
 GameObject:
   m_ObjectHideFlags: 0

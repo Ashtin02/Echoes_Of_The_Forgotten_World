@@ -4,9 +4,12 @@ using Unity.Mathematics;
 using Unity.VisualScripting;
 using UnityEngine;
 
+/// <summary>
+/// Controls the randomized firing behavior of Mini Bosses , choosing from
+/// multiple shot types with a delay and cooldown system.
+/// </summary>
 public class L3_MiniBoss1_Firing : MonoBehaviour
 {
-
     public GameObject shot1;
     public GameObject shot2;
     public GameObject shot3;
@@ -14,15 +17,19 @@ public class L3_MiniBoss1_Firing : MonoBehaviour
     public float bulletSpeed;
     public float nextFireTime;
     public Transform firePoint;
-
     private bool canFire;
 
-
+    /// <summary>
+    /// Delays initial firing so the boss doesn't shoot immediately on spawn.
+    /// </summary>
     private void Start()
     {
         StartCoroutine(firingDelay());
     }
 
+    /// <summary>
+    /// fires a random shot every 5 seconds (fire rate)
+    /// </summary>
     void Update()
     {
         if (canFire)
@@ -44,14 +51,19 @@ public class L3_MiniBoss1_Firing : MonoBehaviour
                 nextFireTime = Time.time + fireRate;
             }
         }
-
     }
 
+    /// <summary>
+    /// Fires shot type 1 in a burst pattern.
+    /// </summary>
     public void FireShot1()
     {
         StartCoroutine(shot1Burst());
     }
 
+    /// <summary>
+    /// Fires a single projectile of shot type 2.
+    /// </summary>>
     public void FireShot2()
     {
         Vector2 spawnPos = firePoint.position;
@@ -61,6 +73,9 @@ public class L3_MiniBoss1_Firing : MonoBehaviour
         Destroy(newshot, 3f);
     }
 
+    /// <summary>
+    /// Fires a single projectile of shot type 3.
+    /// </summary>
     public void FireShot3()
     {
         Vector2 spawnPos = firePoint.position;
@@ -70,6 +85,9 @@ public class L3_MiniBoss1_Firing : MonoBehaviour
         Destroy(newshot, 3f);
     }
 
+    /// <summary>
+    /// Coroutine that fires a short burst of shot1 projectiles.
+    /// </summary>
     private IEnumerator shot1Burst()
     {
         int bulletCount = 4;
@@ -87,6 +105,9 @@ public class L3_MiniBoss1_Firing : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Waits for 2 seconds before enabling the boss to fire.
+    /// </summary>
     private IEnumerator firingDelay()
     {
         yield return new WaitForSeconds(2f);

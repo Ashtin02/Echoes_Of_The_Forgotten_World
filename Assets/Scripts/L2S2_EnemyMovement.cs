@@ -1,35 +1,22 @@
 using System.Data;
 using UnityEngine;
 
+/// <summary>
+/// Controls the collective movement of a grid of enemies,
+/// moving them horizontally and advancing them downward upon hitting screen edges.
+/// </summary>
 public class L2S2_EnemyMovement : MonoBehaviour
 {
     public int rows = 5;
     public int columns = 7;
     public float spacing = 2.0f;
-    public GameObject enemyShip;
     public Vector3 Direction = Vector2.right;
     public float speed = 5.0f;
 
-    void Awake()
-    {
-        for (int row = 0; row < this.rows; row++)
-        {
-            float width = 2.0f * (this.columns - 1);
-            float height = 2.0f * (this.rows - 1);
-            Vector2 centering = new Vector2(-width / 2, -height / 2);
-            Vector2 rowPos = new Vector2(centering.x, centering.y + (row * spacing));
-
-            for (int col = 0; col < this.columns; col++)
-            {
-                GameObject enemy = Instantiate(this.enemyShip, this.transform);
-
-                Vector2 position = rowPos;
-                position.x += col * spacing;
-                enemy.transform.localPosition = position;
-            }
-        }
-    }
-
+    /// <summary>
+    /// Updates the enemy formation's position each frame.
+    /// Reverses direction and advances downward when hitting the screen edge.
+    /// </summary>
     void Update()
     {
         this.transform.position += Direction * this.speed * Time.deltaTime;
@@ -55,6 +42,9 @@ public class L2S2_EnemyMovement : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Logic that moves the enemies closer to the ship each time they hit the wall and changes their direction 
+    /// </summary>
     private void Advance()
     {
         Direction.x *= -1f;

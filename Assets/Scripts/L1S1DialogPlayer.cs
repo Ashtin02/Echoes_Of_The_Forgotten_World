@@ -2,32 +2,26 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+/// <summary>
+/// Manages automatic dialog playback, including avatar switching and enabling movement after dialog ends.
+/// </summary>
 public class AutoDialogPlayer : MonoBehaviour
 {
     public GameObject dialogBox; //Reference to the Dialog Box
     public TMP_Text dialogText;   //Reference to the Dialog Text
     public string[] lines; //lines in dialog
     public GameObject playerObject; // Reference to the player object
-
     public GameObject BullyObject1; //reference to bully sprite 1
     public GameObject BullyObject2; //reference to bully sprite 2
     private BullyMovement bullyMovement1; //bully 1 movement reference 
-
     private BullyMovement bullyMovement2; //bully 2 movement reference 
-
     public Image avatar; //current speaker
     public Sprite[] avatars; //all speakers in the dialog
     public int[] speakerInd; // list telling which avatars to show in what order
-
-
-
-
-
-
     private PlayerMovement playerMovement; // Reference to the PlayerMovement script
     private int currentLine = 0; //line we are on
     private bool dialogActive = false; //dialog on off basically
-
+    
     void Start()
     {
         // Ensure playerObject is assigned
@@ -36,14 +30,12 @@ public class AutoDialogPlayer : MonoBehaviour
             playerMovement = playerObject.GetComponent<PlayerMovement>();
             playerMovement.canMove = false; // Stop player movement
         }
-
-            // Make sure bullies are assigned
+        // Make sure bullies are assigned
         if (BullyObject1 != null && BullyObject2 != null)
         {
             bullyMovement1 = BullyObject1.GetComponent<BullyMovement>();
             bullyMovement2 = BullyObject2.GetComponent<BullyMovement>();
         }
-
         // Start the dialog
         dialogBox.SetActive(true);
         dialogText.text = lines[currentLine];
@@ -56,12 +48,10 @@ public class AutoDialogPlayer : MonoBehaviour
         }
         else
         {
-            avatar.sprite = null; 
+            avatar.sprite = null;
             avatar.color = new Color(1, 1, 1, 0);
         }
     }
-
-
 
     void Update()
     {
@@ -70,7 +60,7 @@ public class AutoDialogPlayer : MonoBehaviour
         {
             currentLine++;
 
-                //changing the line and the avatar
+            //changing the line and the avatar
             if (currentLine < lines.Length)
             {
                 dialogText.text = lines[currentLine];

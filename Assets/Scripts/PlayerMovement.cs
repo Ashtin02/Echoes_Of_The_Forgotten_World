@@ -23,13 +23,11 @@ public class PlayerMovement : MonoBehaviour
 
     void FixedUpdate()
     {
-        //if movememnt is turned off atop the player
         if (!canMove)
         {
             rb.linearVelocity = Vector2.zero;
             return;
         }
-        // move left or right
         rb.linearVelocity = new Vector2(mov.x * moveSpeed, rb.linearVelocity.y);
     }
 }

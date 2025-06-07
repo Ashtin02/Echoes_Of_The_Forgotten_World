@@ -1,19 +1,23 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ArcadeMachineTeleport : MonoBehaviour
 {
-    [SerializeField] private Transform player;          
+    public Animator transition;
+    public float TransitionTime = 1f;
+    [SerializeField] private Transform player;
     [SerializeField] private Transform arcadeMachine;
     [SerializeField] private float matDuration = 10f;  // How long the materializing effect takes
-    [SerializeField] private string gameWorldSceneName = "ArcadeGameWorld"; // Scene to load
+
+    // [SerializeField] private string gameWorldSceneName = "ArcadeGameWorld"; // Scene to load
     [SerializeField] private ParticleSystem matEffect;  // Optional particle effect
     [SerializeField] private AudioClip matSound;        // Sound effect
-    
+
     private AudioSource audioSource;
     private bool isMaterializing = false;
     private bool playerInputEnabled = true;
-    
+
     /// <summary>
     /// Initialize the ArcadeMachineTeleport component.
     /// </summary>
@@ -28,13 +32,13 @@ public class ArcadeMachineTeleport : MonoBehaviour
     /// This can be called from a dialog or any other event.
     /// </summary>
     public void TriggerTeleport()
-{
-    if (!isMaterializing)
     {
-        Debug.Log("Teleport triggered by dialog - starting effect");
-        StartMatPlayerIntoArcade();
+        if (!isMaterializing)
+        {
+            Debug.Log("Teleport triggered by dialog - starting effect");
+            StartMatPlayerIntoArcade();
+        }
     }
-}
     /// <summary>
     /// Starts the materializing effect to suck the player into the arcade machine.
     /// </summary>
@@ -66,47 +70,47 @@ public class ArcadeMachineTeleport : MonoBehaviour
     private IEnumerator SuckPlayerIntoArcade()
     {
         isMaterializing = true;
-            
+
         // Play sound effect
         if (matSound != null)
             audioSource.PlayOneShot(matSound);
-            
+
         // Start particle effect
         if (matEffect != null)
             matEffect.Play();
-            
+
         Vector3 initialScale = player.localScale;
         Vector3 initialPosition = player.position;
-        
+
         Vector3 directionToArcade = (arcadeMachine.position - player.position).normalized;
-        
+
         float elapsedTime = 0;
-        
+
         // Animation loop
         while (elapsedTime < matDuration)
         {
             elapsedTime += Time.deltaTime;
             float t = elapsedTime / matDuration;
-            
+
             float speedMultiplier = Mathf.Lerp(0.5f, 3f, t);
             player.position = Vector3.Lerp(initialPosition, arcadeMachine.position, t * speedMultiplier);
-            
+
             float scaleMultiplier = Mathf.Lerp(1f, 0.1f, t);
             player.localScale = initialScale * scaleMultiplier;
-            
+
             player.Rotate(0, 0, 360 * Time.deltaTime);
-            
+
             yield return null;
         }
-        
+
         StartCoroutine(FlashScreen());
-        
+
         player.gameObject.SetActive(false);
-        
+
         yield return new WaitForSeconds(1f);
-    
-        UnityEngine.SceneManagement.SceneManager.LoadScene(gameWorldSceneName);
-        
+
+        LoadNextLevel();
+
         isMaterializing = false;
     }
     /// <summary>
@@ -120,20 +124,20 @@ public class ArcadeMachineTeleport : MonoBehaviour
         Texture2D whiteTexture = new Texture2D(1, 1);
         whiteTexture.SetPixel(0, 0, Color.white);
         whiteTexture.Apply();
-        
+
         // Flash effect
         float flashDuration = 0.5f;
         float elapsedTime = 0;
-        
+
         while (elapsedTime < flashDuration)
         {
             elapsedTime += Time.deltaTime;
             float alpha = Mathf.Sin((elapsedTime / flashDuration) * Mathf.PI);
             flashAlpha = alpha;
-            
+
             yield return null;
         }
-        
+
         flashAlpha = 0;
     }
     /// <summary>
@@ -145,10 +149,10 @@ public class ArcadeMachineTeleport : MonoBehaviour
     {
         return playerInputEnabled;
     }
-    
+
     // For the screen flash effect
     private float flashAlpha = 0;
-    
+
     private void OnGUI()
     {
         if (flashAlpha > 0)
@@ -156,10 +160,29 @@ public class ArcadeMachineTeleport : MonoBehaviour
             Texture2D texture = new Texture2D(1, 1);
             texture.SetPixel(0, 0, Color.white);
             texture.Apply();
-            
+
             GUI.color = new Color(1, 1, 1, flashAlpha);
             GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), texture);
         }
+    }
+    
+    public void LoadNextLevel()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    IEnumerator LoadLevel(int LevelIndex)
+    {
+
+        //Play anim 
+        transition.SetTrigger("start");
+
+        //Wait 
+        yield return new WaitForSeconds(TransitionTime);
+
+        SceneManager.LoadScene(LevelIndex);
+
+
     }
 
 }

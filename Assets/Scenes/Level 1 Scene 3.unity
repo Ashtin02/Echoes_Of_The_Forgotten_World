@@ -1723,8 +1723,8 @@ Transform:
   m_GameObject: {fileID: 515950966}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.68, y: -9.32, z: 0}
-  m_LocalScale: {x: 0.58705, y: 0.57055, z: 1}
+  m_LocalPosition: {x: 31.68, y: -9.0137, z: 0}
+  m_LocalScale: {x: 0.58705, y: 0.46693817, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2212,8 +2212,8 @@ Transform:
   m_GameObject: {fileID: 610870306}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 37.83, y: -9.47, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalPosition: {x: 37.83, y: -9.225, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.4171, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2362,9 +2362,9 @@ MonoBehaviour:
   TransitionTime: 1
   player: {fileID: 808213741}
   arcadeMachine: {fileID: 792581846}
-  matDuration: 1.5
+  matDuration: 3
   matEffect: {fileID: 0}
-  matSound: {fileID: 0}
+  matSound: {fileID: 8300000, guid: 34ce1c1f282c24515a75fdb0dd930f92, type: 3}
 --- !u!58 &792581849
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -7973,8 +7973,8 @@ Transform:
   m_GameObject: {fileID: 2097059646}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.28, y: -1.5, z: 0}
-  m_LocalScale: {x: 0.43115, y: 0.42585, z: 0}
+  m_LocalPosition: {x: 7.12, y: -1.44, z: 0}
+  m_LocalScale: {x: 0.43115, y: 0.30840057, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

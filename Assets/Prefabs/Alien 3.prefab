@@ -42,7 +42,6 @@ GameObject:
   - component: {fileID: 4245578924740884402}
   - component: {fileID: 6941837584427760944}
   - component: {fileID: 924025355168204581}
-  - component: {fileID: 6963039676350083752}
   - component: {fileID: -3078046416016771983}
   - component: {fileID: 5304289856371271808}
   m_Layer: 0
@@ -139,27 +138,6 @@ MonoBehaviour:
   missileSpawnPoint: {fileID: 7932214379939742955}
   minFireInterval: 3
   maxFireInterval: 7
---- !u!114 &6963039676350083752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6363702484099998296}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fae627bc118d004bb1880ac555a3cbc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  moveSpeed: 3
-  downwardSpeed: 0.5
-  leftBoundary: {fileID: 0}
-  rightBoundary: {fileID: 0}
-  maxDescendY: 0
-  startY: 7
-  stopDescendingY: 2
-  zigzagAmount: 0.5
-  patternSpeed: 2
 --- !u!114 &-3078046416016771983
 MonoBehaviour:
   m_ObjectHideFlags: 0

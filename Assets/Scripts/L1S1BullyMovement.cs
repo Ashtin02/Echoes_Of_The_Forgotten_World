@@ -1,16 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Controls the movement of bullies that chase the player and trigger game over on contact.
+/// </summary>
 public class BullyMovement : MonoBehaviour
 {
-
    public GameObject Player; //Reference to the player
    public float chaseSpeed = 100f; //Reference to Speed of bullies
    public bool canMove = false; //Marker if they are able to move or not
    private Rigidbody2D rb; //Reference to rigidbody
    private Vector2 mov; //Stores movement
-   public GameObject caughtScreen; //Refernece to caught screen
-
 
    void Start()
    {
@@ -30,17 +30,15 @@ public class BullyMovement : MonoBehaviour
 
    void FixedUpdate()
    {
-      //Moving is disabled to stop moving
+      //stops any movement
       if (!canMove)
       {
          rb.linearVelocity = Vector2.zero;
          return;
       }
-
       //move to the right at the speed given
       rb.linearVelocity = new Vector2(mov.x * chaseSpeed, rb.linearVelocityY);
    }
-
 
    //Method to start moving the bullies
    public void StartMoving()
@@ -48,23 +46,13 @@ public class BullyMovement : MonoBehaviour
       canMove = true;
    }
 
-
-//Handles when bullies collide with player
+   //Handles when bullies collide with player
    void OnTriggerEnter2D(Collider2D collision)
    {
       if (collision.CompareTag("Player"))
       {
-         // caughtScreen.SetActive(true); //shows caught screen 
-         // Time.timeScale = 0f; //pause game
          SceneManager.LoadScene("GameOver");
          canMove = false;
       }
-   }
-
-//Method to reset the level
-   public void RetryLevel()
-   {
-      SceneManager.LoadScene("Level 1 Scene 1");
-      Time.timeScale = 1f;
    }
 }

@@ -1,10 +1,17 @@
 using UnityEngine;
 
+/// <summary>
+/// Allows testing of all power-up effects by pressing corresponding keys.
+/// Used in development to manually trigger power-ups without pickups.
+/// </summary>
 public class PowerUpTester : MonoBehaviour
 {
     public L2S2_PowerUpController powerUpController;
     public int duration = 5;
-
+    
+    /// <summary>
+    /// Monitors key presses and applies the selected power-up for testing.
+    /// </summary>
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Alpha1))

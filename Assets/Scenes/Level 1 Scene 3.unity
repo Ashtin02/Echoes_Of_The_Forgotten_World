@@ -2362,9 +2362,9 @@ MonoBehaviour:
   TransitionTime: 1
   player: {fileID: 808213741}
   arcadeMachine: {fileID: 792581846}
-  matDuration: 1.5
+  matDuration: 3
   matEffect: {fileID: 0}
-  matSound: {fileID: 0}
+  matSound: {fileID: 8300000, guid: 34ce1c1f282c24515a75fdb0dd930f92, type: 3}
 --- !u!58 &792581849
 CircleCollider2D:
   m_ObjectHideFlags: 0

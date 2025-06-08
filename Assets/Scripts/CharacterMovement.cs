@@ -38,10 +38,10 @@ public class SpriteMovement : MonoBehaviour
                 movement.Normalize();
             }
             
-            // Calculate position we want to move to
+            // position we want to move to
             Vector3 newPosition = transform.position + movement * moveSpeed * Time.deltaTime;
             
-            // Cast a ray to check if we'd hit something
+            // check if we hit something
             RaycastHit2D hit = Physics2D.CircleCast(
                 transform.position,
                 GetComponent<CircleCollider2D>() ? GetComponent<CircleCollider2D>().radius * 0.9f : 0.5f,

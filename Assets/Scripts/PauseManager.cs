@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -45,5 +46,11 @@ public class PauseManager : MonoBehaviour
     {
         Time.timeScale = 1f;
         Application.Quit();
+    }
+
+    public void RetryLevel()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

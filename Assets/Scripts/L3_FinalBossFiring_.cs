@@ -30,39 +30,36 @@ public class L3_FinalBossFiring_ : MonoBehaviour
     /// <summary>
     /// handles the firing of the ship randomly shooting 1 of 5 different kinds of shots 
     /// </summary>
-    void Update()
+void Update()
+{
+    if (canFire && Time.time >= nextFireTime)
     {
+        Debug.Log("Firing from: " + gameObject.name); // See how many fire logs appear per interval
 
-        if (canFire)
+        int randomNum = UnityEngine.Random.Range(1, 6);
+        nextFireTime = Time.time + fireRate;
+
+        switch (randomNum)
         {
-            int randomNum = UnityEngine.Random.Range(1, 6);
-            if (Time.time >= nextFireTime && randomNum == 1)
-            {
+            case 1:
                 FireShot1();
-                nextFireTime = Time.time + fireRate;
-            }
-            else if (Time.time >= nextFireTime && randomNum == 2)
-            {
+                break;
+            case 2:
                 FireShot2();
-                nextFireTime = Time.time + fireRate;
-            }
-            else if (Time.time >= nextFireTime && randomNum == 3)
-            {
+                break;
+            case 3:
                 FireShot3();
-                nextFireTime = Time.time + fireRate;
-            }
-            else if (Time.time >= nextFireTime && randomNum == 4)
-            {
+                break;
+            case 4:
                 FireShot4();
-                nextFireTime = Time.time + fireRate;
-            }
-            else if (Time.time >= nextFireTime && randomNum == 5)
-            {
+                break;
+            case 5:
                 FireShot5();
-                nextFireTime = Time.time + fireRate;
-            }
+                break;
         }
     }
+}
+
 
     /// <summary>
     /// Fires a burst of shot1 projectiles.

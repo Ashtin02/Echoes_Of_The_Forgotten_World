@@ -137,7 +137,7 @@ MonoBehaviour:
   missilePrefab: {fileID: 2282032956181710631, guid: b2628fd56bf93c44493af45734a4adc6, type: 3}
   missileSpawnPoint: {fileID: 7932214379939742955}
   minFireInterval: 3
-  maxFireInterval: 7
+  maxFireInterval: 15
 --- !u!114 &-3078046416016771983
 MonoBehaviour:
   m_ObjectHideFlags: 0

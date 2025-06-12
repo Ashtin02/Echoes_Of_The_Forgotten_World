@@ -11,7 +11,6 @@ public class WaveSpawner : MonoBehaviour
     public Animator transition;
     public float TransitionTime = 1f;
     public GameObject enemyShip;
-    Transform enemySpawn;
     private bool defeated = false;
     public int rows = 5;
     public int columns = 7;

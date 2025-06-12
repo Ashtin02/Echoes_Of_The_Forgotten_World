@@ -1,11 +1,14 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 /// <summary>
 /// Controls the spawning of two mini bosses at level start and spawns the final boss after both are defeated.
 /// </summary>
 public class BossSpawner : MonoBehaviour
 {
+    public Animator transition;
+    public float TransitionTime = 1f;
     public GameObject boss1;
     public GameObject boss2;
     public GameObject finalBoss;
@@ -68,6 +71,34 @@ public class BossSpawner : MonoBehaviour
     private IEnumerator DelayFinalSpawn()
     {
         yield return new WaitForSeconds(2f);
-        Instantiate(finalBoss, finalBossSpawnPoint.position, Quaternion.identity);
+        GameObject FB = Instantiate(finalBoss, finalBossSpawnPoint.position, Quaternion.identity);
+        L3_Boss_Health FBHealth = FB.GetComponent<L3_Boss_Health>();
+
+        FBHealth.onBossDefeated += () =>
+        {
+            LoadNextLevel();
+        };
+
+    }
+
+        /// <summary>
+    /// Starts the transition to the next level.
+    /// </summary>
+    public void LoadNextLevel()
+    {
+        StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
+    }
+
+    /// <summary>
+    /// Plays the transition animation, waits, then loads the specified scene.
+    /// </summary>
+    /// <param name="levelIndex">The index of the level to load</param>
+    IEnumerator LoadLevel(int LevelIndex)
+    {
+        transition.SetTrigger("start");
+
+        yield return new WaitForSeconds(TransitionTime);
+
+        SceneManager.LoadScene(LevelIndex);
     }
 }

@@ -8,11 +8,10 @@ public class ArcadeMachineTeleport : MonoBehaviour
     public float TransitionTime = 1f;
     [SerializeField] private Transform player;
     [SerializeField] private Transform arcadeMachine;
-    [SerializeField] private float matDuration = 10f;  // How long the materializing effect takes
+    [SerializeField] private float matDuration = 10f;
 
-    // [SerializeField] private string gameWorldSceneName = "ArcadeGameWorld"; // Scene to load
-    [SerializeField] private ParticleSystem matEffect;  // Optional particle effect
-    [SerializeField] private AudioClip matSound;        // Sound effect
+    [SerializeField] private ParticleSystem matEffect;
+    [SerializeField] private AudioClip matSound;
 
     private AudioSource audioSource;
     private bool isMaterializing = false;
@@ -56,7 +55,8 @@ public class ArcadeMachineTeleport : MonoBehaviour
         playerInputEnabled = false;
     }
     /// <summary>
-    /// 
+    /// Enables player input after the materializing effect is complete.
+    /// This allows the player to regain control after being teleported.
     /// </summary>
     public void EnablePlayerInput()
     {
@@ -71,11 +71,9 @@ public class ArcadeMachineTeleport : MonoBehaviour
     {
         isMaterializing = true;
 
-        // Play sound effect
         if (matSound != null)
             audioSource.PlayOneShot(matSound);
 
-        // Start particle effect
         if (matEffect != null)
             matEffect.Play();
 
@@ -86,7 +84,6 @@ public class ArcadeMachineTeleport : MonoBehaviour
 
         float elapsedTime = 0;
 
-        // Animation loop
         while (elapsedTime < matDuration)
         {
             elapsedTime += Time.deltaTime;
@@ -125,7 +122,6 @@ public class ArcadeMachineTeleport : MonoBehaviour
         whiteTexture.SetPixel(0, 0, Color.white);
         whiteTexture.Apply();
 
-        // Flash effect
         float flashDuration = 0.5f;
         float elapsedTime = 0;
 
@@ -144,13 +140,14 @@ public class ArcadeMachineTeleport : MonoBehaviour
     /// Checks if player input is currently enabled.
     /// This is used to determine if the player can move or interact with the game world.
     /// </summary>
-    /// <returns></returns>
+    /// <returns>
+    /// True if player input is enabled, false otherwise.
+    /// </returns>
     public bool IsPlayerInputEnabled()
     {
         return playerInputEnabled;
     }
 
-    // For the screen flash effect
     private float flashAlpha = 0;
 
     private void OnGUI()
@@ -174,10 +171,8 @@ public class ArcadeMachineTeleport : MonoBehaviour
     IEnumerator LoadLevel(int LevelIndex)
     {
 
-        //Play anim 
         transition.SetTrigger("start");
 
-        //Wait 
         yield return new WaitForSeconds(TransitionTime);
 
         SceneManager.LoadScene(LevelIndex);

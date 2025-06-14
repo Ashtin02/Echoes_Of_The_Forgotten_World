@@ -1,7 +1,28 @@
-# Echoes_Of_The_Forgotten_World
+# Echoes of the Forgotten World
+
+A 2D retro-styled adventure game that blends storytelling with classic arcade gameplay mechanics.
+
+## Overview
+
+**Echoes of the Forgotten World** follows Will, a red-haired school boy who discovers courage through an extraordinary adventure. While fleeing from bullies, Will stumbles upon a mysterious arcade machine that teleports him to a spaceship caught in an intergalactic battle. Through his bravery and quick thinking, Will helps deescalate the conflict and save the crew. His heroic actions grant him safe passage home, where he finds the strength to face his bullies and walk confidently into his future.
+
+## Story & Gameplay
+
+The game combines narrative-driven gameplay with classic arcade mechanics across multiple levels:
+
+- **Story Levels**: Dialogue-rich cutscenes with 2D top-down exploration (similar to classic Zelda games) and side-scrolling platformer sections
+- **Space Battle Levels**: Two action-packed levels featuring Space Invaders-style combat where players pilot spacecraft in intense battles
+- **Character Development**: Watch Will's journey from a frightened boy to a confident hero through interactive storytelling
+
+## Tech Stack
+
+- **Engine**: Unity Game Engine
+- **Programming Language**: C#
+- **Game Style**: 2D Retro/Pixel Art
+- **Gameplay Mechanics**: Top-down exploration, side-scrolling platformer, space shooter
 
 ## Project Stucture
-
+```
 Assets/
 ├── Animations/ (Animation clips and controllers)
 ├── Audio/ (Sound effects and music)
@@ -23,9 +44,168 @@ Assets/
 │ ├── Environment/ (Background and terrain sprites)
 │ ├── Items/ (Collectible and usable item sprites)
 │ └── UI/ (Icons and UI element sprites)
-└── Tilemaps/ (Tilemap assets for 2D levels)
+└── Tilemaps/ (Tilemap/background assets for 2D levels)
+```
 
+## Key Features
 
+- **Multi-perspective Gameplay**: 
+  - Top-down exploration with collision detection and interactive objects
+  - Side-scrolling platformer sections with physics-based movement
+  - Space Invaders-style combat with advanced shooting mechanics
+- **Advanced Dialogue System**: 
+  - Character avatar switching during conversations
+  - Story-driven cutscenes with multiple speakers
+  - Interactive dialogue progression
+- **Comprehensive Power-up System**: 
+  - 12+ unique power-ups including healing, shields, speed boosts, weapon upgrades
+  - Temporary effects with duration-based mechanics
+  - Rare and common power-up distribution system
+- **Dynamic Boss Battles**: 
+  - Multi-phase boss encounters with different attack patterns
+  - Mini-boss and final boss progression system
+  - Health-based damage visualization and animations
+- **Sophisticated Scene Management**: 
+  - Smooth transitions between levels with fade effects
+  - Teleportation mechanics through the mysterious arcade machine
+  - Scene tracking and state management
+- **Audio-Visual Polish**: 
+  - Particle effects for explosions, teleportation, and power-ups
+  - Screen flash effects and visual feedback
+  - Integrated sound system for atmosphere and feedback
+
+## Installation & Setup
+
+### Prerequisites
+- Unity Hub (latest version)
+- Unity Editor 6000.0.45f1
+- Git (for cloning the repository)
+
+### Installation Steps
+1. **Install Unity Hub**
+   - Download from [Unity's official website](https://unity.com/download)
+   - Install Unity Editor 6000.0.45f1 through Unity Hub
+
+2. **Clone the Repository**
+   ```bash
+   git clone https://github.com/Ashtin02/Echoes_Of_The_Forgotten_World.git
+   cd Echoes_Of_The_Forgotten_World
+   ```
+
+3. **Open the Project**
+   - Launch Unity Hub
+   - Click "Add project from disk"
+   - Select the cloned project folder
+   - Open the project in Unity Editor
+
+4. **Run the Game**
+   - Press the Play button in Unity Editor to start the game
+   - Use the Game view to play and test
+
+## How to Play
+
+### Basic Controls
+- **Movement**: Use arrow keys or WASD to move Will
+- **Interaction**: Press spacebar to interact with objects, advance dialogue, and confirm selections
+- **Pause**: Press ESC to access the pause menu
+
+### Gameplay Modes
+
+**Story/Exploration Levels:**
+- Navigate through environments using arrow keys or WASD
+- Approach NPCs and objects, then press spacebar to interact
+- Progress through dialogue by pressing spacebar
+
+**Space Combat Levels:**
+- Move your spaceship using arrow keys or WASD
+- Press spacebar to fire projectiles at enemies
+- Collect power-ups that fall from defeated enemies or spawn randomly
+- Survive waves of enemies and defeat boss encounters
+
+### Power-ups (Space Combat)
+The game features an extensive power-up system including:
+- **Healing & Defense**: Health restoration, shields, extra lives
+- **Weapon Upgrades**: Double shot, triple shot, piercing bullets
+- **Ship Modifications**: Speed boost, size changes (grow/shrink), ghost mode
+- **Special Abilities**: Time slow, screen-clearing nuke, and more
+
+## Screenshots
+
+### Main Menu
+![Main Menu](Assets/Screenshots/MainMenu.png)
+
+### Story Mode - Side Scrolling Action
+![Side Scrolling Gameplay](Assets/Screenshots/SideScroll.png)
+
+### Top-Down Exploration
+![Top-Down Gameplay](Assets/Screenshots/TopDown.png)
+
+### Space Battle Combat
+![Space Battle Screenshot](Assets/Screenshots/SpaceBattle.png)
+
+### Boss Fight
+![Boss Fight Screenshot](Assets/Screenshots/BossFight.png)
+
+### Game Over Screen
+![Game Over Screen](Assets/Screenshots/GameOver.png)
+
+### Ending Scene
+![Ending Screenshot](Assets/Screenshots/Ending.png)
+
+## Development Notes
+
+This project was developed as a capstone project, showcasing advanced skills in:
+
+### Game Programming & Architecture
+- **Object-Oriented Design**: Modular script architecture with clear separation of concerns
+- **State Management**: Complex scene transitions, game state tracking, and persistent data
+- **Event-Driven Programming**: Boss defeat callbacks, collision handling, and UI interactions
+
+### Unity Development Expertise
+- **2D Physics Implementation**: Rigidbody2D movement, collision detection, and trigger systems
+- **Animation Integration**: Animator controllers with trigger-based state changes
+- **UI/UX Design**: Dynamic dialogue systems, health bars, and interactive menus
+- **Audio Integration**: Sound effect management and audio source handling
+
+### Game Design Principles
+- **Player Experience**: Balanced difficulty progression and intuitive control schemes
+- **Narrative Design**: Character-driven storytelling with meaningful player agency
+- **Systems Design**: Interconnected power-up, health, and combat systems
+- **Level Design**: Varied gameplay mechanics across different level types
+
+### Technical Implementation Highlights
+- **Coroutine-based Systems**: Smooth animations, timed events, and asynchronous operations
+- **Polymorphic Design**: Flexible enemy types and projectile behaviors
+- **Collision Optimization**: Efficient hit detection using Unity's 2D physics system
+- **Memory Management**: Proper object destruction and resource cleanup
+
+## Future Enhancements
+
+Potential areas for expansion:
+- Additional story chapters
+- More combat mechanics and enemy types
+- Enhanced graphics and animations
+- Sound design and music integration
+- Save system implementation
+
+## Development Team
+
+**Echoes of the Forgotten World** was developed by:
+- **Mark Buster** ([MarkBuster](https://github.com/MarkBuster)) - [LinkedIn](https://linkedin.com/in/mabuster123)
+- **Ashtin Rivada** ([Ashtin02](https://github.com/Ashtin02)) - [LinkedIn](https://linkedin.com/in/ashtin-rivada-5b85a2270)
+- **Angela Fujihara** ([A-Fujihara](https://github.com/A-Fujihara))
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For questions or collaboration opportunities, feel free to reach out to any of the development team members through their GitHub profiles or LinkedIn.
+
+---
+
+*Echoes of the Forgotten World - A journey of courage, friendship, and self-discovery*
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 

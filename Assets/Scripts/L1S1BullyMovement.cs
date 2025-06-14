@@ -6,47 +6,48 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class BullyMovement : MonoBehaviour
 {
-   public GameObject Player; //Reference to the player
-   public float chaseSpeed = 100f; //Reference to Speed of bullies
-   public bool canMove = false; //Marker if they are able to move or not
-   private Rigidbody2D rb; //Reference to rigidbody
-   private Vector2 mov; //Stores movement
-
+   public GameObject Player;
+   public float chaseSpeed = 100f;
+   public bool canMove = false; 
+   private Rigidbody2D rb; 
+   private Vector2 mov; 
    void Start()
    {
-      //Gets rigid body
       rb = GetComponent<Rigidbody2D>();
    }
-
+   /// <summary>
+   /// Updates the movement direction of the bully to chase the player.
+   /// </summary>
    void Update()
    {
 
-      //If moving is not allowed do nothing
       if (!canMove) return;
 
-      //else move to the right
       mov.x = 1f;
    }
-
+   /// <summary>
+   /// Applies movement to the bully in FixedUpdate for consistent physics behavior.
+   /// </summary>
    void FixedUpdate()
    {
-      //stops any movement
       if (!canMove)
       {
          rb.linearVelocity = Vector2.zero;
          return;
       }
-      //move to the right at the speed given
       rb.linearVelocity = new Vector2(mov.x * chaseSpeed, rb.linearVelocityY);
    }
-
-   //Method to start moving the bullies
+   /// <summary>
+   /// Enables the bully to start moving towards the player.
+   /// </summary>
    public void StartMoving()
    {
       canMove = true;
    }
-
-   //Handles when bullies collide with player
+   /// <summary>
+   /// Handles collision with the player, triggering a game over scene.
+   /// </summary>
+   /// <param name="collision"></param>
    void OnTriggerEnter2D(Collider2D collision)
    {
       if (collision.CompareTag("Player"))

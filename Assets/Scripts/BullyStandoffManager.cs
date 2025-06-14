@@ -5,6 +5,10 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 
 public class BullyStandoffManager : MonoBehaviour
+/// <summary>
+/// Manages the dialogue sequence and scene transition for the Bully Standoff event.
+/// / Attach this script to an empty GameObject in the scene.
+/// </summary>
 {
     [Header("Dialog UI - Assign in Inspector")]
     public GameObject dialogBox;
@@ -20,8 +24,7 @@ public class BullyStandoffManager : MonoBehaviour
     public Animator levelLoaderAnimator;
     public string nextSceneName; 
     public float sceneTransitionWaitTime = 1.5f;
-    public float preFadeDelay = 1.0f;    // Delay after dialogue ends, before fade starts
-
+    public float preFadeDelay = 1.0f;    
     private string[] lines = new string[]
     {
         "Well, well, Will. Fancy meeting you here, Dweebo.", // Bully Max
@@ -59,8 +62,11 @@ public class BullyStandoffManager : MonoBehaviour
     private int currentLine = 0;
     private bool dialogActive = false;
     private bool playerControlsDisabled = false;
-    private bool isTransitioning = false; // To prevent multiple transitions
+    private bool isTransitioning = false;
 
+    /// <summary>
+    /// Initializes the dialogue system and ensures all necessary components are assigned.
+    /// </summary>
     void Start()
     {
         if (dialogBox == null || dialogText == null || avatarDisplay == null)
@@ -77,7 +83,9 @@ public class BullyStandoffManager : MonoBehaviour
         dialogBox.SetActive(false);
         if (avatarDisplay != null) avatarDisplay.gameObject.SetActive(false);
     }
-
+    /// <summary>
+    /// Starts the dialogue sequence.
+    /// </summary>
     public void BeginDialogue()
     {
         if (dialogActive || isTransitioning) return;
@@ -91,7 +99,9 @@ public class BullyStandoffManager : MonoBehaviour
         dialogText.text = lines[currentLine];
         SetAvatarForSpeaker(speakerIndices[currentLine]);
     }
-
+    /// <summary>
+    /// Handles player input to progress dialogue and manages scene transition after dialogue ends.
+    /// </summary>
     void Update()
     {
         if (!dialogActive || isTransitioning) return;
@@ -111,7 +121,10 @@ public class BullyStandoffManager : MonoBehaviour
             }
         }
     }
-
+    /// <summary>
+    /// Sets the avatar image based on the current speaker index.   
+    /// </summary>
+    /// <param name="speakerIndex"></param>
     void SetAvatarForSpeaker(int speakerIndex)
     {
         if (avatarDisplay == null) return;
@@ -128,13 +141,15 @@ public class BullyStandoffManager : MonoBehaviour
             case 2: 
                 avatarDisplay.sprite = willAvatar;
                 break;
-            default: // Should not happen with current setup
+            default:
                 avatarDisplay.sprite = null;
                 avatarDisplay.gameObject.SetActive(false);
                 break;
         }
     }
-
+    /// <summary>
+    /// Ends the dialogue and initiates the scene transition process.
+    /// </summary>
     void EndDialogueAndPrepareTransition()
     {
         dialogActive = false;
@@ -153,7 +168,10 @@ public class BullyStandoffManager : MonoBehaviour
             }
         }
     }
-
+    /// <summary>
+    /// Coroutine to handle scene transition with optional pre-fade delay and fade animation.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator EndSceneAndTransitionCoroutine()
     {
         isTransitioning = true;

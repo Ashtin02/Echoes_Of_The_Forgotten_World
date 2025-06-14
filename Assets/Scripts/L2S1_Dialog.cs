@@ -57,18 +57,20 @@ public class L2S1_Dialog : MonoBehaviour
     public GameObject explosionPrefab;
     public Transform[] missileSpawnPoints;
     public GameObject playerSpaceship;
-    public GameObject turretFlashObject; // << For continuous turret flash animation
+    public GameObject turretFlashObject; 
 
     private bool combatEffectsTriggered = false;
 
     [Header("Scene Transition")]
-    public Animator levelLoaderAnimator;       // << Animator of your LevelLoader GameObject
-    public string nextSceneName;               // << Name of the scene to load
-    public float sceneTransitionWaitTime = 1f; // << Duration of LevelLoader's fade-out
-    public float preFadeDelay = 3.0f; // <<< NEW: Delay before fade starts
+    public Animator levelLoaderAnimator;      
+    public string nextSceneName;             
+    public float sceneTransitionWaitTime = 1f; 
+    public float preFadeDelay = 3.0f; 
 
-    private bool isTransitioning = false;      // << Flag to prevent multiple transitions
-
+    private bool isTransitioning = false;
+    /// <summary>
+    /// Initializes the dialog system and ensures all necessary components are assigned.
+    /// </summary>
     void Start()
     {
         dialogBox.SetActive(true);
@@ -76,7 +78,6 @@ public class L2S1_Dialog : MonoBehaviour
         dialogActive = true;
         SetAvatarForSpeaker(speakerInd[0]);
 
-        // Null checks for critical assignments
         if (playerSpaceship == null)
         {
             Debug.LogError("Player SPACESHIP not assigned in the Inspector for L2S1_Dialog!");
@@ -104,10 +105,12 @@ public class L2S1_Dialog : MonoBehaviour
             Debug.LogWarning("Level Loader Animator not assigned in L2S1_Dialog script. Scene transition may not have a visual fade.");
         }
     }
-
+    /// <summary>
+    /// Handles player input to progress dialog and manages scene transition after dialog ends.
+    /// </summary>
     void Update()
     {
-        if (isTransitioning) return; // If already transitioning, don't process further dialogue input
+        if (isTransitioning) return; 
 
         if (dialogActive && Input.GetKeyDown(KeyCode.Space))
         {
@@ -125,19 +128,22 @@ public class L2S1_Dialog : MonoBehaviour
             }
             else
             {
-                // End dialog and start scene transition
+                
                 dialogBox.SetActive(false);
-                dialogActive = false; // Stop further dialogue input processing
+                dialogActive = false; 
                 if (avatar != null) avatar.gameObject.SetActive(false);
 
-                if (!isTransitioning) // Double check to prevent multiple coroutine starts
+                if (!isTransitioning) 
                 {
                     StartCoroutine(EndSceneAndTransitionWithLevelLoader());
                 }
             }
         }
     }
-
+    /// <summary>
+    /// Sets the avatar image based on the current speaker index.
+    /// </summary>
+    /// <param name="speakerIndex"></param>
     void SetAvatarForSpeaker(int speakerIndex)
     {
         switch (speakerIndex)
@@ -151,7 +157,9 @@ public class L2S1_Dialog : MonoBehaviour
             default: avatar.sprite = null; break;
         }
     }
-    
+    /// <summary>
+    /// Triggers the combat sequence by launching missiles at the player's spaceship.
+    /// </summary>
     void TriggerCombatSequence()
     {
         if (missilePrefab == null || playerSpaceship == null)
@@ -161,12 +169,12 @@ public class L2S1_Dialog : MonoBehaviour
         }
         StartCoroutine(LaunchMissilesRoutine());
     }
-
+    /// <summary>
+    /// Coroutine to launch a series of missiles at the player's spaceship with delays.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator LaunchMissilesRoutine()
     {
-        // Initial delay before first missile (if you wanted one, otherwise remove this line)
-        // yield return new WaitForSeconds(3f); 
-
         int missilesToLaunch = 5;
         float delayBetweenMissiles = 1.0f;
 
@@ -194,13 +202,16 @@ public class L2S1_Dialog : MonoBehaviour
                 Debug.LogError("Instantiated missile does not have L2S1_MissileBehavior script attached!");
             }
 
-            if (i < missilesToLaunch - 1) // Don't wait after the last missile in the salvo
+            if (i < missilesToLaunch - 1)
             {
                 yield return new WaitForSeconds(delayBetweenMissiles);
             }
         }
     }
-
+/// <summary>
+/// Handles scene transition with optional pre-fade delay and fade animation.
+/// </summary>
+/// <returns></returns>
 IEnumerator EndSceneAndTransitionWithLevelLoader()
     {
         isTransitioning = true; 
@@ -225,7 +236,6 @@ IEnumerator EndSceneAndTransitionWithLevelLoader()
             bool hasStartTrigger = false;
             foreach (AnimatorControllerParameter param in levelLoaderAnimator.parameters)
             {
-                // Keep this check looking for "start" (lowercase) if you want to confirm the fix
                 if (param.name == "start" && param.type == AnimatorControllerParameterType.Trigger)
                 {
                     hasStartTrigger = true;
@@ -235,7 +245,7 @@ IEnumerator EndSceneAndTransitionWithLevelLoader()
             Debug.Log("Does LevelLoader Animator have 'start' trigger parameter? " + hasStartTrigger);
 
             Debug.Log("EndScene: Triggering LevelLoader fade-out animation using 'start' trigger.");
-            levelLoaderAnimator.SetTrigger("start"); // <<< CORRECTED TO LOWERCASE 's'
+            levelLoaderAnimator.SetTrigger("start"); 
 
             yield return new WaitForSeconds(sceneTransitionWaitTime);
             Debug.Log("EndScene: Fade-out animation presumed complete.");

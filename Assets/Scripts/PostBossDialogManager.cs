@@ -2,25 +2,19 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 using System.Collections;
-using UnityEngine.SceneManagement; // Required for scene management
-
+using UnityEngine.SceneManagement; 
 public class PostBossDialogueManager : MonoBehaviour
 {
     public GameObject dialogBox;
     public TMP_Text dialogText;
 
     [Header("Characters - Assign in Inspector")]
-    // Optional: GameObjects if you want to highlight characters in scene.
-    // For this dialogue, avatars are likely sufficient.
-    // public GameObject heroObject; // Will
-    // public GameObject captainObject; // Spaceship Captain
-    // public GameObject arcadeMasterVoiceSource; // Or an object representing AM
-
+    
     [Header("Dialog UI - Assign in Inspector")]
-    public Image avatarDisplay; // Renamed from 'avatar' for clarity
-    public Sprite heroAvatar;         // Will's avatar
-    public Sprite captainAvatar;      // Spaceship Captain's avatar
-    public Sprite arcadeMasterAvatar; // Arcade Master's avatar
+    public Image avatarDisplay; 
+    public Sprite heroAvatar;         
+    public Sprite captainAvatar;     
+    public Sprite arcadeMasterAvatar; 
 
     [Header("Dialog Content")]
     public string[] lines = new string[]
@@ -78,18 +72,20 @@ public class PostBossDialogueManager : MonoBehaviour
 
     [Header("Scene Transition - Assign in Inspector")]
     public Animator levelLoaderAnimator;
-    public string nextSceneName; // e.g., "PizzaShopReturnScene" or "EpilogueScene"
-    public float sceneTransitionWaitTime = 1.5f; // Duration of LevelLoader's fade-out
-    public float preFadeDelay = 1.0f; // Delay after dialogue ends, before fade starts
+    public string nextSceneName;
+    public float sceneTransitionWaitTime = 1.5f;
+    public float preFadeDelay = 1.0f;
 
     private bool isTransitioning = false;
-
+    /// <summary>
+    /// Initializes the dialogue system and ensures all necessary components are assigned.
+    /// </summary>
     void Start()
     {
         if (dialogBox == null || dialogText == null || avatarDisplay == null)
         {
             Debug.LogError("Essential UI elements (DialogBox, DialogText, AvatarDisplay) are not assigned!");
-            this.enabled = false; // Disable script if setup is incomplete
+            this.enabled = false; 
             return;
         }
 
@@ -107,12 +103,14 @@ public class PostBossDialogueManager : MonoBehaviour
             Debug.LogWarning("Next Scene Name is not set. Scene transition will not occur.");
         }
     }
-
+    /// <summary>
+    /// Handles player input to progress dialog and manages scene transition after dialog ends.
+    /// </summary>
     void Update()
     {
         if (isTransitioning) return;
 
-        if (dialogActive && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))) // Allow Space or Mouse Click
+        if (dialogActive && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))) 
         {
             currentLine++;
 
@@ -134,18 +132,19 @@ public class PostBossDialogueManager : MonoBehaviour
                 else if (string.IsNullOrEmpty(nextSceneName))
                 {
                      Debug.Log("Dialogue finished. No next scene specified.");
-                     // Optionally, disable this script or hide the dialogue manager GameObject
-                     // this.enabled = false;
                 }
             }
         }
     }
-
+    /// <summary>
+    /// Sets the avatar image based on the current speaker index.
+    /// </summary>
+    /// <param name="speakerIndex"></param>
     void SetAvatarForSpeaker(int speakerIndex)
     {
         if (avatarDisplay == null) return;
 
-        avatarDisplay.gameObject.SetActive(true); // Ensure avatar display is active
+        avatarDisplay.gameObject.SetActive(true); 
         switch (speakerIndex)
         {
             case 0: // Arcade Master
@@ -154,16 +153,19 @@ public class PostBossDialogueManager : MonoBehaviour
             case 1: // Captain
                 avatarDisplay.sprite = captainAvatar;
                 break;
-            case 2: // Will (Hero)
+            case 2: // Will
                 avatarDisplay.sprite = heroAvatar;
                 break;
             default:
-                avatarDisplay.sprite = null; // Or a default "unknown" sprite
-                avatarDisplay.gameObject.SetActive(false); // Hide if no specific avatar
+                avatarDisplay.sprite = null; 
+                avatarDisplay.gameObject.SetActive(false); 
                 break;
         }
     }
-
+    /// <summary>
+    /// Handles the end-of-scene transition with optional delays and fade effects.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator EndSceneAndTransition()
     {
         isTransitioning = true;
@@ -175,12 +177,11 @@ public class PostBossDialogueManager : MonoBehaviour
 
         if (levelLoaderAnimator != null)
         {
-            levelLoaderAnimator.SetTrigger("start"); // Ensure your animator has a "start" trigger
+            levelLoaderAnimator.SetTrigger("start");
             yield return new WaitForSeconds(sceneTransitionWaitTime);
         }
         else
         {
-            // Fallback if no animator, wait a bit before direct load
             yield return new WaitForSeconds(0.5f);
         }
 

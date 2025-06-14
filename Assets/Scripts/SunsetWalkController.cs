@@ -5,7 +5,7 @@ using TMPro;
 public class SunsetWalkController : MonoBehaviour
 {
     [Header("Player Movement & Scaling")]
-    public Vector3 startPosition = new Vector3(-1f, -6f, 0f); // Where player starts (e.g., just off-screen bottom)
+    public Vector3 startPosition = new Vector3(-1f, -6f, 0f); 
     public Vector3 endPosition = new Vector3(0.55f, -1.05f, 0f);
 
     public Vector3 startScale = new Vector3(5f, 5f, 1f);    
@@ -26,11 +26,12 @@ public class SunsetWalkController : MonoBehaviour
     [Header("End Screen Text Settings")]
     public TMP_Text theEndText; 
     public float textFadeInDuration = 2f; 
-    public float textFadeStartOffsetFromEnd = 1.5f; // e.g., 1.5s before Will stops, text starts fading
-
+    public float textFadeStartOffsetFromEnd = 1.5f; 
     private bool isWalking = false;
-    private bool textFadeStarted = false; // Flag to ensure fade only starts once
-
+    private bool textFadeStarted = false;
+    /// <summary>
+    /// Initializes the player's position, scale, and starts the walking coroutine.
+    /// </summary>
     void Start()
     {
         transform.position = startPosition;
@@ -45,7 +46,10 @@ public class SunsetWalkController : MonoBehaviour
 
         StartCoroutine(WalkIntoSunsetCoroutine());
     }
-
+    /// <summary>
+    /// Coroutine that moves and scales the player into the sunset while managing animations and text fade-in.
+    /// </summary>
+    /// <returns></returns>
     IEnumerator WalkIntoSunsetCoroutine()
     {
         yield return new WaitForSeconds(initialDelay);
@@ -59,7 +63,6 @@ public class SunsetWalkController : MonoBehaviour
         float timer = 0f;
         while (timer <= walkDuration)
         {
-            // Check if it's time to start fading in the text
             if (!textFadeStarted && (walkDuration - timer) <= textFadeStartOffsetFromEnd)
             {
                 if (theEndText != null)
@@ -69,7 +72,7 @@ public class SunsetWalkController : MonoBehaviour
                 textFadeStarted = true;
             }
 
-            float t = Mathf.Clamp01(timer / walkDuration); // t should stay between 0 and 1
+            float t = Mathf.Clamp01(timer / walkDuration); 
 
             float curvedT = positionCurve.Evaluate(t);
             float curvedScaleT = scaleCurve.Evaluate(t);
@@ -81,7 +84,6 @@ public class SunsetWalkController : MonoBehaviour
             timer += Time.deltaTime;
         }
 
-        // Ensure final position and scale are exact
         transform.position = endPosition;
         transform.localScale = endScale;
 
@@ -93,33 +95,36 @@ public class SunsetWalkController : MonoBehaviour
 
         Debug.Log("Player finished walking into sunset.");
 
-        // If for some reason the fade didn't start (e.g., textFadeStartOffsetFromEnd was 0 or too low),ensure it starts now.
         if (!textFadeStarted && theEndText != null)
         {
             StartCoroutine(FadeInTheEndTextCoroutine(theEndText, textFadeInDuration));
         }
 
     }
-
-    // Coroutine for fading text
+    /// <summary>
+    /// Coroutine to fade in the "The End" text over a specified duration.
+    /// </summary>
+    /// <param name="textObject"></param>
+    /// <param name="duration"></param>
+    /// <returns></returns>
     IEnumerator FadeInTheEndTextCoroutine(TMP_Text textObject, float duration)
     {
-        if (textObject == null) yield break; // Exit if text object is null
+        if (textObject == null) yield break; 
 
         Debug.Log("Starting to fade in 'The End' text.");
-        Color startColor = textObject.color; // Should be (R,G,B,0)
-        Color endColor = new Color(startColor.r, startColor.g, startColor.b, 1f); // Opaque (alpha 1)
+        Color startColor = textObject.color; 
+        Color endColor = new Color(startColor.r, startColor.g, startColor.b, 1f); 
 
         float fadeTimer = 0f;
         while (fadeTimer < duration)
         {
             fadeTimer += Time.deltaTime;
-            float fadeT = fadeTimer / duration; // Normalized fade time
+            float fadeT = fadeTimer / duration; 
 
             textObject.color = Color.Lerp(startColor, endColor, fadeT);
             yield return null;
         }
-        textObject.color = endColor; // Ensure fully opaque at the end
+        textObject.color = endColor; 
         Debug.Log("'The End' text fully displayed.");
     }
 }

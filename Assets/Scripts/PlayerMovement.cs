@@ -2,25 +2,28 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 1f; //Player speed 
-    public bool canMove = true; //Determines if player can move or not
-    private Rigidbody2D rb; // Reference to playes rigid body 
-    private Vector2 mov; // Stores movement
-
+    public float moveSpeed = 1f;  
+    public bool canMove = true; 
+    private Rigidbody2D rb; 
+    private Vector2 mov; 
+    /// <summary>
+    /// Initializes references to Rigidbody2D component.
+    /// </summary>
     void Start()
     {
-        //initialized rigidbody
         rb = GetComponent<Rigidbody2D>();
     }
-
+    /// <summary>
+    /// Handles player input for horizontal movement.
+    /// </summary>
     void Update()
     {
-        //dont move if not allowed
         if (!canMove) return;
-        //get movement input
         mov.x = Input.GetAxisRaw("Horizontal");
     }
-
+    /// <summary>
+    /// 
+    /// </summary>
     void FixedUpdate()
     {
         if (!canMove)

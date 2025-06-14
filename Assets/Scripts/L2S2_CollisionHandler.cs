@@ -9,7 +9,7 @@ public class L2S2_CollisionHandler : MonoBehaviour
     public L2S2_HealthSystem healthSystem;
     public GameObject explosion;
 
-     /// <summary>
+    /// <summary>
     /// Called when this object enters a trigger collider.
     /// Determines interaction based on tags of both this object and the other collider.
     /// </summary>

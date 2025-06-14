@@ -1,33 +1,30 @@
 using UnityEngine;
 using System.Collections;
-// Assuming your player controller might be a common type, or you'll define it
-// using YourGame.PlayerController; // Example if your player controller is in a namespace
+
 
 public class PlayerAppearsFromArcade : MonoBehaviour
 {
     [Header("Object References")]
-    [SerializeField] private Transform playerCharacter; // Will's character transform
-    [SerializeField] private Transform arcadeMachineOrigin; // Where he appears from (e.g., screen of arcade)
-    [SerializeField] private Transform landingSpot; // Where he lands next to the machine
+    [SerializeField] private Transform playerCharacter; 
+    [SerializeField] private Transform arcadeMachineOrigin; 
+    [SerializeField] private Transform landingSpot; 
 
     [Header("Effect Settings")]
-    [SerializeField] private float appearDuration = 2.0f; // How long the appearing effect takes
-    [SerializeField] private float initialScaleFactor = 0.1f; // How small he starts
-    [SerializeField] private float spinSpeed = 720f; // Degrees per second for spinning
+    [SerializeField] private float appearDuration = 2.0f; 
+    [SerializeField] private float initialScaleFactor = 0.1f;
+    [SerializeField] private float spinSpeed = 720f;
 
     [Header("Effects")]
-    [SerializeField] private ParticleSystem appearParticleEffect; // Optional particle effect
-    [SerializeField] private AudioClip appearSound;        // Sound effect for appearing
-
-    // Reference to the player's movement script to disable/enable controls
-    // You'll need to drag the GameObject with the player's movement script here
-    // and ensure that script has public methods like DisableMovement() and EnableMovement().
-    [SerializeField] private MonoBehaviour playerMovementScript; // More generic, cast later or use interface
+    [SerializeField] private ParticleSystem appearParticleEffect; 
+    [SerializeField] private AudioClip appearSound;        
+    [SerializeField] private MonoBehaviour playerMovementScript; 
 
     private AudioSource audioSource;
     private bool isAppearing = false;
     private Vector3 targetPlayerScale;
-
+    /// <summary>
+    /// Initializes the script, setting up references and starting the appearance sequence.
+    /// </summary>
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -43,13 +40,15 @@ public class PlayerAppearsFromArcade : MonoBehaviour
             return;
         }
 
-        targetPlayerScale = playerCharacter.localScale; // Assume player is at normal scale initially in prefab/scene
-        playerCharacter.gameObject.SetActive(false); // Start with player invisible/inactive
+        targetPlayerScale = playerCharacter.localScale;
+        playerCharacter.gameObject.SetActive(false); 
 
-        // Automatically trigger the appearance when the scene starts for this specific request
+        
         StartPlayerAppearance();
     }
-
+    /// <summary>
+    /// Begins the player appearance sequence if not already in progress.
+    /// </summary>
     public void StartPlayerAppearance()
     {
         if (!isAppearing)
@@ -57,23 +56,18 @@ public class PlayerAppearsFromArcade : MonoBehaviour
             StartCoroutine(AppearFromArcadeRoutine());
         }
     }
-
+    /// <summary>
+    /// Coroutine that handles the player's appearance from the arcade machine with effects and movement.
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator AppearFromArcadeRoutine()
     {
         isAppearing = true;
 
-        // Disable player controls
         if (playerMovementScript != null)
         {
-            // Example: (playerMovementScript as YourPlayerControllerType)?.DisableMovement();
-            // Or if it's a generic MonoBehaviour, you might need to use SendMessage or an interface
-            // For simplicity, let's assume a method "DisableControls" exists.
-            // If your player script is e.g. "PlayerMovement":
-            // PlayerMovement pm = playerMovementScript as PlayerMovement;
-            // if (pm != null) pm.DisableControls(); else Debug.LogWarning("Could not cast to PlayerMovement script");
-            // For now, we'll just log it. You'll need to implement this part based on your player script.
             Debug.Log("Attempting to disable player controls (implement specific call).");
-             // Example using a common method name (you'd need this on your player script)
+             
             playerMovementScript?.SendMessage("DisablePlayerInput", SendMessageOptions.DontRequireReceiver);
 
 
@@ -90,41 +84,36 @@ public class PlayerAppearsFromArcade : MonoBehaviour
 
         if (appearParticleEffect != null)
         {
-            appearParticleEffect.transform.position = arcadeMachineOrigin.position; // Or parent to player
+            appearParticleEffect.transform.position = arcadeMachineOrigin.position; 
             appearParticleEffect.Play();
         }
 
         float elapsedTime = 0;
-        Quaternion initialRotation = playerCharacter.rotation; // Or a specific starting orientation
+        Quaternion initialRotation = playerCharacter.rotation; 
 
         while (elapsedTime < appearDuration)
         {
             elapsedTime += Time.deltaTime;
-            float t = Mathf.Clamp01(elapsedTime / appearDuration); // Ensure t is between 0 and 1
+            float t = Mathf.Clamp01(elapsedTime / appearDuration); 
 
             playerCharacter.position = Vector3.Lerp(arcadeMachineOrigin.position, landingSpot.position, t);
             playerCharacter.localScale = Vector3.Lerp(targetPlayerScale * initialScaleFactor, targetPlayerScale, t);
 
-            // Spin: You can adjust how it spins (e.g., slow down at the end)
-            playerCharacter.Rotate(0, 0, spinSpeed * Time.deltaTime); // Spinning around Y-axis, adjust as needed
+            
+            playerCharacter.Rotate(0, 0, spinSpeed * Time.deltaTime); 
 
             yield return null;
         }
 
-        playerCharacter.position = landingSpot.position; // Ensure exact final position
-        playerCharacter.localScale = targetPlayerScale;   // Ensure exact final scale
-        playerCharacter.rotation = landingSpot.rotation; // Ensure final orientation (align with landing spot's rotation)
+        playerCharacter.position = landingSpot.position; 
+        playerCharacter.localScale = targetPlayerScale;  
+        playerCharacter.rotation = landingSpot.rotation; 
 
         if (appearParticleEffect != null && appearParticleEffect.isPlaying)
         {
             appearParticleEffect.Stop();
         }
 
-        // Consider a brief screen flash here if desired, using your FlashScreen coroutine
-        // StartCoroutine(FlashScreen());
-        // yield return new WaitForSeconds(0.5f); // If FlashScreen takes 0.5s
-
-        // Enable player controls
         if (playerMovementScript != null)
         {
             Debug.Log("Attempting to enable player controls (implement specific call).");
@@ -135,9 +124,4 @@ public class PlayerAppearsFromArcade : MonoBehaviour
         isAppearing = false;
         Debug.Log("Player appearance complete. Player control should be enabled.");
     }
-
-    // You can copy your FlashScreen and OnGUI methods here if you want the screen flash
-    // private float flashAlpha = 0;
-    // private IEnumerator FlashScreen() { ... }
-    // private void OnGUI() { ... }
 }

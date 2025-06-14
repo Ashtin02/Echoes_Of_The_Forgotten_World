@@ -39,9 +39,6 @@ Assets/
 **Project Overview**
 "Echoes of the Forgotten World" is our Unity-based game featuring enemy wave combat and teleportation mechanics through an arcade machine interface. This project gave us the opportunity to work with layered gameplay mechanics and polish our user interface and C# skills.
 
-**My role**
-Project Manager
-
 **Work Completed**
 Over four weeks, I implemented several systems:
 

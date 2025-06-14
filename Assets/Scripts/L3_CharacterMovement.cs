@@ -10,7 +10,9 @@ public class L3_CharacterMovement : MonoBehaviour
 
     [Header("Collision Settings")]
     public LayerMask solidObjectsLayer;
-
+    /// <summary>
+    /// Initializes references to Rigidbody2D and Animator components.
+    /// </summary>
     void Start()
     {
         if (rb == null)
@@ -24,7 +26,9 @@ public class L3_CharacterMovement : MonoBehaviour
             if (animator == null) Debug.LogWarning("Animator not found on " + gameObject.name + ".");
         }
     }
-
+    /// <summary>
+    /// Handles player input, movement, and collision detection/resolution.
+    /// </summary>
     void Update()
     {
         if (!inputEnabled)
@@ -53,51 +57,40 @@ public class L3_CharacterMovement : MonoBehaviour
                 movement.Normalize();
             }
 
-            // Calculate the full desired position for this frame
             Vector3 fullDesiredPosition = transform.position + movement * moveSpeed * Time.deltaTime;
 
             CircleCollider2D charCollider = GetComponent<CircleCollider2D>();
             float castRadius = (charCollider != null) ? charCollider.radius : 0.5f;
 
-            // Perform the CircleCast
             RaycastHit2D hit = Physics2D.CircleCast(
                 transform.position,
                 castRadius,
-                movement.normalized, // IMPORTANT: Cast in the normalized direction of movement
-                (fullDesiredPosition - transform.position).magnitude, // Distance to check is how far we intend to move
-                solidObjectsLayer // Only check against solid objects
+                movement.normalized, 
+                (fullDesiredPosition - transform.position).magnitude, 
+                solidObjectsLayer 
             );
 
-            // NEW & IMPROVED COLLISION RESOLUTION:
+            
             if (hit.collider == null || hit.collider.gameObject == gameObject || hit.collider.isTrigger)
             {
-                // No solid, non-self, non-trigger obstacle in the way, so apply the full desired movement.
                 transform.position = fullDesiredPosition;
             }
             else
             {
-                // Else, we hit a solid, non-self, non-trigger obstacle.
-                // Move the character up to the point of collision, with a tiny buffer.
-                // This helps prevent getting stuck and allows for smoother 'sliding' along walls.
+                float distanceToMove = hit.distance - 0.01f; 
 
-                float distanceToMove = hit.distance - 0.01f; // Subtract a tiny buffer to avoid overlap
-
-                // Only move if there's actual positive distance to move
                 if (distanceToMove > 0)
                 {
-                    // Calculate the new position based on the normalized movement direction and the adjusted distance
                     transform.position = transform.position + movement.normalized * distanceToMove;
                 }
                 else
                 {
-                    // If distanceToMove is 0 or negative (already overlapping/at collision), just stay put.
-                    // This prevents moving further into the wall.
-                    transform.position = transform.position; // No movement
+                    transform.position = transform.position; 
                 }
                 Debug.Log("BLOCKED and Adjusted Position by: " + hit.collider.name);
             }
         }
-        else // No significant input
+        else 
         {
             if (rb != null) rb.linearVelocity = Vector2.zero;
             if (animator != null) animator.SetFloat("Speed", 0);

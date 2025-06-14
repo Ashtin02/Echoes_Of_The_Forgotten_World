@@ -5,21 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class Door : MonoBehaviour
 {
-    public GameObject interactionPrompt; //Reference to prompt 
+    public GameObject interactionPrompt;
     public Animator transition;
     public float TransitionTime = 1f;
-    private bool inRange = false; //Dertermines if player is in range of interaction or not
+    private bool inRange = false; 
 
-    public GameObject BullyObject1; //reference to bully sprite 1
-    public GameObject BullyObject2; //reference to bully sprite 2
-    private BullyMovement bullyMovement1; //bully 1 movement reference 
+    public GameObject BullyObject1; 
+    public GameObject BullyObject2; 
+    private BullyMovement bullyMovement1; 
 
-    private BullyMovement bullyMovement2; //bully 2 movement reference 
+    private BullyMovement bullyMovement2; 
 
-
+    /// <summary>
+    /// Checks for player input to trigger level transition when in range of the door.
+    /// </summary>
     void Update()
     {
-        //if player is in the range and hits space bar move to next scene (enter pizza shop)
         if (inRange && Input.GetKeyDown(KeyCode.Space))
         {
             bullyMovement1 = BullyObject1.GetComponent<BullyMovement>();
@@ -36,9 +37,11 @@ public class Door : MonoBehaviour
             LoadNextLevel();
         }
     }
-
-    //Wehn player is in range activate the interation prompt
-    void OnTriggerEnter2D(Collider2D collision)
+    /// <summary>
+    /// Detects when the player enters the door's trigger zone to show interaction prompt.
+    /// </summary>
+    /// <param name="collision"></param>
+       void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
@@ -46,8 +49,10 @@ public class Door : MonoBehaviour
             interactionPrompt.SetActive(true);
         }
     }
-
-    //Player leaves range so we get rid of the prompt
+    /// <summary>
+    /// Detects when the player exits the door's trigger zone to hide interaction prompt.
+    /// </summary>
+    /// <param name="collision"></param>
     void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -57,20 +62,23 @@ public class Door : MonoBehaviour
         }
     }
 
-
-
+    /// <summary>
+    /// Initiates loading the next level with a transition effect.
+    /// </summary>
     public void LoadNextLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex + 1));
     }
-
+    /// <summary>
+    /// Handles the level loading process with a transition animation and delay.
+    /// </summary>
+    /// <param name="LevelIndex"></param>
+    /// <returns></returns>
     IEnumerator LoadLevel(int LevelIndex)
     {
 
-        //Play anim 
         transition.SetTrigger("start");
 
-        //Wait 
         yield return new WaitForSeconds(TransitionTime);
 
         SceneManager.LoadScene(LevelIndex);
